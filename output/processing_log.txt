@@ -1,0 +1,62 @@
+
+=== Script run at 2025-07-23 17:19:30.503854 ===
+
+Processing input folder: C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\input\V140_documented
+SUCCESS: Processed Bruni&al_EJSS_2022_CCBY4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Bruni&al_EJSS_2022_CCBY4-0.txt
+SUCCESS: Processed Burger_Geoderma_2023_CCBY-NC-ND4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Burger_Geoderma_2023_CCBY-NC-ND4-0.txt
+SUCCESS: Processed Ellerbrock_EJSS_1999_LicWileyTDM.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Ellerbrock_EJSS_1999_LicWileyTDM.txt
+SUCCESS: Processed Gocke&al_Geoderma_2023_CCBY-NC-ND4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Gocke&al_Geoderma_2023_CCBY-NC-ND4-0.txt
+SUCCESS: Processed Grahmann_EJSS_2023_CCBY4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Grahmann_EJSS_2023_CCBY4-0.txt
+SUCCESS: Processed Hijbeek&al_NutrCyclAgroecosyst_2018_CCBY4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Hijbeek&al_NutrCyclAgroecosyst_2018_CCBY4-0.txt
+SUCCESS: Processed Höflich&al_JAgrCropSci_2000_LicWileyTDM.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Höflich&al_JAgrCropSci_2000_LicWileyTDM.txt
+SUCCESS: Processed Körschens&al_ArchAgronSoilSci_2013_unknownLic.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Körschens&al_ArchAgronSoilSci_2013_unknownLic.txt
+
+Processing completed at 2025-07-23 17:19:41.195565
+Total files processed: 8
+Output folder: C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented
+Log file: C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\processing_log.txt
+
+Processing input folder: C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\input\Westerfeld_documented
+SUCCESS: Processed Raab&al_ScientificData_2025_CCBY4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\Westerfeld_documented\Raab&al_ScientificData_2025_CCBY4-0.txt
+
+Processing completed at 2025-07-23 17:19:42.259294
+Total files processed: 1
+Output folder: C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\Westerfeld_documented
+Log file: C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\processing_log.txt
+
+=== Script run at 2025-07-24 13:57:14.977792 ===
+
+Processing input folder: C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\input\V140_documented
+SUCCESS: Processed Bruni&al_EJSS_2022_CCBY4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Bruni&al_EJSS_2022_CCBY4-0.txt
+SUCCESS: Processed Burger_Geoderma_2023_CCBY-NC-ND4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Burger_Geoderma_2023_CCBY-NC-ND4-0.txt
+SUCCESS: Processed Ellerbrock_EJSS_1999_LicWileyTDM.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Ellerbrock_EJSS_1999_LicWileyTDM.txt
+SUCCESS: Processed Gocke&al_Geoderma_2023_CCBY-NC-ND4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Gocke&al_Geoderma_2023_CCBY-NC-ND4-0.txt
+SUCCESS: Processed Grahmann_EJSS_2023_CCBY4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Grahmann_EJSS_2023_CCBY4-0.txt
+SUCCESS: Processed Hijbeek&al_NutrCyclAgroecosyst_2018_CCBY4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Hijbeek&al_NutrCyclAgroecosyst_2018_CCBY4-0.txt
+SUCCESS: Processed Höflich&al_JAgrCropSci_2000_LicWileyTDM.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Höflich&al_JAgrCropSci_2000_LicWileyTDM.txt
+SUCCESS: Processed Klimanek_ZblMikrobiol_1983_unknownLic.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Klimanek_ZblMikrobiol_1983_unknownLic.txt
+SUCCESS: Processed Körschens&al_ArchAgronSoilSci_2013_unknownLic.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Körschens&al_ArchAgronSoilSci_2013_unknownLic.txt
+SUCCESS: Processed Körschens&al_JPlantNutritionSoil_2011_LicWileyTDM.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Körschens&al_JPlantNutritionSoil_2011_LicWileyTDM.txt
+SUCCESS: Processed Post&al_EnvModSoftware_2008_Elsevier_rightsReserved.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Post&al_EnvModSoftware_2008_Elsevier_rightsReserved.txt
+SUCCESS: Processed Puhlmann_NutCycAgroecosyst_2006_unknwonLic.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Puhlmann_NutCycAgroecosyst_2006_unknwonLic.txt
+SUCCESS: Processed Puppe_Geoderma_2021_unkownLic.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Puppe_Geoderma_2021_unkownLic.txt
+SUCCESS: Processed Skadell_AgricEcosystEnv_2023_CCBY-NC-ND4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Skadell_AgricEcosystEnv_2023_CCBY-NC-ND4-0.txt
+SUCCESS: Processed Specka&al_SoilTilRes_2016_Elsevier_rightsReserved.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Specka&al_SoilTilRes_2016_Elsevier_rightsReserved.txt
+SUCCESS: Processed Thai&al_Agronomy_2020_MDPI.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Thai&al_Agronomy_2020_MDPI.txt
+SUCCESS: Processed Thai_ArchAgrSoilSci_2020_unknownLic.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Thai_ArchAgrSoilSci_2020_unknownLic.txt
+SUCCESS: Processed Tokarski_JPlantNutSoilSci_2018_LicWileyTDM.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Tokarski_JPlantNutSoilSci_2018_LicWileyTDM.txt
+SUCCESS: Processed Tokarski_JPlantNutSoilSci_2019_LicWileyTDM.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Tokarski_JPlantNutSoilSci_2019_LicWileyTDM.txt
+SUCCESS: Processed Wegehenkel&al_Water_2019_MDPI.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented\Wegehenkel&al_Water_2019_MDPI.txt
+
+Processing completed at 2025-07-24 13:57:37.780643
+Total files processed: 20
+Output folder: C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\V140_documented
+========================================
+
+Processing input folder: C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\input\Westerfeld_documented
+SUCCESS: Processed Raab&al_ScientificData_2025_CCBY4-0.pdf → C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\Westerfeld_documented\Raab&al_ScientificData_2025_CCBY4-0.txt
+
+Processing completed at 2025-07-24 13:57:38.898439
+Total files processed: 1
+Output folder: C:\Users\Lachmuth\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\Dokumente\FAIRagro\Use Case 4\LTE_text_processing\output\Westerfeld_documented
+========================================
