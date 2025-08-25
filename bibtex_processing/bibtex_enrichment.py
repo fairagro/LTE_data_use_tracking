@@ -4,6 +4,14 @@ import time
 import configparser
 import json
 
+# === Define input and output paths ===
+
+INPUT_BIBTEX_PATH = 'C:/Users/Lachmuth/OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V/Dokumente/FAIRagro/Use Case 4/LTE_text_processing/input/V140_documented/V140_documented_raw.bib'
+OUTPUT_BIBTEX_PATH = 'C:/Users/Lachmuth/OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V/Dokumente/FAIRagro/Use Case 4/LTE_text_processing/output/V140_documented/V140_documented_rich.bib'
+OUTPUT_JSONLD_PATH = 'C:/Users/Lachmuth/OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V/Dokumente/FAIRagro/Use Case 4/LTE_text_processing/output/V140_documented/V140_documented_schemaorg.json'
+OUTPUT_LOG_PATH = 'C:/Users/Lachmuth/OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V/Dokumente/FAIRagro/Use Case 4/LTE_text_processing/output/V140_documented/scopus_query_log.txt'
+
+
 # Load API key from config file
 config = configparser.ConfigParser()
 config.read('config.ini')
@@ -12,7 +20,7 @@ SCOPUS_API_DOI_URL = 'https://api.elsevier.com/content/abstract/doi/'
 SCOPUS_API_SEARCH_URL = 'https://api.elsevier.com/content/search/scopus'
 
 # Load the BibTeX file
-with open('input/V140_documented_raw.bib', 'r', encoding='utf-8') as bibtex_file:
+with open(INPUT_BIBTEX_PATH, 'r', encoding='utf-8') as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
 
 enriched_entries = []
@@ -79,6 +87,12 @@ def extract_indexed_keywords(metadata):
         return mainterms.get('$', '')
     return ''
 
+def ensure_string_fields(entry):
+    for key, value in entry.items():
+        if not isinstance(value, str):
+            entry[key] = "" if value is None else str(value)
+    return entry
+
 def convert_to_schemaorg(entry):
     return {
         "@context": "https://schema.org",
@@ -134,23 +148,31 @@ for entry in bib_database.entries:
     if data and 'abstracts-retrieval-response' in data:
         metadata = data['abstracts-retrieval-response']
         coredata = metadata.get('coredata', {})
-        entry['title'] = coredata.get('dc:title', '')
-        entry['abstract'] = coredata.get('dc:description', '')
-        entry['keywords'] = coredata.get('dcterms:subject', '')
-        entry['copyright'] = coredata.get('prism:copyright', '')
-        entry['license'] = coredata.get('openaccess', '')
-        entry['journal'] = coredata.get('prism:publicationName', '')
-        entry['volume'] = coredata.get('prism:volume', '')
-        entry['issue'] = coredata.get('prism:issueIdentifier', '')
-        entry['pages'] = coredata.get('prism:pageRange', '')
-        entry['issn'] = coredata.get('prism:issn', '')
-        entry['publisher'] = coredata.get('dc:publisher', '')
-        entry['pub_year'] = coredata.get('prism:coverDate', '')[:4]
-        entry['eid'] = coredata.get('eid', '')
-        entry['citedby_count'] = coredata.get('citedby-count', '')
-        entry['authors_affiliations'] = extract_authors(metadata)
-        entry['author_keywords'] = extract_author_keywords(metadata)
-        entry['indexed_keywords'] = extract_indexed_keywords(metadata)
+        entry['title'] = str(coredata.get('dc:title', ''))
+        entry['abstract'] = str(coredata.get('dc:description', ''))
+        entry['keywords'] = str(coredata.get('dcterms:subject', ''))
+        entry['copyright'] = str(coredata.get('prism:copyright', ''))
+        #entry['license'] = str(coredata.get('openaccess', ''))
+        entry['journal'] = str(coredata.get('prism:publicationName', ''))
+        entry['volume'] = str(coredata.get('prism:volume', ''))
+        entry['issue'] = str(coredata.get('prism:issueIdentifier', ''))
+        entry['pages'] = str(coredata.get('prism:pageRange', ''))
+        entry['issn'] = str(coredata.get('prism:issn', ''))
+        entry['publisher'] = str(coredata.get('dc:publisher', ''))
+        entry['pub_year'] = str(coredata.get('prism:coverDate', '')[:4])
+        entry['eid'] = str(coredata.get('eid', ''))
+        entry['citedby_count'] = str(coredata.get('citedby-count', ''))
+        entry['authors_affiliations'] = str(extract_authors(metadata))
+        entry['author_keywords'] = str(extract_author_keywords(metadata))
+        entry['indexed_keywords'] = str(extract_indexed_keywords(metadata))
+        open_access_flag = coredata.get('openaccessFlag', '')
+        reuse_license = coredata.get('openaccess', '')  # May contain license type like CC-BY
+        # Combine both into a descriptive license field
+        if open_access_flag == '1':
+        entry['license'] = f"Open Access; {reuse_license}" if reuse_license else "Open Access"
+        else:
+        entry['license'] = reuse_license if reuse_license else "Restricted Access"
+
 
         subject_areas = metadata.get('subject-areas', {}).get('subject-area', [])
         if isinstance(subject_areas, list):
@@ -175,15 +197,15 @@ for entry in bib_database.entries:
 
 # Write enriched BibTeX file
 enriched_db = bibtexparser.bibdatabase.BibDatabase()
-enriched_db.entries = enriched_entries
-with open('output/V140_documented_rich.bib', 'w', encoding='utf-8') as enriched_file:
+enriched_db.entries = [ensure_string_fields(e) for e in enriched_entries]
+with open(OUTPUT_BIBTEX_PATH, 'w', encoding='utf-8') as enriched_file:
     bibtexparser.dump(enriched_db, enriched_file)
 
 # Write schema.org JSON-LD file
-with open('output/V140_documented_schemaorg.json', 'w', encoding='utf-8') as json_file:
+with open(OUTPUT_JSONLD_PATH, 'w', encoding='utf-8') as json_file:
     json.dump(schemaorg_entries, json_file, indent=2, ensure_ascii=False)
 
 # Write log file
-with open('output/scopus_query_log.txt', 'w') as log_file:
+with open(OUTPUT_LOG_PATH, 'w') as log_file:
     for line in not_found_log:
         log_file.write(line + '\n')

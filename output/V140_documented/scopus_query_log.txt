@@ -1,5 +1,9 @@
-DOI not found: 10.18452/27139
-No DOI and no match found for entry: Long-term farming systems research: ensuring food security in changing scenarios
-No DOI and no match found for entry: Uranium in soils of {German} long-term fertilizer experiments
-DOI not found: 10.1007/978-3-642-61094-3_6
-DOI not found: 10.1016/s0232-4393(83)80040-7
+Entry not enriched: Cereal grain yield responses to fertilizer management in sandy soil in a long-term fertilizer experiment in {Northeast} {Germany}
+Entry not enriched: Long-term farming systems research: ensuring food security in changing scenarios
+Entry not enriched: Uranium in soils of {German} long-term fertilizer experiments
+Entry not enriched: Long-term data sets from {Germany} and {Eastern} {Europe}
+Entry not enriched: Einfluß mineralischer und organischer {Düngung} auf die {CO2}-{Freisetzung} aus {Böden} unterschiedlicher {Standorte}
+Entry not enriched: Dauerfeldversuche in {Brandenburg} und {Berlin} - {Beiträge} für eine nachhaltige landwirtschaftliche {Bodenbenutzung}
+Entry not enriched: Impact of air pollutants on agriculture
+Entry not enriched: Kalkung und {Bodenfruchtbarkeit}
+Entry not enriched: Nährstoffumsatz und {Nährstoffbilanzen} bei ackerbaulicher {Nutzung} pleistozäner {Sandböden} in {Abhängigkeit} von {Nährstoffzufuhr} und {Fruchtfolge} : {Ergebnisse} aus {Müncheberger} {Dauerfeldversuchen} {\textbar} {Turnover} and balance of nutrients of arable farming on sandy soils in dependence on supply of nutrients and crop rotation : {Results} of long term field experiments at {Müncheberg}
