@@ -19,7 +19,7 @@ library(ggraph)
 # Settings ----------------------------------------------------------------
 ### Set working directory
 
-wd <-"C:/Users/Lachmuth/OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V/Dokumente/BONARES_Repository/paper/submitted/GitHub/data/"
+wd <-"C:/Users/Lachmuth/OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V/Dokumente/FAIRagro/Use Case 4/LTE_text_processing/output/V140_documented/"
 #wd <- "C:/"
 setwd(wd)
 
@@ -28,13 +28,15 @@ setwd(wd)
 ## Import WoS records ------------------------------------------------------------
 lit_records<-
   litsearchr::import_results(
-    file = "savedrecs.bib",
+    file = "V140_documented_rich.bib",
     verbose = TRUE
   )
 
 head(lit_records)
 str(lit_records)
 nrow(lit_records)
+
+
 
 ## Define stopwords --------------------------------------------------------
 stopwords_SL <-c("assess", "assessed", "assesses", "assessing",  "based", #,"assessment", "assessments"
@@ -45,7 +47,7 @@ all_stopwords <- c(get_stopwords("English"), stopwords_SL)
 
 
 ## Extract author keywords -------------------------------------------------
-author_keywords<-extract_terms(keywords=lit_records[, "keywords"], method="tagged", min_n=1,max_n=3, min_freq=2)
+author_keywords<-extract_terms(keywords=lit_records[, "author_keywords"], method="tagged", min_n=1,max_n=3, min_freq=2)
 
 
 ## Get abstracts and titles -----------------------------------------------------
@@ -59,11 +61,11 @@ raked_keywords <-
     min_freq = 2, 
     ngrams = TRUE,
     min_n = 2,
-    max_n = 3,
+    max_n = 3, #3
     stopwords = all_stopwords, 
     language = "English"
   )
- 
+
 raked_keywords
 
 ### Concatenate (all) real keywords and raked keywords
@@ -135,7 +137,7 @@ dfm_new <- as.matrix(df)
 ## Network graph (Figure 6) -----------------------------------------------------------
 # Important terms are in the edge of the graph
 graph<-
-  create_network(search_dfm = dfm_new,
+  create_network(search_dfm = dfm, #dfm_new
                  min_studies = 2,
                  min_occ = 2)
 
@@ -156,8 +158,8 @@ ggsave(plot = network_graph,paste0(wd,"Figure 6.png"), width = 20, height = 12,u
 # Package bibliometrix ------------------------------------------------------------
 ## Import WoS records ------------------------------------------------------------
 M <- convert2df(
-  file = "savedrecs.bib", 
-  dbsource = "isi",
+  file = "V140_documented_rich.bib", 
+  #dbsource = "isi",
   format = "bibtex",
   remove.duplicates = TRUE
 )
