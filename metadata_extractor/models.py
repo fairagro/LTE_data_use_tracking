@@ -3,15 +3,16 @@ from datetime import datetime
 from pydantic import BaseModel as PydanticBaseModel
 
 class StrictBaseModel(PydanticBaseModel):
-    class Config:
-        anystr_strip_whitespace = True
-        use_enum_values = True
-        json_encoders = {
+    model_config = {
+        "str_strip_whitespace": True,
+        "use_enum_values": True,
+        "json_encoders": {
             datetime: lambda v: v.isoformat(),
-        }
-        allow_population_by_field_name = True
-        validate_assignment = True
-        extra = "forbid"
+        },
+        "validate_assignment": True,
+        "extra": "forbid",
+        "validate_by_name": True,
+    }
 
 class Author(StrictBaseModel):
     name: str

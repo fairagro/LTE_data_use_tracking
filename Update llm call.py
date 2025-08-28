@@ -1,16 +1,11 @@
+# Update llm call
 from openai import OpenAI
 from .config import API_KEY, API_ENDPOINT, MODEL_NAME
 from datetime import datetime
 import httpx
 
-print(API_ENDPOINT)
-print("📦 llm_client module loaded")
-
 def call_llm_with_prompt(prompt: str, text: str) -> str:
-    print("🛠️ Preparing to initialize OpenAI client...")
-    print("🔑 API_KEY:", API_KEY)
-    print("🌐 API_ENDPOINT:", API_ENDPOINT)
-    print("🧠 MODEL_NAME:", MODEL_NAME)
+    print("🧪 Inside call_llm_with_prompt()")
 
     try:
         client = OpenAI(
@@ -19,6 +14,7 @@ def call_llm_with_prompt(prompt: str, text: str) -> str:
             timeout=httpx.Timeout(30.0, connect=10.0, read=20.0, write=10.0, pool=5.0),
             max_retries=2
         )
+
         print("📤 Sending request to LLM...")
         response = client.chat.completions.create(
             model=MODEL_NAME,
@@ -27,8 +23,12 @@ def call_llm_with_prompt(prompt: str, text: str) -> str:
                 {"role": "user", "content": text}
             ]
         )
+
         print("✅ LLM responded.")
         return response.choices[0].message.content
+
     except Exception as e:
         print(f"❌ LLM call failed: {e}")
+        with open("llm_error_log.txt", "a", encoding="utf-8") as f:
+            f.write(f"\n[{datetime.now().isoformat()}] LLM call failed: {str(e)}\n")
         return ""

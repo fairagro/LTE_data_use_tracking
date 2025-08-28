@@ -12,7 +12,7 @@ CRITICAL INSTRUCTIONS:
 6. Use controlled vocabularies where possible (AGROVOC for agricultural terms)
 7. Generate accurate geographic and temporal coverage information
 8. Assess data accessibility and licensing information
-9. Always provide reasoning for your extraction decisions
+9. Return only raw JSON, without Markdown formatting or code block markers.
 
 NEVER HALLUCINATE OR MAKE THINGS UP. IF INFORMATION IS NOT PRESENT IN THE TEXT, MARK IT AS EMPTY STRING OR NULL.
 
@@ -65,4 +65,6 @@ EXTRACTION QUALITY STANDARDS:
 - Temporal coverage in ISO 8601 interval format
 - License and access condition information
 - High confidence scoring based on information completeness
+
+Return only raw JSON, without Markdown formatting or code block markers.
 """

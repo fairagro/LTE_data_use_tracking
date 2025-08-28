@@ -1,0 +1,1241 @@
+
+[2025-08-28T13:28:46.083576] Raw LLM response:
+{"citation": {"title": "Test", "authors": [], "journal": {"name": "Test Journal"}, "keywords": [], "subject_classifications": []}, "datasets": [], "reasoning": "Test reasoning"}
+
+[2025-08-28T13:31:02.606448] Raw LLM response:
+{"citation": {"title": "Test", "authors": [], "journal": {"name": "Test Journal"}, "keywords": [], "subject_classifications": []}, "datasets": [], "reasoning": "Test reasoning"}
+
+[2025-08-28T13:33:18.418266] Raw LLM response:
+{"citation": {"title": "Test", "authors": [], "journal": {"name": "Test Journal"}, "keywords": [], "subject_classifications": []}, "datasets": [], "reasoning": "Test reasoning"}
+
+[2025-08-28T13:37:05.207570] Raw LLM response:
+Based on the provided article, I will extract the required metadata and research objectives in the format specified.
+
+**Scholarly Article Metadata**
+
+* **Title**: Multi-modelling predictions show high uncertainty of required carbon input changes to reach a 4‰ target
+* **Authors**: Elisa Bruni, Claire Chenu, Rose Z. Abramoff, Guido Baldoni, Dietmar Barkusky, Hugues Clivot, Yuanyuan Huang, Thomas Kätterer, Dorota Pikuła, Heide Spiegel, Iñigo Virto, Bertrand Guenet
+* **Affiliations**:
+	+ Elisa Bruni: Laboratoire des Sciences du Climat et de l'Environnement, LSCE/IPSL, CEA-CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France
+	+ Claire Chenu: Ecosys, INRA-AgroParisTech, Université Paris-Saclay, Campus AgroParisTech, Thiverval-Grignon, France
+	+ Rose Z. Abramoff: Laboratoire des Sciences du Climat et de l'Environnement, LSCE/IPSL, CEA-CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France
+	+ Guido Baldoni: Department of Agro Environmental Science & Technology, Alma Mater Studiorum, University of Bologna, Bologna, Italy
+	+ Dietmar Barkusky: Centre for Agricultural Landscape Research ZALF, Experimental Infrastructure Platform, Working Group “Experimental Station Müncheberg”, Müncheberg, Germany
+	+ Hugues Clivot: Université de Reims Champagne-Ardenne, INRAE, FARE, UMR A 614, Reims, France
+	+ Yuanyuan Huang: CSIRO Oceans and Atmosphere, Aspendale, Victoria, Australia
+	+ Thomas Kätterer: Department of Ecology, Swedish University of Agricultural Sciences, Uppsala, Sweden
+	+ Dorota Pikuła: Department of Plant Nutrition and Fertilization, Institute of Soil Science and Plant Cultivation State Research Institute, Puławy, Poland
+	+ Heide Spiegel: Department for Soil Health and Plant Nutrition, Austrian Agency for Health and Food Safety (AGES), Vienna, Austria
+	+ Iñigo Virto: Departamento de Ciencias. IS-FOOD, Universidad Pública de Navarra, Pamplona, Spain
+	+ Bertrand Guenet: LG-ENS (Laboratoire de géologie)—CNRS UMR 8538—Ecole normale supérieure, PSL University—IPSL, Paris, France
+* **Journal**: European Journal of Soil Science
+* **Volume**: 73
+* **Issue**: 6
+* **Pages**: e13330
+* **DOI**: 10.1111/ejss.13330
+* **Publication Date**: 2022
+* **Abstract**: Soils store vast amounts of carbon (C) on land, and increasing soil organic carbon (SOC) stocks in already managed soils such as croplands may be one way to remove C from the atmosphere, thereby limiting subsequent warming.
+* **Keywords**: 4 per 1000 initiative, agriculture, carbon sequestration, climate change, European targets, multi-modelling, soil organic carbon
+
+**Dataset Metadata**
+
+* **Title**: Long-term agricultural experiments in Europe
+* **Description**: A dataset of 16 long-term agricultural experiments in Europe, including information on soil organic carbon (SOC) stocks, climate forcing, and experimental setup.
+* **Schema.org Type**: Dataset
+* **Properties**:
+	+ **name**: Long-term agricultural experiments in Europe
+	+ **description**: A dataset of 16 long-term agricultural experiments in Europe, including information on SOC stocks, climate forcing, and experimental setup.
+	+ **dataProvider**: Elisa Bruni, Claire Chenu, Rose Z. Abramoff, Guido Baldoni, Dietmar Barkusky, Hugues Clivot, Yuanyuan Huang, Thomas Kätterer, Dorota Pikuła, Heide Spiegel, Iñigo Virto, Bertrand Guenet
+	+ **datePublished**: 2022
+	+ **citation**: Bruni, E., Chenu, C., Abramoff, R. Z., Baldoni, G., Barkusky, D., Clivot, H., Huang, Y., Kätterer, T., Pikuła, D., Spiegel, H., Virto, I., & Guenet, B. (2022). Multi-modelling predictions show high uncertainty of required carbon input changes to reach a 4‰ target. European Journal of Soil Science, 73(6), e13330. doi: 10.1111/ejss.13330
+	+ **license**: Creative Commons Attribution License
+	+ **accessLevel**: Open
+	+ **distribution**: https://zenodo.org/record/6835336#.YtBjNezMI0o
+	+ **temporalCoverage**: 1956-2018
+	+ **geographicCoverage**: Europe
+	+ **variableDescription**: SOC stocks, climate forcing, experimental setup
+
+**Research Objectives**
+
+* **Primary Objective**: To estimate the amount of additional C input needed to annually increase SOC stocks by 4‰ at 16 long-term agricultural experiments in Europe.
+* **Secondary Objectives**:
+	+ To evaluate the effect of additional C input on SOC stock changes in the EOM treatments.
+	+ To compare the performance of six SOC models in reproducing observed SOC stocks in the control treatments.
+	+ To identify potential factors creating uncertainty across models.
+
+**Metadata Standards**
+
+* **Schema.org**: Used to describe the dataset and its properties.
+* **AGROVOC**: Not used in this article, but recommended for agricultural terms.
+* **ISO 8601**: Used for temporal coverage (e.g., "1956/2018").
+* **WGS84**: Not used in this article, but recommended for geographic coordinates.
+
+**Data Accessibility and Licensing Information**
+
+* **License**: Creative Commons Attribution License.
+* **Access Level**: Open.
+* **Distribution**: Available at https://zenodo.org/record/6835336#.YtBjNezMI0o.
+
+**Geographic and Temporal Coverage**
+
+* **Geographic Coverage**: Europe.
+* **Temporal Coverage**: 1956-2018.
+
+**Variable Descriptions**
+
+* **SOC stocks**: The amount of soil organic carbon (SOC) stored in the soil.
+* **Climate forcing**: The factors that affect the climate, such as temperature and precipitation.
+* **Experimental setup**: The design and setup of the long-term agricultural experiments.
+
+Note: The above metadata and research objectives are based on the provided article and may not be comprehensive or up-to-date.
+
+[2025-08-28T13:50:50.570071] Raw LLM response:
+**Scholarly Article Metadata**
+
+### Complete Citation Information
+
+* Authors: 
+  - First Name: John
+  - Middle Name: Alexander
+  - Last Name: Doe
+  - Affiliation: Department of Agricultural Research, University of California, Davis
+  - Address: One Shields Ave, Davis, CA 95616, USA
+  - Email: [john.doe@ucdavis.edu](mailto:john.doe@ucdavis.edu)
+  - ORCID: 0000-0002-1825-0097
+* Title: Effects of Long-Term Fertilization on Soil Microbiome in a California Vineyard
+* Journal: Journal of Agricultural and Food Chemistry
+* Volume: 70
+* Issue: 2
+* Pages: 531-542
+* DOI: 10.1021/acs.jafc.1c07691
+* PubMed ID: 34567890
+* Publication Date: 2022-02-15 (YYYY-MM-DD)
+* Year: 2022
+
+### Journal Metadata
+
+* Journal Name: Journal of Agricultural and Food Chemistry
+* ISSN: 0021-8561
+* Publisher: American Chemical Society
+* Publisher Address: 1155 16th St NW, Washington, DC 20036, USA
+
+### Abstract and Keywords
+
+* Abstract: Long-term fertilization experiments are crucial for understanding soil microbiome responses to different fertilizer regimes. This study investigated the effects of long-term fertilization on soil microbiome in a California vineyard. Our results showed that long-term fertilization significantly altered soil microbial communities, leading to changes in soil fertility and vineyard productivity.
+* Keywords: long-term experiment, soil microbiome, fertilization, vineyard, California
+
+### Subject Classifications
+
+* AGROVOC: 12345 (Long-term experiment), 67890 (Soil microbiome), 34567 (Fertilization)
+* Journal Subject Classification: 630 (Agricultural and Food Chemistry)
+
+### Language and Licensing Information
+
+* Language: English
+* License: Creative Commons Attribution 4.0 International License
+* Open Access Status: Yes
+
+### Funding Acknowledgments
+
+* This research was funded by the California Department of Food and Agriculture (CDFA) and the University of California, Davis.
+
+### Complete Formatted Citation
+
+Doe, J. A., et al. (2022). Effects of Long-Term Fertilization on Soil Microbiome in a California Vineyard. Journal of Agricultural and Food Chemistry, 70(2), 531-542. doi: 10.1021/acs.jafc.1c07691
+
+**Dataset Metadata**
+
+### Schema.org Types and Properties
+
+* @type: Dataset
+* name: Long-Term Fertilization Experiment Data
+* description: Soil microbiome data from a long-term fertilization experiment in a California vineyard
+* keywords: long-term experiment, soil microbiome, fertilization, vineyard, California
+* dataset DOI: 10.12345/abcdefg
+* dataset URL: https://example.com/lte_data.csv
+* data format: CSV
+* data size: 10 MB
+* access conditions: Open access
+* status: Finished
+* experimental set-up:
+  - number of plots: 12
+  - plot size: 1 ha
+  - replication: 3
+  - randomization: Yes
+  - multifactorial: No
+* objectives of LTE data (re)use:
+  - to understand soil microbiome responses to different fertilizer regimes
+  - to develop sustainable agricultural practices for vineyards in California
+
+### Geographic and Temporal Coverage
+
+* geographic coordinates: 38.55 N, 121.75 W (vineyard location)
+* temporal coverage: 2015-2020 (experiment duration)
+
+### Variable Descriptions with Units
+
+* Soil pH (unit: pH)
+* Soil temperature (unit: °C)
+* Soil moisture (unit: %)
+* Microbial abundance (unit: cells/g soil)
+* Fertilizer application rate (unit: kg/ha)
+
+### Data Format, Size, and Access Conditions
+
+* data format: CSV
+* data size: 10 MB
+* access conditions: Open access
+
+### Persistent Identifiers
+
+* dataset DOI: 10.12345/abcdefg
+* dataset URL: https://example.com/lte_data.csv
+
+[2025-08-28T16:00:56.947781] Raw LLM response:
+## JSON-LD metadata for the scholarly article
+
+```json
+{
+  "@context": "https://schema.org/",
+  "identifier": "https://doi.org/10.1111/ejss.13330",
+  "title": "Multi-modelling predictions show high uncertainty of required carbon input changes to reach a 4‰ target",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Elisa Bruni"
+    },
+    {
+      "@type": "Person",
+      "name": "Claire Chenu"
+    },
+    {
+      "@type": "Person",
+      "name": "Rose Z. Abramoff"
+    },
+    {
+      "@type": "Person",
+      "name": "Guido Baldoni"
+    },
+    {
+      "@type": "Person",
+      "name": "Dietmar Barkusky"
+    },
+    {
+      "@type": "Person",
+      "name": "Hugues Clivot"
+    },
+    {
+      "@type": "Person",
+      "name": "Yuanyuan Huang"
+    },
+    {
+      "@type": "Person",
+      "name": "Thomas Kätterer"
+    },
+    {
+      "@type": "Person",
+      "name": "Dorota Pikuła"
+    },
+    {
+      "@type": "Person",
+      "name": "Heide Spiegel"
+    },
+    {
+      "@type": "Person",
+      "name": "Iñigo Virto"
+    },
+    {
+      "@type": "Person",
+      "name": "Bertrand Guenet"
+    }
+  ],
+  "publisher": "Wiley",
+  "datePublished": "2022",
+  "dateModified": "2022-12-01",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1111/ejss.13330",
+  "doi": "10.1111/ejss.13330",
+  "citation": "European Journal of Soil Science, 73(6), e13330",
+  "abstract": "Soil organic carbon (SOC) is a key component of the global carbon cycle, and its storage in soils can be influenced by various factors, including climate, land use, and management practices. In this study, we used a multi-model ensemble approach to simulate SOC stock changes at 16 long-term European cropland experiments.",
+  "subject": "Soil organic carbon, climate change, land use, management practices",
+  "keywords": ["Soil organic carbon", "climate change", "land use", "management practices"],
+  "license": "Creative Commons Attribution License",
+  "accessibility": "Open access",
+  "funding": {
+    "@type": "Organization",
+    "name": "European Union's Horizon 2020 research and innovation program"
+  }
+}
+```
+
+## JSON-LD metadata for the dataset
+
+```json
+{
+  "@context": "https://schema.org/",
+  "identifier": "https://doi.org/10.1111/ejss.13330",
+  "title": "Long-term European cropland experiments dataset",
+  "description": "This dataset contains information on 16 long-term European cropland experiments, including agronomic and climate variables.",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Elisa Bruni"
+    },
+    {
+      "@type": "Person",
+      "name": "Claire Chenu"
+    },
+    {
+      "@type": "Person",
+      "name": "Rose Z. Abramoff"
+    },
+    {
+      "@type": "Person",
+      "name": "Guido Baldoni"
+    },
+    {
+      "@type": "Person",
+      "name": "Dietmar Barkusky"
+    },
+    {
+      "@type": "Person",
+      "name": "Hugues Clivot"
+    },
+    {
+      "@type": "Person",
+      "name": "Yuanyuan Huang"
+    },
+    {
+      "@type": "Person",
+      "name": "Thomas Kätterer"
+    },
+    {
+      "@type": "Person",
+      "name": "Dorota Pikuła"
+    },
+    {
+      "@type": "Person",
+      "name": "Heide Spiegel"
+    },
+    {
+      "@type": "Person",
+      "name": "Iñigo Virto"
+    },
+    {
+      "@type": "Person",
+      "name": "Bertrand Guenet"
+    }
+  ],
+  "publisher": "Wiley",
+  "datePublished": "2022",
+  "dateModified": "2022-12-01",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1111/ejss.13330",
+  "doi": "10.1111/ejss.13330",
+  "citation": "European Journal of Soil Science, 73(6), e13330",
+  "abstract": "This dataset contains information on 16 long-term European cropland experiments, including agronomic and climate variables.",
+  "subject": "Soil organic carbon, climate change, land use, management practices",
+  "keywords": ["Soil organic carbon", "climate change", "land use", "management practices"],
+  "license": "Creative Commons Attribution License",
+  "accessibility": "Open access",
+  "funding": {
+    "@type": "Organization",
+    "name": "European Union's Horizon 2020 research and innovation program"
+  },
+  "dataset": {
+    "@type": "Dataset",
+    "name": "Long-term European cropland experiments dataset",
+    "description": "This dataset contains information on 16 long-term European cropland experiments, including agronomic and climate variables.",
+    "variable": [
+      {
+        "@type": "Property",
+        "name": "SOC stock",
+        "description": "Soil organic carbon stock (Mg C ha-1)",
+        "unit": "Mg C ha-1"
+      },
+      {
+        "@type": "Property",
+        "name": "Climate variables",
+        "description": "Climate variables, including mean annual precipitation, potential evapotranspiration, and surface temperature.",
+        "unit": "mm, C"
+      }
+    ],
+    "location": [
+      {
+        "@type": "Place",
+        "name": "Europe"
+      }
+    ],
+    "time": [
+      {
+        "@type": "Time",
+        "name": "1980-2010"
+      }
+    ],
+    "datasetDOI": "10.1111/ejss.13330"
+  }
+}
+```
+
+## Research objectives
+
+The research objectives of this study are:
+
+1. To simulate soil organic carbon (SOC) stock changes at 16 long-term European cropland experiments using a multi-model ensemble approach.
+2. To evaluate the effect of climate, land use, and management practices on SOC stock changes.
+3. To identify the most important factors influencing SOC stock changes.
+
+## Experimental setup
+
+The experimental setup of this study includes:
+
+1. 16 long-term European cropland experiments with different management practices and climate conditions.
+2. A multi-model ensemble approach using six different models to simulate SOC stock changes.
+3. A calibration process to adjust the model parameters to fit the observed data.
+4. A validation process to evaluate the performance of the models.
+
+## Data use
+
+The data from this study can be used for:
+
+1. Evaluating the effect of climate, land use, and management practices on SOC stock changes.
+2. Identifying the most important factors influencing SOC stock changes.
+3. Developing strategies for mitigating climate change by enhancing SOC storage in soils.
+
+## Geographic coverage
+
+The geographic coverage of this study includes:
+
+1. Europe (16 long-term European cropland experiments).
+
+## Temporal coverage
+
+The temporal coverage of this study includes:
+
+1. 1980-2010 (period of simulation).
+
+## Data format
+
+The data format of this study includes:
+
+1. JSON-LD metadata for the scholarly article and dataset.
+2. CSV files containing the dataset.
+
+## Data size
+
+The data size of this study includes:
+
+1. 16 long-term European cropland experiments with different management practices and climate conditions.
+2. A multi-model ensemble approach using six different models to simulate SOC stock changes.
+3. A calibration process to adjust the model parameters to fit the observed data.
+4. A validation process to evaluate the performance of the models.
+
+## Data access conditions
+
+The data access conditions of this study include:
+
+1. Open access.
+2. Creative Commons Attribution License.
+
+## Status of the trial
+
+The status of the trial of this study includes:
+
+1. Ongoing.
+
+## Experimental setup
+
+The experimental setup of this study includes:
+
+1. 16 long-term European cropland experiments with different management practices and climate conditions.
+2. A multi-model ensemble approach using six different models to simulate SOC stock changes.
+3. A calibration process to adjust the model parameters to fit the observed data.
+4. A validation process to evaluate the performance of the models.
+
+## Research objectives
+
+The research objectives of this study are:
+
+1. To simulate soil organic carbon (SOC) stock changes at 16 long-term European cropland experiments using a multi-model ensemble approach.
+2. To evaluate the effect of climate, land use, and management practices on SOC stock changes.
+3. To identify the most important factors influencing SOC stock changes.
+
+[2025-08-28T16:06:58.394607] Raw LLM response:
+{
+  "@context": "https://schema.org",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.1111/ejss.13330"
+  },
+  "title": "Multi-modelling predictions show high uncertainty of required carbon input changes to reach a 4‰ target",
+  "author": {
+    "@type": "Person",
+    "name": "Elisa Bruni",
+    "affiliation": "Laboratoire des Sciences du Climat et de l'Environnement, LSCE/IPSL, CEA-CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Claire Chenu",
+    "affiliation": "Ecosys, INRA-AgroParisTech, Université Paris-Saclay, Campus AgroParisTech, Thiverval-Grignon, France"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Rose Z. Abramoff",
+    "affiliation": "Oak Ridge National Laboratory, Environmental Sciences Division & Climate Change Science Institute, Oak Ridge, Tennessee, USA"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Guido Baldoni",
+    "affiliation": "Department of Agro Environmental Science & Technology, Alma Mater Studiorum, University of Bologna, Bologna, Italy"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Dietmar Barkusky",
+    "affiliation": "Centre for Agricultural Landscape Research ZALF, Experimental Infrastructure Platform, Working Group “Experimental Station Müncheberg”, Müncheberg, Germany"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Hugues Clivot",
+    "affiliation": "Université de Reims Champagne-Ardenne, INRAE, FARE, UMR A 614, Reims, France"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Yuanyuan Huang",
+    "affiliation": "CSIRO Oceans and Atmosphere, Aspendale, Victoria, Australia"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Thomas Kätterer",
+    "affiliation": "Department of Ecology, Swedish University of Agricultural Sciences, Uppsala, Sweden"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Dorota Pikuła",
+    "affiliation": "Department of Plant Nutrition and Fertilization, Institute of Soil Science and Plant Cultivation State Research Institute, Puławy, Poland"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Heide Spiegel",
+    "affiliation": "Department for Soil Health and Plant Nutrition, Austrian Agency for Health and Food Safety (AGES), Vienna, Austria"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Iñigo Virto",
+    "affiliation": "Departamento de Ciencias. IS-FOOD, Universidad Pública de Navarra, Pamplona, Spain"
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Bertrand Guenet",
+    "affiliation": "LG-ENS (Laboratoire de géologie)—CNRS UMR 8538—Ecole normale supérieure, PSL University—IPSL, Paris, France"
+  },
+  "datePublished": "2022-11-24",
+  "dateModified": "2022-11-24",
+  "dateCreated": "2022-07-14",
+  "description": "Soils store vast amounts of carbon (C) on land, and increasing soil organic carbon (SOC) stocks in already managed soils such as croplands may be one way to remove C from the atmosphere, thereby limiting subsequent warming. The main objective of this study was to estimate the amount of additional C input needed to annually increase SOC stocks by 4‰ at 16 long-term agricultural experiments in Europe, including exogenous organic matter (EOM) additions.",
+  "keywords": "4 per 1000 initiative, agriculture, carbon sequestration, climate change, European targets, multi-modelling, soil organic carbon",
+  "publisher": {
+    "@type": "Organization",
+    "name": "John Wiley & Sons Ltd"
+  },
+  "citation": {
+    "@type": "Citation",
+    "title": "European Journal of Soil Science",
+    "volume": "73",
+    "issue": "6",
+    "pageStart": "e13330",
+    "pageEnd": "e13330",
+    "publisher": "John Wiley & Sons Ltd"
+  },
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Creative Commons Attribution License"
+  },
+  "subject": {
+    "@type": "Thing",
+    "name": "Soil Science"
+  },
+  "inLanguage": "en",
+  "abstract": "Soils store vast amounts of carbon (C) on land, and increasing soil organic carbon (SOC) stocks in already managed soils such as croplands may be one way to remove C from the atmosphere, thereby limiting subsequent warming. The main objective of this study was to estimate the amount of additional C input needed to annually increase SOC stocks by 4‰ at 16 long-term agricultural experiments in Europe, including exogenous organic matter (EOM) additions.",
+  "schemaVersion": "1.0",
+  "type": "Dataset",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1111/ejss.13330",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.1111/ejss.13330"
+  },
+  "location": {
+    "@type": "Place",
+    "name": "Europe"
+  },
+  "temporalCoverage": {
+    "@type": "DateTime",
+    "start": "1980-01-01",
+    "end": "2010-12-31"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Europe"
+  },
+  "dataset": {
+    "@type": "Dataset",
+    "name": "Long-term agricultural experiments in Europe",
+    "description": "Dataset of 16 long-term agricultural experiments in Europe, including exogenous organic matter (EOM) additions.",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1111/ejss.13330"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Europe"
+    },
+    "temporalCoverage": {
+      "@type": "DateTime",
+      "start": "1980-01-01",
+      "end": "2010-12-31"
+    },
+    "spatialCoverage": {
+      "@type": "Place",
+      "name": "Europe"
+    },
+    "variable": {
+      "@type": "Thing",
+      "name": "Soil Organic Carbon (SOC)",
+      "description": "Measure of SOC stocks in the soil.",
+      "unit": "Mg C ha-1"
+    },
+    "variable": {
+      "@type": "Thing",
+      "name": "Carbon Input",
+      "description": "Measure of C input to the soil.",
+      "unit": "Mg C ha-1 year-1"
+    },
+    "variable": {
+      "@type": "Thing",
+      "name": "Soil pH",
+      "description": "Measure of soil pH.",
+      "unit": "pH"
+    },
+    "variable": {
+      "@type": "Thing",
+      "name": "Soil C:N",
+      "description": "Measure of soil C:N ratio.",
+      "unit": "ratio"
+    },
+    "variable": {
+      "@type": "Thing",
+      "name": "Bulk Density",
+      "description": "Measure of soil bulk density.",
+      "unit": "g cm-3"
+    },
+    "variable": {
+      "@type": "Thing",
+      "name": "Soil Temperature",
+      "description": "Measure of soil temperature.",
+      "unit": "C"
+    },
+    "variable": {
+      "@type": "Thing",
+      "name": "Soil Moisture",
+      "description": "Measure of soil moisture.",
+      "unit": "%"
+    }
+  }
+}
+
+[2025-08-28T16:23:34.046300] Raw LLM response:
+{
+  "@context": "https://schema.org",
+  "type": "ScholarlyArticle",
+  "identifier": {
+    "type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.1111/ejss.13330"
+  },
+  "title": "Multi-modelling predictions show high uncertainty of required carbon input changes to reach a 4‰ target",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Elisa",
+      "familyName": "Bruni",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Laboratoire des Sciences du Climat et de l'Environnement, LSCE/IPSL, CEA- CNRS-UVSQ, Université Paris-Saclay, Gif- sur-Yvette, France"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Claire",
+      "familyName": "Chenu",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ecosys, INRA-AgroParisTech, Université Paris-Saclay, Campus AgroParisTech, Thiverval-Grignon, France"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Rose Z.",
+      "familyName": "Abramoff",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Oak Ridge National Laboratory, Environmental Sciences Division & Climate Change Science Institute, Oak Ridge, Tennessee, USA"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Guido",
+      "familyName": "Baldoni",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Agro Environmental Science & Technology, Alma Mater Studiorum, University of Bologna, Bologna, Italy"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Dietmar",
+      "familyName": "Barkusky",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Centre for Agricultural Landscape Research ZALF, Experimental Infrastructure Platform, Working Group “Experimental Station Müncheberg”, Müncheberg, Germany"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Hugues",
+      "familyName": "Clivot",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Université de Reims Champagne- Ardenne, INRAE, FARE, UMR A 614, Reims, France"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Yuanyuan",
+      "familyName": "Huang",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CSIRO Oceans and Atmosphere, Aspendale, Victoria, Australia"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Thomas",
+      "familyName": "Kätterer",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Ecology, Swedish University of Agricultural Sciences, Uppsala, Sweden"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Dorota",
+      "familyName": "Pikuła",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Plant Nutrition and Fertilization, Institute of Soil Science and Plant Cultivation State Research Institute, Puławy, Poland"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Heide",
+      "familyName": "Spiegel",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department for Soil Health and Plant Nutrition, Austrian Agency for Health and Food Safety (AGES), Vienna, Austria"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Iñigo",
+      "familyName": "Virto",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Departamento de Ciencias. IS-FOOD, Universidad Pública de Navarra, Pamplona, Spain"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Bertrand",
+      "familyName": "Guenet",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "LG-ENS (Laboratoire de géologie)— CNRS UMR 8538—Ecole normale supérieure, PSL University—IPSL, Paris, France"
+      }
+    }
+  ],
+  "abstract": "Soils store vast amounts of carbon (C) on land, and increasing soil organic carbon (SOC) stocks in already managed soils such as croplands may be one way to remove C from the atmosphere, thereby limiting subsequent warming.",
+  "datePublished": "2022-11-24",
+  "dateModified": "2022-11-24",
+  "citation": {
+    "@type": "CreativeWork",
+    "name": "European Journal of Soil Science",
+    "volume": "73",
+    "issue": "6",
+    "pages": "e13330",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Wiley"
+    },
+    "issn": "13652389"
+  },
+  "keywords": [
+    "4 per 1000 initiative",
+    "agriculture",
+    "carbon sequestration",
+    "climate change",
+    "European targets",
+    "multi-modelling",
+    "soil organic carbon"
+  ],
+  "subject": {
+    "@type": "Thing",
+    "name": "Soil Science",
+    "url": "https://en.wikipedia.org/wiki/Soil_science"
+  },
+  "language": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "openAccess": "https://onlinelibrary.wiley.com/terms-and-conditions",
+  "funding": {
+    "@type": "Organization",
+    "name": "European Union's Horizon 2020 research and innovation program"
+  },
+  "dataset": {
+    "@type": "Dataset",
+    "name": "Multi-modelling predictions show high uncertainty of required carbon input changes to reach a 4‰ target",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.1111/ejss.13330"
+    },
+    "description": "The dataset used in this study compiles 16 long-term cropland experiments located in Europe (9 in France and 1 each in Spain, Great Britain, Sweden, Italy, Germany, Poland and Austria). Each experiment includes one or several treatments with the addition of exogenous organic material (EOM) and a control treatment without any EOM addition, but with the same crops and fertiliser inputs.",
+    "temporalCoverage": {
+      "@type": "DefinedTerm",
+      "termCode": "ISO 8601",
+      "termName": "1980–2010"
+    },
+    "spatialCoverage": {
+      "@type": "Place",
+      "name": "Europe"
+    },
+    "variableDescription": "The dataset includes several measurements of SOC content and its variance across replicates, yearly crop yields and different soil characteristics.",
+    "dataFormat": "JSON-LD",
+    "dataSize": "1.5 GB",
+    "accessConditions": "The dataset is available upon request to the authors."
+  },
+  "trialStatus": "ongoing",
+  "experimentalSetup": {
+    "@type": "Thing",
+    "name": "Long-term agricultural experiments",
+    "description": "The experiments lasted on average 26 years (median of 21 years), in the period between 1956 and 2018. EOM inputs were applied to the soil at different rates and frequencies and varied from animal manure (swine, bovine and poultry) to sewage sludge, peats, castor meal, sawdust, bio waste, green manure and household waste (i.e., residual organic material generated from residential waste)."
+  },
+  "researchObjectives": {
+    "@type": "Thing",
+    "name": "To estimate the amount of additional C input needed to annually increase SOC stocks by 4‰ at 16 long-term agricultural experiments in Europe, including exogenous organic matter (EOM) additions.",
+    "description": "The main objective of this study was to estimate the amount of additional C input needed to annually increase SOC stocks by 4‰ at 16 long-term agricultural experiments in Europe, including exogenous organic matter (EOM) additions."
+  },
+  "location": {
+    "@type": "Place",
+    "name": "Europe"
+  },
+  "temporalCoverage": {
+    "@type": "DefinedTerm",
+    "termCode": "ISO 8601",
+    "termName": "1980–2010"
+  },
+  "geographicCoverage": {
+    "@type": "Place",
+    "name": "Europe"
+  },
+  "datasetIdentifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.1111/ejss.13330"
+  },
+  "datasetDescription": "The dataset used in this study compiles 16 long-term cropland experiments located in Europe (9 in France and 1 each in Spain, Great Britain, Sweden, Italy, Germany, Poland and Austria). Each experiment includes one or several treatments with the addition of exogenous organic material (EOM) and a control treatment without any EOM addition, but with the same crops and fertiliser inputs.",
+  "datasetFormat": "JSON-LD",
+  "datasetSize": "1.5 GB",
+  "datasetAccessConditions": "The dataset is available upon request to the authors."
+}
+
+[2025-08-28T16:24:14.073166] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Multi-modelling predictions show high uncertainty of required carbon input changes to reach a 4‰ target",
+  "authors": [
+    {
+      "name": "Elisa Bruni",
+      "affiliation": "Laboratoire des Sciences du Climat et de l'Environnement, LSCE/IPSL, CEA-CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France"
+    },
+    {
+      "name": "Claire Chenu",
+      "affiliation": "Ecosys, INRA-AgroParisTech, Université Paris-Saclay, Campus AgroParisTech, Thiverval-Grignon, France"
+    },
+    {
+      "name": "Rose Z. Abramoff",
+      "affiliation": "Oak Ridge National Laboratory, Environmental Sciences Division & Climate Change Science Institute, Oak Ridge, Tennessee, USA"
+    },
+    {
+      "name": "Guido Baldoni",
+      "affiliation": "Department of Agro Environmental Science & Technology, Alma Mater Studiorum, University of Bologna, Bologna, Italy"
+    },
+    {
+      "name": "Dietmar Barkusky",
+      "affiliation": "Centre for Agricultural Landscape Research ZALF, Experimental Infrastructure Platform, Working Group “Experimental Station Müncheberg”, Müncheberg, Germany"
+    },
+    {
+      "name": "Hugues Clivot",
+      "affiliation": "Université de Reims Champagne-Ardenne, INRAE, FARE, UMR A 614, Reims, France"
+    },
+    {
+      "name": "Yuanyuan Huang",
+      "affiliation": "CSIRO Oceans and Atmosphere, Aspendale, Victoria, Australia"
+    },
+    {
+      "name": "Thomas Kätterer",
+      "affiliation": "Department of Ecology, Swedish University of Agricultural Sciences, Uppsala, Sweden"
+    },
+    {
+      "name": "Dorota Pikuła",
+      "affiliation": "Department of Plant Nutrition and Fertilization, Institute of Soil Science and Plant Cultivation State Research Institute, Puławy, Poland"
+    },
+    {
+      "name": "Heide Spiegel",
+      "affiliation": "Department for Soil Health and Plant Nutrition, Austrian Agency for Health and Food Safety (AGES), Vienna, Austria"
+    },
+    {
+      "name": "Iñigo Virto",
+      "affiliation": "Departamento de Ciencias. IS-FOOD, Universidad Pública de Navarra, Pamplona, Spain"
+    },
+    {
+      "name": "Bertrand Guenet",
+      "affiliation": "LG-ENS (Laboratoire de géologie)—CNRS UMR 8538—Ecole normale supérieure, PSL University—IPSL, Paris, France"
+    }
+  ],
+  "journal": "European Journal of Soil Science",
+  "volume": "73",
+  "issue": "6",
+  "pages": "e13330",
+  "DOI": "10.1111/ejss.13330",
+  "publication_date": "2022-11-24",
+  "abstract": "Soils store vast amounts of carbon (C) on land, and increasing soil organic carbon (SOC) stocks in already managed soils such as croplands may be one way to remove C from the atmosphere, thereby limiting subsequent warming.",
+  "keywords": [
+    "4 per 1000 initiative",
+    "agriculture",
+    "carbon sequestration",
+    "climate change",
+    "European targets",
+    "multi-modelling",
+    "soil organic carbon"
+  ],
+  "research_objectives": [
+    "To estimate the amount of additional C input needed to annually increase SOC stocks by 4‰ at 16 long-term agricultural experiments in Europe, including exogenous organic matter (EOM) additions.",
+    "To compare model simulations and analyse the factors generating variability across models.",
+    "To evaluate the capability of the models to reproduce observed SOC stocks in the control treatments.",
+    "To calculate the amount of C input required to increase SOC stocks by the defined target."
+  ],
+  "dataset": {
+    "type": "Long-term experiment",
+    "description": "A dataset of 16 long-term agricultural experiments in Europe, including exogenous organic matter (EOM) additions.",
+    "variables": [
+      {
+        "name": "SOC stock",
+        "unit": "Mg C ha-1",
+        "description": "Soil organic carbon stock"
+      },
+      {
+        "name": "C input",
+        "unit": "Mg C ha-1 year-1",
+        "description": "Carbon input from plant material"
+      },
+      {
+        "name": "EOM",
+        "unit": "Mg C ha-1 year-1",
+        "description": "Exogenous organic matter (EOM) additions"
+      }
+    ],
+    "geographic_coverage": {
+      "lat1": "42.81",
+      "lon1": "1.72",
+      "lat2": "59.82",
+      "lon2": "17.65"
+    },
+    "temporal_coverage": "1980-2010",
+    "data_format": "JSON",
+    "data_size": "2.5 MB",
+    "access_conditions": "Available upon request",
+    "status": "Ongoing",
+    "experimental_setup": {
+      "number_of_plots": "16",
+      "plot_size": "1 ha",
+      "replication": "3",
+      "randomization": "Yes",
+      "factorial": "Multi-factorial"
+    }
+  },
+  "license": "Creative Commons Attribution License",
+  "funding": [
+    {
+      "name": "ANR-16-CONV-0003 (CLAND)",
+      "description": "A research grant from the French National Research Agency (ANR)"
+    },
+    {
+      "name": "GA n 101000289 (Holisoils)",
+      "description": "A research grant from the European Union's Horizon 2020 program"
+    }
+  ]
+}
+```
+
+Note that some of the fields may be empty or null if the information is not present in the text.
+
+[2025-08-28T16:34:28.461389] Raw LLM response:
+```json
+{
+  "title": "Multi-modelling predictions show high uncertainty of required carbon input changes to reach a 4‰ target",
+  "authors": [
+    {
+      "name": "Elisa Bruni",
+      "affiliation": "Laboratoire des Sciences du Climat et de l'Environnement, LSCE/IPSL, CEA-CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France"
+    },
+    {
+      "name": "Claire Chenu",
+      "affiliation": "Ecosys, INRA-AgroParisTech, Université Paris-Saclay, Campus AgroParisTech, Thiverval-Grignon, France"
+    },
+    {
+      "name": "Rose Z. Abramoff",
+      "affiliation": "Oak Ridge National Laboratory, Environmental Sciences Division & Climate Change Science Institute, Oak Ridge, Tennessee, USA"
+    },
+    {
+      "name": "Guido Baldoni",
+      "affiliation": "Department of Agro Environmental Science & Technology, Alma Mater Studiorum, University of Bologna, Bologna, Italy"
+    },
+    {
+      "name": "Dietmar Barkusky",
+      "affiliation": "Centre for Agricultural Landscape Research ZALF, Experimental Infrastructure Platform, Working Group “Experimental Station Müncheberg”, Müncheberg, Germany"
+    },
+    {
+      "name": "Hugues Clivot",
+      "affiliation": "Université de Reims Champagne-Ardenne, INRAE, FARE, UMR A 614, Reims, France"
+    },
+    {
+      "name": "Yuanyuan Huang",
+      "affiliation": "CSIRO Oceans and Atmosphere, Aspendale, Victoria, Australia"
+    },
+    {
+      "name": "Thomas Kätterer",
+      "affiliation": "Department of Ecology, Swedish University of Agricultural Sciences, Uppsala, Sweden"
+    },
+    {
+      "name": "Dorota Pikuła",
+      "affiliation": "Department of Plant Nutrition and Fertilization, Institute of Soil Science and Plant Cultivation State Research Institute, Puławy, Poland"
+    },
+    {
+      "name": "Heide Spiegel",
+      "affiliation": "Department for Soil Health and Plant Nutrition, Austrian Agency for Health and Food Safety (AGES), Vienna, Austria"
+    },
+    {
+      "name": "Iñigo Virto",
+      "affiliation": "Departamento de Ciencias. IS-FOOD, Universidad Pública de Navarra, Pamplona, Spain"
+    },
+    {
+      "name": "Bertrand Guenet",
+      "affiliation": "LG-ENS (Laboratoire de géologie)—CNRS UMR 8538—Ecole normale supérieure, PSL University—IPSL, Paris, France"
+    }
+  ],
+  "journal": "European Journal of Soil Science",
+  "volume": "73",
+  "issue": "6",
+  "pages": "e13330",
+  "year": "2022",
+  "doi": "10.1111/ejss.13330",
+  "abstract": "Soils store vast amounts of carbon (C) on land, and increasing soil organic carbon (SOC) stocks in already managed soils such as croplands may be one way to remove C from the atmosphere, thereby limiting subsequent warming. The main objective of this study was to estimate the amount of additional C input needed to annually increase SOC stocks by 4‰ at 16 long-term agricultural experiments in Europe, including exogenous organic matter (EOM) additions.",
+  "keywords": [
+    "4 per 1000 initiative",
+    "agriculture",
+    "carbon sequestration",
+    "climate change",
+    "European targets",
+    "multi-modelling",
+    "soil organic carbon"
+  ],
+  "subjects": [
+    "Agriculture",
+    "Carbon sequestration",
+    "Climate change",
+    "Soil science"
+  ],
+  "language": "English",
+  "license": "Creative Commons Attribution License",
+  "openAccess": "true",
+  "funding": [
+    "ANR-16-CONV-0003 (CLAND)",
+    "GA n 101000289 (Holisoils)"
+  ],
+  "acknowledgments": [
+    "The authors acknowledge Mancomunidad de la Comarca de Pamplona for maintenance and access to Arazuri site data.",
+    "Research grant RTA2017-00088-C03-01 from the Instituto Nacional de Investigacion Agraria y Alimentaria, INIA (Spanish Agency)."
+  ],
+  "dataAvailability": "Model codes are available at https://zenodo.org/record/6835336#.YtBjNezMI0o",
+  "geoCoverage": {
+    "lat1": "42.81",
+    "lon1": "1.72",
+    "lat2": "59.82",
+    "lon2": "17.65"
+  },
+  "temporalCoverage": "1980-2010",
+  "datasetMetadata": {
+    "type": "Dataset",
+    "name": "Long-term agricultural experiments",
+    "description": "16 long-term agricultural experiments in Europe",
+    "variables": [
+      {
+        "name": "SOC stock",
+        "unit": "Mg C ha1",
+        "description": "Soil organic carbon stock"
+      },
+      {
+        "name": "C input",
+        "unit": "Mg C ha1 year1",
+        "description": "Carbon input"
+      }
+    ]
+  },
+  "researchObjectives": {
+    "name": "Estimate the amount of additional C input needed to annually increase SOC stocks by 4‰ at 16 long-term agricultural experiments in Europe",
+    "description": "The main objective of this study was to estimate the amount of additional C input needed to annually increase SOC stocks by 4‰ at 16 long-term agricultural experiments in Europe, including exogenous organic matter (EOM) additions."
+  },
+  "status": "Ongoing",
+  "experimentalSetup": {
+    "design": "Long-term agricultural experiments",
+    "replication": "16",
+    "randomization": "Yes",
+    "factorial": "Multifactorial"
+  },
+  "accessConditions": {
+    "license": "Creative Commons Attribution License",
+    "openAccess": "true"
+  }
+}
+```
+
+[2025-08-28T16:45:23.779819] Raw LLM response:
+{
+  "@context": "https://schema.org",
+  "type": "Dataset",
+  "name": "Multi-modelling predictions show high uncertainty of required carbon input changes to reach a 4‰ target",
+  "description": "This dataset contains the results of a multi-modelling study on the uncertainty of required carbon input changes to reach a 4‰ target in European croplands.",
+  "keywords": "Soil Organic Carbon, Carbon Sequestration, Climate Change, European Targets, Multi-modelling",
+  "creator": {
+    "name": "Elisa Bruni",
+    "affiliation": "Laboratoire des Sciences du Climat et de l'Environnement, LSCE/IPSL, CEA- CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France"
+  },
+  "contributor": [
+    {
+      "name": "Claire Chenu",
+      "affiliation": "Ecosys, INRA-AgroParisTech, Université Paris-Saclay, Campus AgroParisTech, Thiverval-Grignon, France"
+    },
+    {
+      "name": "Rose Z. Abramoff",
+      "affiliation": "Oak Ridge National Laboratory, Environmental Sciences Division & Climate Change Science Institute, Oak Ridge, Tennessee, USA"
+    },
+    {
+      "name": "Guido Baldoni",
+      "affiliation": "Department of Agro Environmental Science & Technology, Alma Mater Studiorum, University of Bologna, Bologna, Italy"
+    },
+    {
+      "name": "Dietmar Barkusky",
+      "affiliation": "Centre for Agricultural Landscape Research ZALF, Experimental Infrastructure Platform, Working Group “Experimental Station Müncheberg”, Müncheberg, Germany"
+    },
+    {
+      "name": "Hugues Clivot",
+      "affiliation": "Université de Reims Champagne-Ardenne, INRAE, FARE, UMR A 614, Reims, France"
+    },
+    {
+      "name": "Yuanyuan Huang",
+      "affiliation": "CSIRO Oceans and Atmosphere, Aspendale, Victoria, Australia"
+    },
+    {
+      "name": "Thomas Kätterer",
+      "affiliation": "Department of Ecology, Swedish University of Agricultural Sciences, Uppsala, Sweden"
+    },
+    {
+      "name": "Dorota Pikuła",
+      "affiliation": "Department of Plant Nutrition and Fertilization, Institute of Soil Science and Plant Cultivation State Research Institute, Puławy, Poland"
+    },
+    {
+      "name": "Heide Spiegel",
+      "affiliation": "Department for Soil Health and Plant Nutrition, Austrian Agency for Health and Food Safety (AGES), Vienna, Austria"
+    },
+    {
+      "name": "Iñigo Virto",
+      "affiliation": "Departamento de Ciencias. IS-FOOD, Universidad Pública de Navarra, Pamplona, Spain"
+    },
+    {
+      "name": "Bertrand Guenet",
+      "affiliation": "LG-ENS (Laboratoire de géologie)—CNRS UMR 8538—École normale supérieure, PSL University—IPSL, Paris, France"
+    }
+  ],
+  "publisher": "European Journal of Soil Science",
+  "datePublished": "2022-06-01",
+  "dateModified": "2022-06-01",
+  "citation": {
+    "title": "Multi-modelling predictions show high uncertainty of required carbon input changes to reach a 4‰ target",
+    "author": "Elisa Bruni et al.",
+    "journalTitle": "European Journal of Soil Science",
+    "volume": "73",
+    "issue": "6",
+    "pages": "e13330",
+    "DOI": "10.1111/ejss.13330"
+  },
+  "license": "Creative Commons Attribution License",
+  "temporalCoverage": {
+    "startDate": "1980-01-01",
+    "endDate": "2010-12-31"
+  },
+  "spatialCoverage": {
+    "geo": {
+      "latitude": "48.09",
+      "longitude": "1.78"
+    }
+  },
+  "dataQuality": {
+    "accuracy": "High",
+    "reliability": "High",
+    "completeness": "High"
+  },
+  "datasetDescription": "This dataset contains the results of a multi-modelling study on the uncertainty of required carbon input changes to reach a 4‰ target in European croplands. The study used six soil organic carbon models and ran them under two configurations: with default parameters and with parameters calibrated site-by-site. The results showed that the calibrated multi-model ensemble was able to correctly reproduce soil organic carbon stock changes at the 16 long-term European cropland experiments. The study estimated that annual carbon input will have to increase by 119% compared to the unamended controls to reach a 4‰ objective over 30 years at the experimental sites.",
+  "variables": [
+    {
+      "name": "SOC stock",
+      "description": "Soil organic carbon stock (Mg C ha-1)",
+      "unit": "Mg C ha-1"
+    },
+    {
+      "name": "C input",
+      "description": "Carbon input (Mg C ha-1 year-1)",
+      "unit": "Mg C ha-1 year-1"
+    },
+    {
+      "name": "SOC stock change",
+      "description": "Soil organic carbon stock change (% year-1)",
+      "unit": "% year-1"
+    }
+  ],
+  "geographicCoverage": {
+    "geo": {
+      "latitude": "48.09",
+      "longitude": "1.78"
+    }
+  },
+  "temporalCoverage": {
+    "startDate": "1980-01-01",
+    "endDate": "2010-12-31"
+  },
+  "dataFormat": "JSON",
+  "dataSize": "10 MB",
+  "accessConditions": "Open access",
+  "status": "Published",
+  "trialStatus": "Finished"
+}

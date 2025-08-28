@@ -12,9 +12,15 @@ def analyze_pdf(pdf_path):
     # Extract and format the PDF content
     markdown_text = extract_and_format_pdf_to_markdown(pdf_path)
 
+    # Save the markdown to a file for inspection
+    with open("extracted_markdown.md", "w", encoding="utf-8") as f:
+        f.write(markdown_text)
+
+    print("📄 Extracted markdown saved to 'extracted_markdown.md'")
+
     # Send the extracted text to the FastAPI endpoint
     response = requests.post(
-        "http://127.0.0.1:8000/extract_metadata",
+        "http://127.0.0.1:8080/extract_metadata",
         json={"text": markdown_text}
     )
 
@@ -27,5 +33,5 @@ def analyze_pdf(pdf_path):
 
 # Example usage
 if __name__ == "__main__":
-    pdf_file_path = "C:\\Users\\Lachmuth\\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\\Dokumente\\FAIRagro\\Use Case 4\\LTE_text_processing\\input\\V140_documented\\Thai&al_Agronomy_2020_MDPI.pdf" 
+    pdf_file_path = "C:\\Users\\Lachmuth\\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\\Dokumente\\FAIRagro\\Use Case 4\\LTE_text_processing\\input\\V140_documented\\Bruni&al_EJSS_2022_CCBY4-0.pdf" 
     analyze_pdf(pdf_file_path)
