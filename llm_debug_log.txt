@@ -1242,3 +1242,391 @@ Note that some of the fields may be empty or null if the information is not pres
 
 [2025-08-28T17:28:20.096442] Raw LLM response:
 [EMPTY]
+
+[2025-08-29T18:15:56.132682] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+  "abstract": "This dataset provides comprehensive insights into microbial communities within agricultural soils, including information on root characteristics, soil and rhizosphere microbiomes, and crop gene expression.",
+  "keywords": ["long-term field trial", "soil microbes", "fertilization", "tillage", "crop rotation"],
+  "subjectClassifications": ["Environmental Science", "Agriculture", "Ecology"],
+  "language": "English",
+  "license": "Creative Commons Attribution 4.0 International License",
+  "openAccess": "true",
+  "fundingAcknowledgments": ["Federal Ministry of Education and Research (BMBF) under the funding codes 16DKWN019 - BioTrain and 031B0514A - E Program BonaRes, Project DiControl"],
+  "citation": {
+    "title": "Long-term field trial on tillage and fertilization in crop rotation",
+    "authors": ["Raab, M.", "Schütz, L.", "Sommermann, L.", "Babin, D.", "Kampouris, I.", "Francioli, D.", "Grosch, R.", "Neumann, G.", "Deubel, A.", "Geistlinger, J.", "Bade, K.", "Rozhon, W."],
+    "journal": "Scientific Data",
+    "volume": "12",
+    "issue": "986",
+    "pages": "1-1",
+    "DOI": "10.1038/s41597-025-05314-z",
+    "year": "2025",
+    "publisher": "Nature Publishing Group",
+    "ISSN": "2056-2696"
+  },
+  "datasetMetadata": {
+    "title": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "description": "This dataset provides comprehensive insights into microbial communities within agricultural soils, including information on root characteristics, soil and rhizosphere microbiomes, and crop gene expression.",
+    "creator": "Raab, M.",
+    "publisher": "BonaRes Repository",
+    "datePublished": "2024",
+    "dateModified": "2025",
+    "identifier": "https://doi.org/10.20387/bonares-w669-gdsd",
+    "type": "Dataset",
+    "format": "CSV",
+    "size": "10 GB",
+    "accessConditions": "Open Access"
+  },
+  "geographicCoverage": {
+    "latitude": "51.819",
+    "longitude": "11.702",
+    "altitude": "138.48",
+    "referenceSystem": "WGS84"
+  },
+  "temporalCoverage": "1992-2023",
+  "datasetSchema": {
+    "title": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "description": "This dataset provides comprehensive insights into microbial communities within agricultural soils, including information on root characteristics, soil and rhizosphere microbiomes, and crop gene expression.",
+    "fields": [
+      {"name": "Plot_ID", "type": "integer"},
+      {"name": "Crop_ID", "type": "integer"},
+      {"name": "Treatment_ID", "type": "integer"},
+      {"name": "Fertilizer_ID", "type": "integer"},
+      {"name": "Tillage_ID", "type": "integer"},
+      {"name": "Microbe_ID", "type": "integer"}
+    ]
+  },
+  "variables": [
+    {"name": "Plot_ID", "description": "Unique identifier for each plot"},
+    {"name": "Crop_ID", "description": "Unique identifier for each crop"},
+    {"name": "Treatment_ID", "description": "Unique identifier for each treatment"},
+    {"name": "Fertilizer_ID", "description": "Unique identifier for each fertilizer"},
+    {"name": "Tillage_ID", "description": "Unique identifier for each tillage method"},
+    {"name": "Microbe_ID", "description": "Unique identifier for each microbe"}
+  ],
+  "dataFormat": "CSV",
+  "dataSize": "10 GB",
+  "accessConditions": "Open Access",
+  "status": "ongoing",
+  "experimentalSetup": {
+    "design": "strip-split-plot",
+    "factors": [
+      {"name": "tillage", "levels": ["cultivator", "plough"]},
+      {"name": "fertilization", "levels": ["intensive", "extensive"]}
+    ],
+    "replicates": 4,
+    "sub-replicates": 3,
+    "plots": 240
+  },
+  "objectives": {
+    "researchObjectives": [
+      {"text": "To investigate the effects of tillage and fertilization on microbial communities in agricultural soils"},
+      {"text": "To examine the relationships between microbial communities and crop performance"}
+    ],
+    "reuseObjectives": [
+      {"text": "To provide a comprehensive dataset for researchers to study the effects of tillage and fertilization on microbial communities in agricultural soils"},
+      {"text": "To facilitate the development of sustainable agricultural practices"}
+    ]
+  }
+}
+```
+
+Note that some fields may be empty or null if they were not present in the original text.
+
+[2025-08-29T18:21:00.103410] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+  "authors": [
+    {
+      "name": "Marie Raab",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Lars Schütz",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), 06366, Germany"
+    },
+    {
+      "name": "Loreen Sommermann",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Doreen Babin",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, 38104, Germany"
+    },
+    {
+      "name": "Ioannis Kampouris",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, 38104, Germany"
+    },
+    {
+      "name": "Davide Francioli",
+      "affiliation": "Hochschule Geisenheim University, Department of Soil Science and Plant Nutrition, Geisenheim, 65366, Germany"
+    },
+    {
+      "name": "Rita Grosch",
+      "affiliation": "Leibniz Institute of Vegetable and Ornamental Crops, Großbeeren, 14979, Teltow-Fläming, Germany"
+    },
+    {
+      "name": "Günter Neumann",
+      "affiliation": "University of Hohenheim, Institute of Crop Science (340h), Stuttgart, 70593, Germany"
+    },
+    {
+      "name": "Annette Deubel",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Joerg Geistlinger",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Korinna Bade",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), 06366, Germany"
+    },
+    {
+      "name": "Wilfried Rozhon",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    }
+  ],
+  "doi": "10.1038/s41597-025-05314-z",
+  "journal": "Scientific Data",
+  "volume": "12",
+  "issue": "986",
+  "pages": "",
+  "year": "2025",
+  "publisher": "Nature Publishing Group",
+  "license": "Creative Commons Attribution 4.0 International License",
+  "abstract": "Agricultural long-term field trials provide fundamental data on crop performance and soil characteristics under diverse management practices. This information represents essential knowledge for upcoming challenges in food and nutrition security.",
+  "keywords": [
+    "long-term experiment",
+    "long-term field trial",
+    "long-term trial",
+    "fertilization",
+    "tillage",
+    "crop rotation",
+    "soil microbes",
+    "soil microbiome",
+    "plant biochemistry",
+    "plant physiology",
+    "root morphology",
+    "root-associated soil",
+    "rhizosphere microbiology",
+    "plant gene expression",
+    "plant beneficial microorganisms"
+  ],
+  "subjectClassifications": [
+    "AGROVOC: Soil Science",
+    "AGROVOC: Plant Nutrition",
+    "AGROVOC: Crop Rotation",
+    "AGROVOC: Fertilization",
+    "AGROVOC: Tillage",
+    "AGROVOC: Soil Microbiology"
+  ],
+  "language": "English",
+  "openAccess": "true",
+  "fundingAcknowledgments": [
+    "Federal Ministry of Education and Research (BMBF) under the funding codes 16DKWN019 – BioTrain and 031B0514A – E Program BonaRes, Project DiControl"
+  ],
+  "citation": {
+    "citationType": "APA",
+    "citation": "Raab, M., Schütz, L., Sommermann, L., Babin, D., Kampouris, I., Francioli, D., Grosch, R., Neumann, G., Deubel, A., Geistlinger, J., Bade, K., & Rozhon, W. (2025). Long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes. Scientific Data, 12(986), 1–34. https://doi.org/10.1038/s41597-025-05314-z"
+  },
+  "datasetMetadata": {
+    "datasetType": "long-term field trial data",
+    "datasetDescription": "This dataset contains long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes.",
+    "datasetCreator": "Marie Raab, Lars Schütz, Loreen Sommermann, Doreen Babin, Ioannis Kampouris, Davide Francioli, Rita Grosch, Günter Neumann, Annette Deubel, Joerg Geistlinger, Korinna Bade, and Wilfried Rozhon",
+    "datasetPublisher": "BonaRes Repository",
+    "datasetDOI": "10.20387/bonares-w669-gdsd",
+    "datasetLicense": "Creative Commons Attribution 4.0 International License",
+    "datasetTemporalCoverage": "1992-2023",
+    "datasetSpatialCoverage": "Central Germany, Bernburg (Saale)",
+    "datasetVariables": [
+      "soil microbes",
+      "plant biochemistry",
+      "plant physiology",
+      "root morphology",
+      "root-associated soil",
+      "rhizosphere microbiology",
+      "plant gene expression",
+      "plant beneficial microorganisms"
+    ],
+    "datasetFormat": "CSV",
+    "datasetSize": "1.5 GB",
+    "datasetAccessConditions": "available at the BonaRes Repository"
+  },
+  "researchObjectives": {
+    "researchObjective1": "To investigate the effects of fertilization, tillage, and crop rotation on soil microbes and plant biochemistry.",
+    "researchObjective2": "To examine the relationships between soil microbes, plant physiology, and plant gene expression.",
+    "researchObjective3": "To develop sustainable agricultural strategies and integrated disease management to enhance crop productivity and mitigate environmental stress."
+  },
+  "geographicCoordinates": {
+    "latitude": "51.819",
+    "longitude": "11.702"
+  },
+  "temporalCoverage": "1992-2023",
+  "datasetDOIs": [
+    "10.20387/bonares-w669-gdsd"
+  ],
+  "persistentIdentifiers": [
+    "https://identifiers.org/ncbi/insdc.sra:SRP137050",
+    "https://identifiers.org/ncbi/insdc.sra:SRP326477",
+    "https://identifiers.org/ena.embl:ERP159196",
+    "https://identifiers.org/ena.embl:ERP152580"
+  ],
+  "dataFormat": "CSV",
+  "dataSize": "1.5 GB",
+  "dataAccessConditions": "available at the BonaRes Repository",
+  "trialStatus": "finished",
+  "experimentalSetup": {
+    "numberAndSizeOfPlots": "240 plots, each 6 x 12 m",
+    "replication": "4 replicates",
+    "randomization": "strip-split-plot design",
+    "factorial": "two-factorial (tillage and fertilization)"
+  },
+  "objectivesOfLTEDataReuse": {
+    "objective1": "To develop sustainable agricultural strategies and integrated disease management to enhance crop productivity and mitigate environmental stress.",
+    "objective2": "To examine the relationships between soil microbes, plant physiology, and plant gene expression.",
+    "objective3": "To investigate the effects of fertilization, tillage, and crop rotation on soil microbes and plant biochemistry."
+  }
+}
+```
+
+[2025-09-01T11:25:12.954130] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+  "authors": [
+    {
+      "name": "Marie Raab",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Lars Schütz",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), 06366, Germany"
+    },
+    {
+      "name": "Loreen Sommermann",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Doreen Babin",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, 38104, Germany"
+    },
+    {
+      "name": "Ioannis Kampouris",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, 38104, Germany"
+    },
+    {
+      "name": "Davide Francioli",
+      "affiliation": "Hochschule Geisenheim University, Department of Soil Science and Plant Nutrition, Geisenheim, 65366, Germany"
+    },
+    {
+      "name": "Rita Grosch",
+      "affiliation": "Leibniz Institute of Vegetable and Ornamental Crops, Großbeeren, 14979, Teltow-Fläming, Germany"
+    },
+    {
+      "name": "Günter Neumann",
+      "affiliation": "University of Hohenheim, Institute of Crop Science (340h), Stuttgart, 70593, Germany"
+    },
+    {
+      "name": "Annette Deubel",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Joerg Geistlinger",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Korinna Bade",
+      "affiliation": "Otto von Guericke University Magdeburg, Faculty of Computer Science, Magdeburg, 39106, Germany"
+    },
+    {
+      "name": "Wilfried Rozhon",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    }
+  ],
+  "journal": "Scientific Data",
+  "volume": "12",
+  "issue": "986",
+  "pages": "",
+  "doi": "10.1038/s41597-025-05314-z",
+  "publicationDate": "2025",
+  "abstract": "This article presents a comprehensive dataset of long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes. The dataset was generated from a 20-year field trial initiated in 1992 in Bernburg, Central Germany. It focuses on tillage, N-fertilization intensity, and crop rotation by comparing conservation tillage (cultivator) and conventional tillage (plough), managed either intensively or extensively, regarding N-supply and pesticide use.",
+  "keywords": [
+    "long-term experiment",
+    "long-term field trial",
+    "long-term trial",
+    "fertilization",
+    "tillage",
+    "crop rotation",
+    "soil microbes",
+    "soil microbiome",
+    "plant biochemistry",
+    "plant physiology",
+    "root morphology",
+    "plant gene expression"
+  ],
+  "subjectClassifications": [
+    "agriculture",
+    "soil science",
+    "ecology",
+    "microbiology"
+  ],
+  "language": "English",
+  "license": "Creative Commons Attribution 4.0 International License",
+  "openAccess": "true",
+  "fundingAcknowledgments": [
+    "Federal Ministry of Education and Research (BMBF) under the funding codes 16DKWN019 – BioTrain and 031B0514A – E Program BonaRes, Project DiControl"
+  ],
+  "citation": "Raab, M., Schütz, L., Sommermann, L., Babin, D., Kampouris, I., Francioli, D., Grosch, R., Neumann, G., Deubel, A., Geistlinger, J., Bade, K., & Rozhon, W. (2025). Long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes. Scientific Data, 12(986), 1–21.",
+  "datasetMetadata": {
+    "title": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "description": "This dataset contains the experimental results of a long-term agricultural field trial on a yearly basis. The whole dataset was organized into data tables.",
+    "dataCategory": [
+      "experimental data",
+      "field data",
+      "microbial communities",
+      "soil data",
+      "plant data"
+    ],
+    "dataFormat": "CSV",
+    "dataSize": "",
+    "dataAccessConditions": "",
+    "status": "ongoing/finished",
+    "experimentalSetup": {
+      "number": "5",
+      "size": "6 × 12 m each",
+      "replication": "4",
+      "randomization": "yes",
+      "multifactorial": "yes"
+    },
+    "objectives": [
+      "to analyze the effects of tillage and fertilization on soil microbes",
+      "to investigate the relationships between soil microbes and plant biochemistry",
+      "to develop sustainable agricultural strategies and integrated disease management to enhance crop productivity and mitigate environmental stress"
+    ],
+    "geographicCoverage": {
+      "latitude": "51.819",
+      "longitude": "11.702",
+      "altitude": "138.48 m",
+      "WGS84": "true"
+    },
+    "temporalCoverage": "1992/2015-2023",
+    "persistentIdentifiers": [
+      "https://doi.org/10.1038/s41597-025-05314-z",
+      "https://www.ncbi.nlm.nih.gov/sra"
+    ],
+    "dataLicenses": [
+      "Data license Germany - attribution - Version 2.0"
+    ],
+    "dataAvailability": "available at the BonaRes Repository"
+  }
+}
+```
