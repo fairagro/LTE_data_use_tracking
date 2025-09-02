@@ -18,9 +18,9 @@ from .prompts import SYSTEM_PROMPT
 # Initialize FastAPI app
 app = FastAPI()
 
-@app.post("/extract_metadata", response_model=MetadataExtractionResponse)
-async def extract_metadata(request: Request):
-    print("🚀 extract_metadata endpoint called")
+@app.post("/extract_metadata", response_model=MetadataExtractionResponse) # defines a POST endpoint, typically used to submit or create data 
+async def extract_metadata(request: Request): # async function to handle incoming requests (allows for non-blocking I/O operations like database queries or external API calls)
+    #print("🚀 extract_metadata endpoint called") 
     
     body = await request.json()
     article_text = body.get("text")

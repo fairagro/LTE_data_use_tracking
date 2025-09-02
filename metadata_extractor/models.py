@@ -90,10 +90,7 @@ class LTEDataMetadata(StrictBaseModel):
     license: Optional[str]
     supplementary_materials: Optional[str]
 
-class MetadataExtractionResponse(StrictBaseModel):
-    citation: CitationMetadata
-    datasets: List[LTEDataMetadata]
-    reasoning: Optional[str]
+
 
 
 # Metadata models for LTE Overview Map
@@ -185,3 +182,9 @@ class LTEEntry(StrictBaseModel): #Addd schema.org where makes sense
     #literature: Optional[str] # Citation of study at hand, taken form CitationMetadata
     #sources: Optional[str]
     agrovoc_keywords: Optional[str]
+
+
+class MetadataExtractionResponse(StrictBaseModel):
+    citation: CitationMetadata
+    datasets: List[LTEDataMetadata]
+    reasoning: Optional[str]

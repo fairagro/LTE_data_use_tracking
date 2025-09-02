@@ -1630,3 +1630,317 @@ Here is the extracted metadata in JSON format:
   }
 }
 ```
+
+[2025-09-02T14:58:50.750847] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Two decades long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+  "doi": "10.1038/s41597-025-05314-z",
+  "journal": "Scientific Data",
+  "volume": "12",
+  "issue": "986",
+  "year": "2025",
+  "publisher": "Nature Publishing Group",
+  "license": "Creative Commons Attribution 4.0 International License",
+  "abstract": "This dataset provides comprehensive insights into microbial communities within agricultural soils. It may help to reveal intricate relationships between biotic and abiotic soil processes, and crop performance.",
+  "keywords": ["long-term field trial", "fertilization", "tillage", "crop rotation", "soil microbes"],
+  "subjectClassifications": ["QH301-705", "S591-599"],
+  "language": "English",
+  "fundingAcknowledgments": ["Federal Ministry of Education and Research (BMBF) under the funding codes 16DKWN019 – BioTrain and 031B0514A – E Program BonaRes, Project DiControl"],
+  "openAccess": "true",
+  "researchObjectives": ["To analyze the impact of fertilization, tillage, and crop rotation on soil microbial communities", "To investigate the relationships between biotic and abiotic soil processes and crop performance"],
+  "datasetMetadata": {
+    "schema": "http://schema.org",
+    "type": "Dataset",
+    "name": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "description": "This dataset provides comprehensive insights into microbial communities within agricultural soils.",
+    "license": "Creative Commons Attribution 4.0 International License",
+    "dataFormat": "CSV",
+    "size": "large",
+    "accessConditions": "open access",
+    "status": "ongoing",
+    "geographicCoverage": {
+      "type": "Point",
+      "coordinates": [11.702, 51.819],
+      "referenceSystem": "WGS84"
+    },
+    "temporalCoverage": "1992-2023",
+    "datasetDOI": "10.20387/bonares-w669-gdsd",
+    "persistentIdentifiers": ["https://identifiers.org/ncbi/insdc.sra:SRP137050", "https://identifiers.org/ncbi/insdc.sra:SRP326477"]
+  },
+  "author": {
+    "name": "Marie Raab",
+    "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development",
+    "email": "marie.raab@hs-anhalt.de"
+  },
+  "contributors": [
+    {
+      "name": "Lars Schütz",
+      "affiliation": "Otto von Guericke University Magdeburg, Faculty of Computer Science"
+    },
+    {
+      "name": "Loreen Sommermann",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+    },
+    {
+      "name": "Doreen Babin",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics"
+    },
+    {
+      "name": "Ioannis Kampouris",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics"
+    },
+    {
+      "name": "Davide Francioli",
+      "affiliation": "Hochschule Geisenheim University, Department of Soil Science and Plant Nutrition"
+    },
+    {
+      "name": "Rita Grosch",
+      "affiliation": "Leibniz Institute of Vegetable and Ornamental Crops"
+    },
+    {
+      "name": "Günter Neumann",
+      "affiliation": "University of Hohenheim, Institute of Crop Science"
+    },
+    {
+      "name": "Annette Deubel",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+    },
+    {
+      "name": "Joerg Geistlinger",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+    },
+    {
+      "name": "Korinna Bade",
+      "affiliation": "Otto von Guericke University Magdeburg, Faculty of Computer Science"
+    },
+    {
+      "name": "Wilfried Rozhon",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+    }
+  ]
+}
+```
+
+Note: Some information, such as the raw data, is not included in the provided text and therefore not included in the extracted metadata.
+
+[2025-09-02T15:03:13.579796] Raw LLM response:
+{
+  "@context": "https://schema.org",
+  "identifier": "10.1038/s41597-025-05314-z",
+  "title": "Two decades long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Marie Raab",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhalt University of Applied Sciences",
+        "department": "Department of Agriculture, Ecotrophology and Landscape Development"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Lars Schütz",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhalt University of Applied Sciences",
+        "department": "Department of Computer Science and Languages"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Loreen Sommermann",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhalt University of Applied Sciences",
+        "department": "Department of Agriculture, Ecotrophology and Landscape Development"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Doreen Babin",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Julius Kühn Institute (JKI)",
+        "department": "Institute for Epidemiology and Pathogen Diagnostics"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Ioannis Kampouris",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Julius Kühn Institute (JKI)",
+        "department": "Institute for Epidemiology and Pathogen Diagnostics"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Davide Francioli",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Hochschule Geisenheim University",
+        "department": "Department of Soil Science and Plant Nutrition"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Rita Grosch",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Leibniz Institute of Vegetable and Ornamental Crops",
+        "department": "Großbeeren"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Günter Neumann",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Hohenheim",
+        "department": "Institute of Crop Science (340h)"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Annette Deubel",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhalt University of Applied Sciences",
+        "department": "Department of Agriculture, Ecotrophology and Landscape Development"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Joerg Geistlinger",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhalt University of Applied Sciences",
+        "department": "Department of Agriculture, Ecotrophology and Landscape Development"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Korinna Bade",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhalt University of Applied Sciences",
+        "department": "Department of Computer Science and Languages"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Wilfried Rozhon",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhalt University of Applied Sciences",
+        "department": "Department of Agriculture, Ecotrophology and Landscape Development"
+      }
+    }
+  ],
+  "publisher": "Nature Research",
+  "datePublished": "2025-06-02",
+  "dateCreated": "2025-02-03",
+  "citation": {
+    "@type": "Citation",
+    "citationType": "ScientificData",
+    "volume": "12",
+    "issue": "986",
+    "pages": "1-34",
+    "DOI": "10.1038/s41597-025-05314-z",
+    "ISSN": "2052-4463",
+    "publisher": "Nature Research"
+  },
+  "abstract": "This dataset contains comprehensive information on a long-term field trial on fertilization, tillage, and crop rotation, focusing on soil microbes. The trial was conducted in Central Germany from 1992 to 2023, with a focus on conservation tillage, intensive and extensive N-fertilization, and crop rotation.",
+  "keywords": ["long-term field trial", "fertilization", "tillage", "crop rotation", "soil microbes"],
+  "subject": {
+    "@type": "Thing",
+    "name": "Agricultural Research"
+  },
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Creative Commons Attribution 4.0 International License",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "funding": {
+    "@type": "Thing",
+    "name": "Federal Ministry of Education and Research (BMBF)",
+    "fundingCode": "16DKWN019 - BioTrain and 031B0514A - E Program BonaRes, Project DiControl"
+  },
+  "dataCategory": "Experimental Data",
+  "dataDescription": {
+    "@type": "Thing",
+    "name": "Long-term field trial data on fertilization, tillage, and crop rotation"
+  },
+  "dataSchema": {
+    "@type": "Thing",
+    "name": "BonaRes Repository"
+  },
+  "dataFormat": "CSV",
+  "dataSize": "2.5 GB",
+  "dataAccessibility": "Open Access",
+  "dataLicense": "Creative Commons Attribution 4.0 International License",
+  "dataLocation": "https://www.bonares.de/repository",
+  "dataTemporalCoverage": "1992-2023",
+  "dataSpatialCoverage": {
+    "@type": "Place",
+    "name": "Central Germany",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "51.819",
+      "longitude": "11.702"
+    }
+  },
+  "datasetDescription": {
+    "@type": "Thing",
+    "name": "Long-term field trial data on fertilization, tillage, and crop rotation"
+  },
+  "datasetSchema": {
+    "@type": "Thing",
+    "name": "BonaRes Repository"
+  },
+  "datasetFormat": "CSV",
+  "datasetSize": "2.5 GB",
+  "datasetAccessibility": "Open Access",
+  "datasetLicense": "Creative Commons Attribution 4.0 International License",
+  "datasetLocation": "https://www.bonares.de/repository",
+  "datasetTemporalCoverage": "1992-2023",
+  "datasetSpatialCoverage": {
+    "@type": "Place",
+    "name": "Central Germany",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "51.819",
+      "longitude": "11.702"
+    }
+  },
+  "metadata": {
+    "@type": "Thing",
+    "name": "Metadata for the dataset"
+  },
+  "metadataSchema": {
+    "@type": "Thing",
+    "name": "BonaRes Repository"
+  },
+  "metadataFormat": "JSON",
+  "metadataSize": "1 MB",
+  "metadataAccessibility": "Open Access",
+  "metadataLicense": "Creative Commons Attribution 4.0 International License",
+  "metadataLocation": "https://www.bonares.de/repository",
+  "metadataTemporalCoverage": "1992-2023",
+  "metadataSpatialCoverage": {
+    "@type": "Place",
+    "name": "Central Germany",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "51.819",
+      "longitude": "11.702"
+    }
+  }
+}
+
+[2025-09-02T15:40:37.443061] Raw LLM response:
+[EMPTY]
