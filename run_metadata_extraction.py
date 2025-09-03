@@ -33,5 +33,5 @@ def analyze_pdf(pdf_path):
 
 # Example usage
 if __name__ == "__main__":
-    pdf_file_path = "C:\\Users\\Lachmuth\\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\\Dokumente\\FAIRagro\\Use Case 4\\LTE_text_processing\\input\\Westerfeld_documented\\Raab&al_ScientificData_2025_CCBY4-0.pdf" 
+    pdf_file_path = "C:\\Users\\Lachmuth\\OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V\\Dokumente\\FAIRagro\\Use Case 4\\LTE_text_processing\\input\\V140_documented\\Burger_Geoderma_2023_CCBY-NC-ND4-0.pdf" 
     analyze_pdf(pdf_file_path)

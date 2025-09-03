@@ -1,6 +1,3 @@
-#import warnings
-#warnings.filterwarnings("ignore", category=UserWarning)
-
 # Standard library imports
 import os
 from datetime import datetime
@@ -18,23 +15,40 @@ from .prompts import SYSTEM_PROMPT
 # Initialize FastAPI app
 app = FastAPI()
 
-@app.post("/extract_metadata", response_model=MetadataExtractionResponse) # defines a POST endpoint, typically used to submit or create data 
-async def extract_metadata(request: Request): # async function to handle incoming requests (allows for non-blocking I/O operations like database queries or external API calls)
-    #print("🚀 extract_metadata endpoint called") 
-    
+def clean_llm_response(raw_response: str) -> str:
+    """Remove Markdown-style code fencing from LLM response."""
+    if raw_response.startswith("```json"):
+        raw_response = raw_response[len("```json"):].strip()
+    if raw_response.endswith("```"):
+        raw_response = raw_response[:-len("```")].strip()
+    return raw_response
+
+@app.post("/extract_metadata", response_model=MetadataExtractionResponse)
+async def extract_metadata(request: Request):
+    print("🚀 extract_metadata endpoint called")
     body = await request.json()
     article_text = body.get("text")
 
     if not article_text:
         return JSONResponse(status_code=400, content={"error": "Missing 'text' in request body."})
 
-    print("📡 Calling LLM now...")
-    extracted_json = call_llm_with_prompt(SYSTEM_PROMPT, article_text)
+    # Uncomment this to use the real LLM call
+    # extracted_json = call_llm_with_prompt(SYSTEM_PROMPT, article_text)
 
-    
-    #print("🧪 Skipping LLM call — using dummy response")
-    #extracted_json = '{"citation": {"title": "Test", "authors": [], "journal": {"name": "Test Journal"}, "keywords": [], "subject_classifications": []}, "datasets": [], "reasoning": "Test reasoning"}'
-
+    print("🧪 Skipping LLM call — using dummy response")
+    extracted_json = '''```json
+{
+  "citation": {
+    "title": "Test",
+    "authors": [],
+    "journal": { "name": "Test Journal" },
+    "keywords": [],
+    "subject_classifications": []
+  },
+  "datasets": [],
+  "reasoning": "Test reasoning"
+}
+```'''
 
     if not extracted_json:
         print("⚠️ LLM returned no content.")
@@ -45,18 +59,18 @@ async def extract_metadata(request: Request): # async function to handle incomin
     with open("llm_debug_log.txt", "a", encoding="utf-8") as log:
         log.write(f"\n[{datetime.now().isoformat()}] Raw LLM response:\n{extracted_json or '[EMPTY]'}\n")
 
-
     if not extracted_json or extracted_json.strip() == "":
         return JSONResponse(status_code=500, content={"error": "LLM returned empty response."})
 
     try:
-        parsed_json = loads(extracted_json)
+        cleaned_json = clean_llm_response(extracted_json)
+        parsed_json = loads(cleaned_json)
     except JSONDecodeError as e:
         return JSONResponse(status_code=500, content={"error": f"Failed to parse JSON: {str(e)}"})
 
-    # Save the extracted_json to a file 
+    # Save the cleaned JSON to a file
     filename = f"llm_response_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(extracted_json)
+        f.write(cleaned_json)
 
     return parsed_json

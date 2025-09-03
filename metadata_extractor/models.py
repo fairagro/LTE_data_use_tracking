@@ -17,15 +17,18 @@ class StrictBaseModel(PydanticBaseModel):
 
 # Publication metadata models
 class Author(StrictBaseModel):
+    """Author of the scientific publication information is extracted from, Schema.org Person object"""
     name: str
     affiliation: Optional[str]
 
 class Journal(StrictBaseModel):
+    """Journal information of the scientific publication information is extracted from, Schema.org Periodical object"""
     name: str
     issn: Optional[str]
     publisher: Optional[str]
 
 class CitationMetadata(StrictBaseModel):
+    """Metadata about the scientific publication the information is extracted from, Schema.org ScholarlyArticle object"""
     title: str
     authors: List[Author]
     journal: Journal
@@ -47,50 +50,6 @@ class CitationMetadata(StrictBaseModel):
     formatted_citation: Optional[str]
 
 
-# LTE dataset metadata models
-class GeoCoverage(StrictBaseModel):
-    lat1: float
-    lon1: float
-    lat2: Optional[float]
-    lon2: Optional[float]
-
-class GeoShape(StrictBaseModel):
-    """Geographic shape following GeoJSON-style bounding box"""
-    type: str = Field(default="GeoShape", description="Schema.org type")
-    box: str = Field(description="Bounding box coordinates as 'lat1 lon1 lat2 lon2'")
-
-class Variable(StrictBaseModel):
-    name: str
-    description: str
-    unit: Optional[str]
-    vocabulary: Optional[str] = "AGROVOC"
-    
-class DataDistribution(StrictBaseModel):
-    """Schema.org DataDownload object"""
-    type: str = Field(default="DataDownload", alias="@type")
-    contentUrl: HttpUrl
-    encodingFormat: Optional[str] = "text/csv"
-
-
-class LTEDataMetadata(StrictBaseModel):
-    name: str
-    description: Optional[str]
-    geographic_coverage: Optional[GeoCoverage]
-    bounding_box: Optional[GeoShape]
-    temporal_coverage: Optional[str]
-    variables: List[Variable]
-    dataset_doi: Optional[str]
-    format: Optional[str]
-    size: Optional[str]
-    access_conditions: Optional[str]
-    trial_status: Optional[str]
-    experimental_setup: Optional[str]
-    research_objectives: Optional[str]
-    distribution: Optional[DataDistribution]
-    license: Optional[str]
-    supplementary_materials: Optional[str]
-
-
 
 
 # Metadata models for LTE Overview Map
@@ -98,12 +57,14 @@ from pydantic import BaseModel, Field, HttpUrl, EmailStr
 from typing import Optional, List
 
 class TrialDesign(StrictBaseModel):
+    """Detailed information about the experimental design of the LTE."""
     randomization: Optional[bool]
     replication: Optional[int]
     number_plots: Optional[int]
     size_plots: Optional[float]
 
 class SoilInfo(StrictBaseModel):
+    """Detailed information about the soil at the LTE site."""
     soil_group_wrb: Optional[str]
     soil_type_other: Optional[str]
     parental_material: Optional[str]
@@ -116,11 +77,13 @@ class SoilInfo(StrictBaseModel):
     further_soil_info: Optional[str]
 
 class ContactInfo(StrictBaseModel):
+    """Contact information for the LTE dataset or experiment."""
     contact_name: Optional[str]
     contact_email: Optional[EmailStr]
     doi: Optional[str]
 
 class TrialTypes(StrictBaseModel): 
+    """Types of trials conducted in the LTE."""
     tillage_trial: Optional[bool] # yes/no
     fertilization_trial: Optional[bool] # yes/no
     crop_rotation_trial: Optional[bool] # yes/no
@@ -132,18 +95,31 @@ class TrialTypes(StrictBaseModel):
 
 
 class AGROVOCConcept(StrictBaseModel):
+    """AGROVOC concept for crop species, following Schema.org DefinedTerm object"""
+    type: str = Field(default="DefinedTerm", alias="@type")
+    inDefinedTermSet: str = Field(default="https://www.fao.org/agrovoc/en/", alias="inDefinedTermSet")
     label: str
     uri: Optional[str]
 
 class CropSpecies(StrictBaseModel):
+    """Crop species grown in the LTE, represented as AGROVOC concept."""
+    type: str = Field(default="CropSpecies", alias="@type")
     name: AGROVOCConcept
     schema_org_type: Optional[str] = "Plant"
 
+class Variable(StrictBaseModel):
+    """Variables or research parameters measured in the LTE experiment, following Schema.org PropertyValue object"""
+    type: str = Field(default="PropertyValue", alias="@type")
+    name: str
+    description: str
+    unit: Optional[str]
+    vocabulary: Optional[str] = "AGROVOC"
 
-class LTEEntry(StrictBaseModel): #Addd schema.org where makes sense
-    id: Optional[int] # make obligatory later
-    index: Optional[int]
-    name: Optional[str] # make obligatory later
+class LTEEntry(StrictBaseModel): 
+    """Metadata model for the LTE overview map, containing detailed information about the LTE itself, not necessarily reported in the publication text. If not reported in the text, the attribute should be set to null."""
+    #id: Optional[int] #
+    #index: Optional[int]
+    name: Optional[str] # 
     site: Optional[str] 
     country: Optional[str]
     start_date: Optional[int]
@@ -155,10 +131,10 @@ class LTEEntry(StrictBaseModel): #Addd schema.org where makes sense
     research_theme: Optional[str] # free text
     trial_types: TrialTypes
     trial_category: Optional[str]
-    holder_category: Optional[str]
+    #holder_category: Optional[str]
     website: Optional[HttpUrl]
     #networks: Optional[List[str]]
-    research_parameters: Optional[str] #  with units if applicable
+    research_parameters: List[Variable] #  with units if applicable
     farming_category: Optional[str] 
     #position_exactness: Optional[str]
     size_hectares: Optional[float]
@@ -180,11 +156,12 @@ class LTEEntry(StrictBaseModel): #Addd schema.org where makes sense
     soil_info: SoilInfo
     miscellaneous: Optional[str]
     #literature: Optional[str] # Citation of study at hand, taken form CitationMetadata
-    #sources: Optional[str]
-    agrovoc_keywords: Optional[str]
+    sources: ContactInfo
+    #agrovoc_keywords: Optional[str]
 
 
 class MetadataExtractionResponse(StrictBaseModel):
     citation: CitationMetadata
-    datasets: List[LTEDataMetadata]
-    reasoning: Optional[str]
+    #LTE_metadata: LTEDataMetadata
+    LTE_metadata_OverviewMap: LTEEntry 
+    #reasoning: Optional[str]

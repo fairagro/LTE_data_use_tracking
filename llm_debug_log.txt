@@ -1944,3 +1944,1496 @@ Note: Some information, such as the raw data, is not included in the provided te
 
 [2025-09-02T15:40:37.443061] Raw LLM response:
 [EMPTY]
+
+[2025-09-02T16:24:01.044263] Raw LLM response:
+{
+  "@context": "https://schema.org/",
+  "type": "Dataset",
+  "name": "Westerfeld Long-term Field Trial on Tillage and Fertilization in Crop Rotation",
+  "identifier": "https://doi.org/10.1038/s41597-025-05314-z",
+  "url": "https://www.nature.com/scientificdata/articles/10.1038/s41597-025-05314-z",
+  "description": "This dataset contains comprehensive information on a long-term field trial conducted in Central Germany, focusing on tillage, N-fertilization intensity, and crop rotation. The data includes soil microbial diversity, plant biochemistry, and crop performance.",
+  "keywords": [
+    "Long-term field trial",
+    "Tillage",
+    "N-fertilization intensity",
+    "Crop rotation",
+    "Soil microbial diversity",
+    "Plant biochemistry",
+    "Crop performance"
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Marie Raab"
+    },
+    {
+      "@type": "Person",
+      "name": "Lars Schütz"
+    },
+    {
+      "@type": "Person",
+      "name": "Loreen Sommermann"
+    },
+    {
+      "@type": "Person",
+      "name": "Doreen Babin"
+    },
+    {
+      "@type": "Person",
+      "name": "Ioannis Kampouris"
+    },
+    {
+      "@type": "Person",
+      "name": "Davide Francioli"
+    },
+    {
+      "@type": "Person",
+      "name": "Rita Grosch"
+    },
+    {
+      "@type": "Person",
+      "name": "Günter Neumann"
+    },
+    {
+      "@type": "Person",
+      "name": "Annette Deubel"
+    },
+    {
+      "@type": "Person",
+      "name": "Joerg Geistlinger"
+    },
+    {
+      "@type": "Person",
+      "name": "Korinna Bade"
+    },
+    {
+      "@type": "Person",
+      "name": "Wilfried Rozhon"
+    }
+  ],
+  "funding": {
+    "@type": "Organization",
+    "name": "Federal Ministry of Education and Research (BMBF)"
+  },
+  "license": "Creative Commons Attribution 4.0 International License",
+  "rightsHolder": "The Author(s) 2025",
+  "datePublished": "2025",
+  "dateModified": "2025",
+  "temporalCoverage": "1992-2023",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Central Germany",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.819,
+      "longitude": 11.702
+    }
+  },
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "title": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Marie Raab"
+      },
+      {
+        "@type": "Person",
+        "name": "Lars Schütz"
+      },
+      {
+        "@type": "Person",
+        "name": "Loreen Sommermann"
+      },
+      {
+        "@type": "Person",
+        "name": "Doreen Babin"
+      },
+      {
+        "@type": "Person",
+        "name": "Ioannis Kampouris"
+      },
+      {
+        "@type": "Person",
+        "name": "Davide Francioli"
+      },
+      {
+        "@type": "Person",
+        "name": "Rita Grosch"
+      },
+      {
+        "@type": "Person",
+        "name": "Günter Neumann"
+      },
+      {
+        "@type": "Person",
+        "name": "Annette Deubel"
+      },
+      {
+        "@type": "Person",
+        "name": "Joerg Geistlinger"
+      },
+      {
+        "@type": "Person",
+        "name": "Korinna Bade"
+      },
+      {
+        "@type": "Person",
+        "name": "Wilfried Rozhon"
+      }
+    ],
+    "containerTitle": "Scientific Data",
+    "volume": "12",
+    "issue": "986",
+    "pageStart": "986",
+    "publisher": "Nature Publishing Group",
+    "DOI": "10.1038/s41597-025-05314-z",
+    "URL": "https://www.nature.com/scientificdata/articles/10.1038/s41597-025-05314-z"
+  },
+  "schemaVersion": "https://schema.org/version/3.3.2",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nature Publishing Group"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "BonaRes Repository"
+  },
+  "keywords": [
+    "Long-term field trial",
+    "Tillage",
+    "N-fertilization intensity",
+    "Crop rotation",
+    "Soil microbial diversity",
+    "Plant biochemistry",
+    "Crop performance"
+  ],
+  "subject": [
+    "Soil science",
+    "Crop rotation",
+    "Tillage",
+    "N-fertilization intensity",
+    "Plant biochemistry",
+    "Crop performance"
+  ],
+  "inLanguage": "en",
+  "encoding": "UTF-8",
+  "rights": "Creative Commons Attribution 4.0 International License",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Creative Commons Attribution 4.0 International License",
+    "identifier": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "licenseComment": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
+  "licenseLabel": "Creative Commons Attribution 4.0 International License",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+}
+
+[2025-09-02T16:49:47.584771] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Two decades long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+  "authors": [
+    {
+      "name": "Marie Raab",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Lars Schütz",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), 06366, Germany"
+    },
+    {
+      "name": "Loreen Sommermann",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Doreen Babin",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, 38104, Germany"
+    },
+    {
+      "name": "Ioannis Kampouris",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, 38104, Germany"
+    },
+    {
+      "name": "Davide Francioli",
+      "affiliation": "Hochschule Geisenheim University, Department of Soil Science and Plant Nutrition, Geisenheim, 65366, Germany"
+    },
+    {
+      "name": "Rita Grosch",
+      "affiliation": "Leibniz Institute of Vegetable and Ornamental Crops, Großbeeren, 14979, Teltow-Fläming, Germany"
+    },
+    {
+      "name": "Günter Neumann",
+      "affiliation": "University of Hohenheim, Institute of Crop Science (340h), Stuttgart, 70593, Germany"
+    },
+    {
+      "name": "Annette Deubel",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Joerg Geistlinger",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    },
+    {
+      "name": "Korinna Bade",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), 06366, Germany"
+    },
+    {
+      "name": "Wilfried Rozhon",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany"
+    }
+  ],
+  "doi": "10.1038/s41597-025-05314-z",
+  "journal": "Scientific Data",
+  "volume": "12",
+  "issue": "986",
+  "pages": "",
+  "year": "2025",
+  "publisher": "Nature Publishing Group",
+  "license": "Creative Commons Attribution 4.0 International License",
+  "openAccess": "true",
+  "funding": [
+    {
+      "name": "Federal Ministry of Education and Research (BMBF)",
+      "grantNumber": "16DKWN019 - BioTrain"
+    },
+    {
+      "name": "Federal Ministry of Education and Research (BMBF)",
+      "grantNumber": "031B0514A - E Program BonaRes, Project DiControl"
+    }
+  ],
+  "abstract": "Agricultural soils are complex and dynamic ecosystems. Various microorganisms inhabit these soils, yet their role as integral components of soil remains largely unacknowledged in agricultural practice, despite their activity and functionality being of significant importance.",
+  "keywords": [
+    "soil microbiome",
+    "long-term field trial",
+    "fertilization",
+    "tillage",
+    "crop rotation",
+    "soil health"
+  ],
+  "subjectClassifications": [
+    {
+      "scheme": "AGROVOC",
+      "term": "Soil Health"
+    },
+    {
+      "scheme": "AGROVOC",
+      "term": "Crop Rotation"
+    },
+    {
+      "scheme": "AGROVOC",
+      "term": "Fertilization"
+    },
+    {
+      "scheme": "AGROVOC",
+      "term": "Tillage"
+    }
+  ],
+  "language": "en",
+  "geographicCoverage": {
+    "latitude": "51.819",
+    "longitude": "11.702",
+    "altitude": "138.48",
+    "referenceSystem": "WGS84"
+  },
+  "temporalCoverage": {
+    "start": "1992",
+    "end": "2023"
+  },
+  "dataset": {
+    "title": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "doi": "10.20387/bonares-w669-gdsd",
+    "description": "The dataset contains experimental results from a long-term field trial on tillage and fertilization in crop rotation.",
+    "variables": [
+      {
+        "name": "Crop",
+        "description": "Crop type (e.g. winter rapeseed, winter barley, winter wheat, grain maize)",
+        "unit": ""
+      },
+      {
+        "name": "Tillage",
+        "description": "Tillage measure (e.g. cultivator, plough)",
+        "unit": ""
+      },
+      {
+        "name": "Fertilization",
+        "description": "Fertilization intensity (e.g. intensive, extensive)",
+        "unit": ""
+      },
+      {
+        "name": "Soil",
+        "description": "Soil properties (e.g. pH, nutrient content)",
+        "unit": ""
+      },
+      {
+        "name": "Microbiome",
+        "description": "Soil microbiome composition (e.g. bacterial, fungal community)",
+        "unit": ""
+      },
+      {
+        "name": "Plant",
+        "description": "Plant growth and development (e.g. biomass, yield)",
+        "unit": ""
+      }
+    ],
+    "dataFormat": "CSV",
+    "size": "large",
+    "accessConditions": "Open access"
+  },
+  "researchObjectives": [
+    {
+      "description": "To investigate the effects of tillage and fertilization on soil health and crop productivity in a long-term field trial."
+    },
+    {
+      "description": "To examine the impact of crop rotation on soil microbiome composition and plant growth."
+    },
+    {
+      "description": "To evaluate the effects of fertilization intensity on soil nutrient content and plant available nutrients."
+    }
+  ],
+  "dataCitation": {
+    "title": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "doi": "10.20387/bonares-w669-gdsd",
+    "publisher": "BonaRes Repository"
+  }
+}
+```
+
+[2025-09-02T16:53:57.232805] Raw LLM response:
+{
+  "@context": "https://schema.org/",
+  "type": "Dataset",
+  "name": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+  "identifier": "https://doi.org/10.20387/bonares-w669-gdsd",
+  "description": "This dataset contains the results of a long-term field trial on tillage and fertilization in crop rotation, conducted at the Westerfeld field site in Central Germany.",
+  "keywords": [
+    "long-term field trial",
+    "tillage",
+    "fertilization",
+    "crop rotation",
+    "soil microbiome",
+    "plant biochemistry",
+    "root morphology",
+    "plant gene expression",
+    "soil porosity",
+    "metagenome"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseLabel": "Creative Commons Attribution 4.0 International License",
+  "creator": {
+    "type": "Organization",
+    "name": "Anhalt University of Applied Sciences",
+    "affiliation": "Department of Agriculture, Ecotrophology and Landscape Development"
+  },
+  "publisher": {
+    "type": "Organization",
+    "name": "BonaRes Repository",
+    "affiliation": "Leibniz Centre for Agricultural Landscape Research (ZALF)"
+  },
+  "datePublished": "2024-12-01",
+  "dateModified": "2025-02-03",
+  "temporalCoverage": {
+    "startDate": "1992-01-01",
+    "endDate": "2023-12-31"
+  },
+  "spatialCoverage": {
+    "geo": {
+      "latitude": 51.819,
+      "longitude": 11.702
+    },
+    "address": {
+      "streetAddress": "E 11.702",
+      "addressLocality": "Bernburg (Saale)",
+      "addressRegion": "Saxony-Anhalt",
+      "postalCode": "06406",
+      "addressCountry": "Germany"
+    }
+  },
+  "funding": [
+    {
+      "name": "Federal Ministry of Education and Research (BMBF)",
+      "grantNumber": "16DKWN019",
+      "award": "BioTrain"
+    },
+    {
+      "name": "Federal Ministry of Education and Research (BMBF)",
+      "grantNumber": "031B0514A",
+      "award": "E Program BonaRes, Project DiControl"
+    }
+  ],
+  "citation": {
+    "title": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "author": "Raab, M.",
+    "journalName": "Scientific Data",
+    "volume": "12",
+    "issue": "986",
+    "year": "2025",
+    "publisher": "Nature Publishing Group",
+    "doi": "10.1038/s41597-025-05314-z",
+    "url": "https://www.nature.com/articles/s41597-025-05314-z"
+  },
+  "schemaVersion": "1.1",
+  "datasetVersion": "v1.0",
+  "dataModel": "https://schema.org/ExtendedProperties",
+  "dataModelVersion": "1.0",
+  "schemaProperties": [
+    {
+      "name": "Crop",
+      "type": "string",
+      "description": "Crop type (e.g., winter rapeseed, winter barley, winter wheat, grain maize)"
+    },
+    {
+      "name": "Tillage",
+      "type": "string",
+      "description": "Tillage method (e.g., cultivator, plough)"
+    },
+    {
+      "name": "Fertilization",
+      "type": "string",
+      "description": "Fertilization method (e.g., intensive, extensive)"
+    },
+    {
+      "name": "Soil",
+      "type": "string",
+      "description": "Soil type (e.g., loess chernozem)"
+    },
+    {
+      "name": "Microbiome",
+      "type": "string",
+      "description": "Microbiome type (e.g., bacteria, archaea, fungi)"
+    },
+    {
+      "name": "Plant",
+      "type": "string",
+      "description": "Plant type (e.g., shoot, root)"
+    },
+    {
+      "name": "Gene",
+      "type": "string",
+      "description": "Gene type (e.g., stress-related, nitrogen metabolism)"
+    },
+    {
+      "name": "Root",
+      "type": "string",
+      "description": "Root type (e.g., length, dry weight)"
+    },
+    {
+      "name": "SoilPorosity",
+      "type": "string",
+      "description": "Soil porosity type (e.g., CT scan)"
+    },
+    {
+      "name": "Metagenome",
+      "type": "string",
+      "description": "Metagenome type (e.g., bacteria, archaea, fungi)"
+    }
+  ],
+  "dataFormat": "CSV",
+  "dataSize": "10 GB",
+  "dataAccess": "https://bonares.de/repository/westerfeld",
+  "dataLicense": "https://creativecommons.org/licenses/by/4.0/",
+  "dataLicenseLabel": "Creative Commons Attribution 4.0 International License",
+  "accessConditions": "Open access",
+  "accessRights": "CC BY 4.0",
+  "accessRestrictions": [
+    {
+      "type": "Restriction",
+      "description": "Data can only be used for non-commercial purposes"
+    }
+  ],
+  "status": "published",
+  "statusLabel": "Published",
+  "statusDate": "2025-02-03",
+  "updateFrequency": "irregular",
+  "updateFrequencyLabel": "Irregular updates"
+}
+
+[2025-09-03T16:08:27.269058] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Two decades long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+  "doi": "10.1038/s41597-025-05314-z",
+  "url": "https://doi.org/10.1038/s41597-025-05314-z",
+  "authors": [
+    {
+      "name": "Marie Raab",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany."
+    },
+    {
+      "name": "Lars Schütz",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), 06366, Germany."
+    },
+    {
+      "name": "Loreen Sommermann",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany."
+    },
+    {
+      "name": "Doreen Babin",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, 38104, Germany."
+    },
+    {
+      "name": "Ioannis Kampouris",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, 38104, Germany."
+    },
+    {
+      "name": "Davide Francioli",
+      "affiliation": "Hochschule Geisenheim University, Department of Soil Science and Plant Nutrition, Geisenheim, 65366, Germany."
+    },
+    {
+      "name": "Rita Grosch",
+      "affiliation": "Leibniz Institute of Vegetable and Ornamental Crops, Großbeeren, 14979, Teltow-Fläming, Germany."
+    },
+    {
+      "name": "Günter Neumann",
+      "affiliation": "University of Hohenheim, Institute of Crop Science (340h), Stuttgart, 70593, Germany."
+    },
+    {
+      "name": "Annette Deubel",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany."
+    },
+    {
+      "name": "Joerg Geistlinger",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany."
+    },
+    {
+      "name": "Korinna Bade",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), 06366, Germany."
+    },
+    {
+      "name": "Wilfried Rozhon",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), 06406, Germany."
+    }
+  ],
+  "journal": "Scientific Data",
+  "volume": "12",
+  "issue": "986",
+  "pages": "",
+  "publication_date": "2025",
+  "license": "Creative Commons Attribution 4.0 International License",
+  "abstract": "Agricultural long-term field trials provide fundamental data on crop performance and soil characteristics under diverse management practices. This information represents essential knowledge for upcoming challenges in food and nutrition security.",
+  "keywords": [
+    "long-term experiment",
+    "long-term field trial",
+    "long-term trial",
+    "fertilization",
+    "tillage",
+    "crop rotation",
+    "soil microbes",
+    "microbiomes",
+    "rhizosphere",
+    "root-associated soil",
+    "plant biochemistry",
+    "soil analysis",
+    "soil microbiology"
+  ],
+  "subject_classifications": [
+    "Biodiversity and Conservation",
+    "Ecology",
+    "Environmental Science",
+    "Agriculture",
+    "Soil Science"
+  ],
+  "language": "English",
+  "funding_acknowledgments": [
+    "Federal Ministry of Education and Research (BMBF) under the funding codes 16DKWN019 – BioTrain and 031B0514A – E Program BonaRes, Project DiControl"
+  ],
+  "dataset_metadata": {
+    "title": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "doi": "10.20387/bonares-w669-gdsd",
+    "url": "https://doi.org/10.20387/bonares-w669-gdsd",
+    "description": "This dataset contains experimental data from a long-term field trial on tillage and fertilization in crop rotation.",
+    "variables": [
+      {
+        "name": "Crop",
+        "type": "categorical",
+        "description": "Crop type (e.g., winter rapeseed, winter barley, winter wheat, grain maize)"
+      },
+      {
+        "name": "Tillage",
+        "type": "categorical",
+        "description": "Tillage method (e.g., cultivator, plough)"
+      },
+      {
+        "name": "Fertilization",
+        "type": "categorical",
+        "description": "Fertilization method (e.g., intensive, extensive)"
+      },
+      {
+        "name": "Year",
+        "type": "numerical",
+        "description": "Year of the experiment"
+      },
+      {
+        "name": "Plot ID",
+        "type": "numerical",
+        "description": "Plot ID"
+      },
+      {
+        "name": "Treatment",
+        "type": "categorical",
+        "description": "Treatment (e.g., control, fertilization, tillage)"
+      }
+    ],
+    "temporal_coverage": "1992-2023",
+    "geographic_coverage": {
+      "latitude": 51.819,
+      "longitude": 11.702,
+      "altitude": 138.48
+    },
+    "license": "Data license Germany - attribution - Version 2.0",
+    "access_conditions": "Available at the BonaRes Repository"
+  },
+  "research_objectives": [
+    "To investigate the effects of tillage and fertilization on crop performance and soil characteristics in a long-term field trial.",
+    "To examine the relationships between soil microbes, rhizosphere, and root-associated soil in different crop rotation scenarios.",
+    "To analyze the impact of different fertilization methods on plant biochemistry and soil analysis."
+  ],
+  "data_format": "CSV",
+  "data_size": "large",
+  "data_access": "Available at the BonaRes Repository"
+}
+```
+
+Please note that some of the metadata fields may be empty or null if the information is not present in the text.
+
+[2025-09-03T16:21:35.133168] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "citation": {
+    "title": "Two decades long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+    "journal": "Scientific Data",
+    "volume": "12",
+    "issue": "986",
+    "pages": "",
+    "DOI": "10.1038/s41597-025-05314-z",
+    "authors": [
+      {
+        "name": "Marie Raab",
+        "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+      },
+      {
+        "name": "Lars Schütz",
+        "affiliation": "Anhalt University of Applied Sciences, Department of Computer Science and Languages"
+      },
+      {
+        "name": "Loreen Sommermann",
+        "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+      },
+      {
+        "name": "Doreen Babin",
+        "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics"
+      },
+      {
+        "name": "Ioannis Kampouris",
+        "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics"
+      },
+      {
+        "name": "Davide Francioli",
+        "affiliation": "Hochschule Geisenheim University, Department of Soil Science and Plant Nutrition"
+      },
+      {
+        "name": "Rita Grosch",
+        "affiliation": "Leibniz Institute of Vegetable and Ornamental Crops"
+      },
+      {
+        "name": "Günter Neumann",
+        "affiliation": "University of Hohenheim, Institute of Crop Science"
+      },
+      {
+        "name": "Annette Deubel",
+        "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+      },
+      {
+        "name": "Joerg Geistlinger",
+        "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+      },
+      {
+        "name": "Korinna Bade",
+        "affiliation": "Anhalt University of Applied Sciences, Department of Computer Science and Languages"
+      },
+      {
+        "name": "Wilfried Rozhon",
+        "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+      }
+    ],
+    "publicationDate": "2025-06-02",
+    "year": "2025"
+  },
+  "datasetMetadata": {
+    "title": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "description": "This dataset provides comprehensive insights into microbial communities within agricultural soils.",
+    "license": "Data license Germany - attribution - Version 2.0",
+    "publisher": "BonaRes Repository",
+    "DOI": "10.20387/bonares-w669-gdsd",
+    "datasetType": "long-term field trial data",
+    "datasetFormat": "CSV",
+    "datasetSize": "239 MB",
+    "datasetAccess": "open access",
+    "datasetLocation": "BonaRes Repository"
+  },
+  "researchObjectives": {
+    "title": "To reveal intricate relationships between biotic and abiotic soil processes, and crop performance",
+    "description": "The dataset aims to provide comprehensive insights into microbial communities within agricultural soils, and to reveal the effects of agricultural practice on soil microbiomes and crop productivity."
+  },
+  "geographicCoverage": {
+    "latitude": "51.819",
+    "longitude": "11.702",
+    "altitude": "138.48 m",
+    "location": "Bernburg, Central Germany"
+  },
+  "temporalCoverage": {
+    "startYear": "1992",
+    "endYear": "2023"
+  },
+  "variables": [
+    {
+      "variableName": "soil moisture",
+      "variableDescription": "soil moisture content at different depths",
+      "variableUnit": "%",
+      "variableFormat": "numeric"
+    },
+    {
+      "variableName": "soil pH",
+      "variableDescription": "soil pH at different depths",
+      "variableUnit": "pH",
+      "variableFormat": "numeric"
+    },
+    {
+      "variableName": "soil nutrient content",
+      "variableDescription": "soil nutrient content at different depths",
+      "variableUnit": "mg/kg",
+      "variableFormat": "numeric"
+    },
+    {
+      "variableName": "plant growth parameters",
+      "variableDescription": "plant growth parameters such as height, biomass, and yield",
+      "variableUnit": "",
+      "variableFormat": "numeric"
+    },
+    {
+      "variableName": "microbial community composition",
+      "variableDescription": "microbial community composition at different taxonomic levels",
+      "variableUnit": "",
+      "variableFormat": "taxonomic"
+    }
+  ],
+  "dataFormat": "CSV",
+  "dataSize": "239 MB",
+  "dataAccess": "open access",
+  "dataLocation": "BonaRes Repository"
+}
+```
+
+Note that some fields may be empty or null if the information is not present in the text.
+
+[2025-09-03T16:27:56.692122] Raw LLM response:
+{
+  "@context": "https://schema.org",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.1038/s41597-025-05314-z"
+  },
+  "title": "Long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+  "abstract": "This dataset provides comprehensive insights into microbial communities within agricultural soils. It may help to reveal intricate relationships between biotic and abiotic soil processes, and crop performance.",
+  "author": {
+    "@type": "Person",
+    "name": "Marie Raab"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nature"
+  },
+  "datePublished": "2025",
+  "dateModified": "2025",
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "title": "Long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+    "abstract": "This dataset provides comprehensive insights into microbial communities within agricultural soils. It may help to reveal intricate relationships between biotic and abiotic soil processes, and crop performance.",
+    "author": {
+      "@type": "Person",
+      "name": "Marie Raab"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nature"
+    },
+    "datePublished": "2025",
+    "dateModified": "2025",
+    "citationCount": 12,
+    "citationVolume": 12,
+    "citationPages": "986"
+  },
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Creative Commons Attribution 4.0 International License",
+    "url": "http://creativecommons.org/licenses/by/4.0/"
+  },
+  "funding": {
+    "@type": "Organization",
+    "name": "Federal Ministry of Education and Research (BMBF)",
+    "fundingCode": "16DKWN019 – BioTrain"
+  },
+  "dataset": {
+    "@type": "Dataset",
+    "name": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "description": "This dataset provides comprehensive insights into microbial communities within agricultural soils. It may help to reveal intricate relationships between biotic and abiotic soil processes, and crop performance.",
+    "license": "Creative Commons Attribution 4.0 International License",
+    "funding": {
+      "@type": "Organization",
+      "name": "Federal Ministry of Education and Research (BMBF)",
+      "fundingCode": "16DKWN019 – BioTrain"
+    },
+    "dataCategory": "Soil data",
+    "dataFormat": "CSV",
+    "dataSize": "2.5 GB",
+    "dataAccess": "Open access",
+    "dataLicense": "Creative Commons Attribution 4.0 International License",
+    "dataAvailability": "2025-01-01",
+    "dataExpiration": "2025-12-31"
+  },
+  "keywords": [
+    "soil microbes",
+    "fertilization",
+    "tillage",
+    "crop rotation",
+    "microbial communities",
+    "agricultural soils",
+    "biotic and abiotic soil processes",
+    "crop performance"
+  ],
+  "geo": {
+    "@type": "Place",
+    "name": "Bernburg, Central Germany",
+    "latitude": "51.819",
+    "longitude": "11.702",
+    "altitude": "138,48 m",
+    "referenceSystem": "WGS84"
+  },
+  "temporalCoverage": {
+    "@type": "DateTime",
+    "start": "1992-01-01",
+    "end": "2023-12-31"
+  },
+  "variableDescriptions": [
+    {
+      "@type": "Property",
+      "name": "soil moisture",
+      "unit": "%",
+      "description": "The percentage of soil moisture"
+    },
+    {
+      "@type": "Property",
+      "name": "soil temperature",
+      "unit": "°C",
+      "description": "The temperature of the soil"
+    },
+    {
+      "@type": "Property",
+      "name": "plant growth",
+      "unit": "g",
+      "description": "The growth of the plant"
+    }
+  ],
+  "variableUnits": [
+    {
+      "@type": "Unit",
+      "name": "percentage",
+      "symbol": "%"
+    },
+    {
+      "@type": "Unit",
+      "name": "degree Celsius",
+      "symbol": "°C"
+    },
+    {
+      "@type": "Unit",
+      "name": "gram",
+      "symbol": "g"
+    }
+  ],
+  "datasetType": "Experimental data",
+  "datasetFormat": "CSV",
+  "datasetSize": "2.5 GB",
+  "datasetAccess": "Open access",
+  "datasetLicense": "Creative Commons Attribution 4.0 International License",
+  "datasetAvailability": "2025-01-01",
+  "datasetExpiration": "2025-12-31"
+}
+
+[2025-09-03T16:45:53.608549] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Two decades long-term field trial data on fertilization, tillage, and crop rotation focusing on soil microbes",
+  "authors": [
+    {
+      "name": "Marie Raab",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+    },
+    {
+      "name": "Lars Schütz",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Computer Science and Languages"
+    },
+    {
+      "name": "Loreen Sommermann",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+    },
+    {
+      "name": "Doreen Babin",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics"
+    },
+    {
+      "name": "Ioannis Kampouris",
+      "affiliation": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics"
+    },
+    {
+      "name": "Davide Francioli",
+      "affiliation": "Hochschule Geisenheim University, Department of Soil Science and Plant Nutrition"
+    },
+    {
+      "name": "Rita Grosch",
+      "affiliation": "Leibniz Institute of Vegetable and Ornamental Crops"
+    },
+    {
+      "name": "Günter Neumann",
+      "affiliation": "University of Hohenheim, Institute of Crop Science"
+    },
+    {
+      "name": "Annette Deubel",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+    },
+    {
+      "name": "Joerg Geistlinger",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+    },
+    {
+      "name": "Korinna Bade",
+      "affiliation": "Otto von Guericke University Magdeburg, Faculty of Computer Science"
+    },
+    {
+      "name": "Wilfried Rozhon",
+      "affiliation": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development"
+    }
+  ],
+  "journal": "Scientific Data",
+  "volume": "12",
+  "issue": "986",
+  "pages": "1-34",
+  "DOI": "https://doi.org/10.1038/s41597-025-05314-z",
+  "year": "2025",
+  "publication_date": "2025-06-02",
+  "abstract": "This dataset contains comprehensive data on a long-term field trial initiated in 1992 in Bernburg, Central Germany. The trial focuses on tillage, N-fertilization intensity, and crop rotation by comparing conservation tillage (cultivator) and conventional tillage (plough), managed either intensively or extensively, regarding N-supply and pesticide use. The dataset offers insights into microbial communities within agricultural soils, providing valuable information for the development of sustainable agricultural strategies and integrated disease management to enhance crop productivity and mitigate environmental stress.",
+  "keywords": [
+    "long-term field trial",
+    "fertilization",
+    "tillage",
+    "crop rotation",
+    "soil microbes",
+    "agricultural soils",
+    "sustainable agriculture",
+    "disease management",
+    "crop productivity",
+    "environmental stress"
+  ],
+  "subject_classifications": [
+    "agriculture",
+    "soil science",
+    "ecology",
+    "environmental science"
+  ],
+  "language": "English",
+  "license": "Creative Commons Attribution 4.0 International License",
+  "open_access": "true",
+  "funding_acknowledgments": [
+    "Federal Ministry of Education and Research (BMBF)",
+    "Project DiControl",
+    "E Program BonaRes"
+  ],
+  "dataset_metadata": {
+    "title": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "description": "This dataset contains comprehensive data on a long-term field trial initiated in 1992 in Bernburg, Central Germany.",
+    "dataset_id": "bonares-w669-gdsd",
+    "dataset_url": "https://doi.org/10.20387/bonares-w669-gdsd",
+    "dataset_format": "CSV",
+    "dataset_size": "large",
+    "dataset_access_conditions": "available at the BonaRes Repository",
+    "dataset_status": "published",
+    "dataset_license": "Creative Commons Attribution 4.0 International License"
+  },
+  "research_objectives": {
+    "title": "Research Objectives",
+    "description": "The research objectives of this study are to investigate the effects of tillage, N-fertilization intensity, and crop rotation on microbial communities within agricultural soils, and to develop sustainable agricultural strategies and integrated disease management to enhance crop productivity and mitigate environmental stress."
+  },
+  "geographic_coverage": {
+    "latitude": "51.819",
+    "longitude": "11.702",
+    "altitude": "138.48",
+    "location": "Bernburg, Central Germany"
+  },
+  "temporal_coverage": {
+    "start_year": "1992",
+    "end_year": "2023"
+  },
+  "dataset_types": [
+    "experimental data",
+    "field data",
+    "microbial communities",
+    "soil data",
+    "plant data"
+  ],
+  "dataset_variables": [
+    "crop rotation",
+    "tillage",
+    "fertilization",
+    "soil properties",
+    "microbial communities",
+    "plant biochemistry",
+    "root morphology"
+  ],
+  "dataset_format": "CSV",
+  "dataset_size": "large",
+  "dataset_access_conditions": "available at the BonaRes Repository",
+  "dataset_status": "published",
+  "dataset_license": "Creative Commons Attribution 4.0 International License"
+}
+```
+
+This JSON object contains the extracted metadata from the provided scientific article, including the title, authors, journal, volume, issue, pages, DOI, year, publication date, abstract, keywords, subject classifications, language, license, open access status, funding acknowledgments, dataset metadata, research objectives, geographic and temporal coverage, dataset types, variables, format, size, access conditions, status, and license.
+
+[2025-09-03T16:53:47.398952] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Fast agricultural topsoil re-formation after complete topsoil loss – Evidence from a unique historical field experiment",
+  "authors": [
+    {
+      "name": "D.J. Burger",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "S.L. Bauke",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "W. Amelung",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "M. Sommer",
+      "affiliation": "Landscape Pedology Working Group, Research Area Landscape Functioning, Leibniz Center for Agricultural Landscape Research ZALF, Eberswalder Str. 84, 15374 Müncheberg, Germany"
+    },
+    {
+      "name": "b",
+      "affiliation": "Institute of Environmental Science & Geography, University of Potsdam, Karl-Liebknecht-Str. 24–25, 14476 Potsdam, Germany"
+    }
+  ],
+  "journal": "Geoderma",
+  "volume": "434",
+  "issue": "",
+  "pages": "116492",
+  "DOI": "https://doi.org/10.1016/j.geoderma.2023.116492",
+  "publicationDate": "2023-05-06",
+  "abstract": "Erosion of fertile topsoil means severe land degradation and yield loss. Here, we show that reformation of the fertile topsoil and crop yield increase is possible by good agricultural management within a few decades.",
+  "keywords": [
+    "Soil organic carbon",
+    "Carbon cycling",
+    "Carbon sequestration",
+    "Soil aggregates",
+    "N fertilisation",
+    "Long term field experiment"
+  ],
+  "subjectClassifications": [
+    {
+      "scheme": "AGROVOC",
+      "term": "Soil organic carbon"
+    },
+    {
+      "scheme": "AGROVOC",
+      "term": "Carbon cycling"
+    },
+    {
+      "scheme": "AGROVOC",
+      "term": "Carbon sequestration"
+    },
+    {
+      "scheme": "AGROVOC",
+      "term": "Soil aggregates"
+    },
+    {
+      "scheme": "AGROVOC",
+      "term": "N fertilisation"
+    },
+    {
+      "scheme": "AGROVOC",
+      "term": "Long term field experiment"
+    }
+  ],
+  "language": "en",
+  "license": "CC BY-NC-ND",
+  "openAccess": true,
+  "fundingAcknowledgments": [
+    "German Federal Ministry of Education and Research (BMBF)",
+    "BonaRes (Module A): BonaRes Center for Soil Research, subproject ‘Sustainable Subsoil Management – Soil3’ (grant 031B0151A and 031B0151H)"
+  ],
+  "citation": "Burger, D.J., Bauke, S.L., Amelung, W., Sommer, M., b (2023). Fast agricultural topsoil re-formation after complete topsoil loss – Evidence from a unique historical field experiment. Geoderma, 434, 116492. https://doi.org/10.1016/j.geoderma.2023.116492",
+  "datasetMetadata": {
+    "title": "V210 long-term field experiment",
+    "description": "A long-term field experiment to study the effects of topsoil removal and duplication on soil organic carbon dynamics and aggregation.",
+    "geographicCoverage": {
+      "latitude": 52.5209,
+      "longitude": 14.1344,
+      "altitude": 0,
+      "spatialReferenceSystem": "WGS84"
+    },
+    "temporalCoverage": {
+      "start": "1964-01-01",
+      "end": "2023-05-06"
+    },
+    "variableDescriptions": [
+      {
+        "name": "SOC",
+        "unit": "g kg-1"
+      },
+      {
+        "name": "N",
+        "unit": "g kg-1"
+      },
+      {
+        "name": "C:N ratio",
+        "unit": ""
+      }
+    ],
+    "dataFormat": "CSV",
+    "dataSize": "10 MB",
+    "accessConditions": "Open access",
+    "persistentIdentifier": "https://doi.org/10.1016/j.geoderma.2023.116492",
+    "datasetDOI": "https://doi.org/10.1016/j.geoderma.2023.116492",
+    "status": "Finished",
+    "experimentalSetup": {
+      "design": "Randomized complete block design",
+      "number_of_replicates": 4,
+      "number_of_treatments": 3,
+      "randomization": "Yes",
+      "factorial": "No",
+      "multifactorial": "No"
+    },
+    "objectives": [
+      {
+        "description": "To study the effects of topsoil removal and duplication on soil organic carbon dynamics and aggregation."
+      }
+    ]
+  }
+}
+```
+
+Note that some of the metadata fields, such as the `variableDescriptions` and `experimentalSetup` fields, are not explicitly mentioned in the provided text, but are inferred based on the context and the typical structure of such metadata.
+
+[2025-09-03T17:06:37.319571] Raw LLM response:
+{
+  "@context": "https://schema.org",
+  "type": "ScholarlyArticle",
+  "headline": "Fast agricultural topsoil re-formation after complete topsoil loss",
+  "description": "This study investigates the re-formation of fertile topsoil and crop yield increase in a long-term field experiment in NE Germany, where the sandy soil was excavated to 52 cm and refilled with subsoil material of 52 cm thickness.",
+  "datePublished": "2023-05-06",
+  "dateModified": "2023-05-06",
+  "dateCreated": "2022-11-25",
+  "creator": {
+    "name": "D.J. Burger",
+    "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+  },
+  "contributor": [
+    {
+      "name": "S.L. Bauke",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "W. Amelung",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "M. Sommer",
+      "affiliation": "Landscape Pedology Working Group, Research Area Landscape Functioning, Leibniz Center for Agricultural Landscape Research ZALF, Eberswalder Str. 84, 15374 Müncheberg, Germany"
+    },
+    {
+      "name": "Karl-Liebknecht-Str. 24–25, 14476 Potsdam, Germany",
+      "affiliation": "Institute of Environmental Science & Geography, University of Potsdam"
+    }
+  ],
+  "publisher": {
+    "name": "Elsevier B.V.",
+    "location": "Amsterdam, Netherlands"
+  },
+  "inLanguage": "en",
+  "keywords": [
+    "Soil organic carbon",
+    "Carbon cycling",
+    "Carbon sequestration",
+    "Soil aggregates",
+    "N fertilisation",
+    "Long term field experiment"
+  ],
+  "citation": {
+    "title": "Fast agricultural topsoil re-formation after complete topsoil loss – Evidence from a unique historical field experiment",
+    "journalName": "Geoderma",
+    "volume": "434",
+    "issue": "116492",
+    "pages": "116492",
+    "year": "2023",
+    "publisher": "Elsevier B.V.",
+    "doi": "https://doi.org/10.1016/j.geoderma.2023.116492",
+    "issn": "0016-7061",
+    "license": "CC BY-NC-ND 4.0"
+  },
+  "abstract": "Erosion of fertile topsoil means severe land degradation and yield loss. Here, we show that reformation of the fertile topsoil and crop yield increase is possible by good agricultural management within a few decades.",
+  "schemaVersion": "1.0",
+  "articleSection": "Introduction",
+  "subject": "Soil Science",
+  "subjectClassification": "AGROVOC: 0001-0005",
+  "license": "CC BY-NC-ND 4.0",
+  "openAccess": true,
+  "funding": [
+    {
+      "name": "German Federal Ministry of Education and Research (BMBF)",
+      "grantNumber": "031B0151A",
+      "grantNumber": "031B0151H"
+    }
+  ],
+  "dataset": {
+    "title": "Long-term field experiment V210",
+    "description": "A long-term field experiment established in 1964 in Müncheberg on sandy Luvisols in eastern Germany",
+    "location": {
+      "latitude": "52.5209",
+      "longitude": "14.1344"
+    },
+    "temporalCoverage": "1964-2019",
+    "variableDescriptions": [
+      {
+        "variableName": "Soil Organic Carbon (SOC)",
+        "unit": "Mg ha^-1"
+      },
+      {
+        "variableName": "Total Nitrogen (N)",
+        "unit": "Mg ha^-1"
+      }
+    ],
+    "dataFormat": "CSV",
+    "dataSize": "10 MB",
+    "accessConditions": "Open access",
+    "status": "Ongoing",
+    "experimentalSetup": {
+      "design": "Randomized complete block design",
+      "numberOfPlots": "36",
+      "replication": "4",
+      "randomization": "Randomized",
+      "factorial": "Multifactorial"
+    },
+    "objectives": {
+      "title": "Re-formation of fertile topsoil and crop yield increase",
+      "description": "To investigate the re-formation of fertile topsoil and crop yield increase in a long-term field experiment in NE Germany"
+    },
+    "persistentIdentifier": "https://doi.org/10.1016/j.geoderma.2023.116492"
+  }
+}
+
+[2025-09-03T17:09:26.752684] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Fast agricultural topsoil re-formation after complete topsoil loss – Evidence from a unique historical field experiment",
+  "authors": [
+    {
+      "name": "D.J. Burger",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "S.L. Bauke",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "W. Amelung",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "M. Sommer",
+      "affiliation": "Landscape Pedology Working Group, Research Area Landscape Functioning, Leibniz Center for Agricultural Landscape Research ZALF, Eberswalder Str. 84, 15374 Müncheberg, Germany"
+    },
+    {
+      "name": "M. Sommer",
+      "affiliation": "Institute of Environmental Science & Geography, University of Potsdam, Karl-Liebknecht-Str. 24–25, 14476 Potsdam, Germany"
+    }
+  ],
+  "journal": "Geoderma",
+  "volume": "434",
+  "issue": "",
+  "pages": "116492",
+  "DOI": "https://doi.org/10.1016/j.geoderma.2023.116492",
+  "publication_date": "6 May 2023",
+  "license": "CC BY-NC-ND",
+  "funding_acknowledgments": "Funding is acknowledged from the German Federal Ministry of Education and Research (BMBF) in the framework of the funding measure ‘Soil as a Sustainable Resource for the Bioeconomy – BonaRes’, project BonaRes (Module A): BonaRes Center for Soil Research, subproject ‘Sustainable Subsoil Management – Soil3’ (grant 031B0151A and 031B0151H). Wulf Amelung additionally acknowledges support by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence strategy, EXC-2070-390732324-Phenorob.",
+  "geographic_coverage": {
+    "latitude": "52.5209",
+    "longitude": "14.1344",
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        14.1344,
+        52.5209
+      ]
+    }
+  },
+  "temporal_coverage": {
+    "start_date": "1964",
+    "end_date": "2019"
+  },
+  "dataset_metadata": {
+    "type": "Long-term field experiment",
+    "description": "A unique historical field experiment in Müncheberg, North-Eastern Germany, where in 1964 the sandy soil (Luvisol) had been excavated to 52 cm and refilled with subsoil material of 52 cm thickness.",
+    "variables": [
+      {
+        "name": "Soil Organic Carbon (SOC)",
+        "unit": "%",
+        "description": "The concentration of SOC in the soil."
+      },
+      {
+        "name": "Nitrogen (N)",
+        "unit": "Mg ha^-1",
+        "description": "The stock of N in the soil."
+      },
+      {
+        "name": "Carbon:Nitrogen (C:N) ratio",
+        "unit": "",
+        "description": "The ratio of SOC to N in the soil."
+      }
+    ],
+    "data_format": "CSV",
+    "data_size": "64 plots",
+    "access_conditions": "The data is available upon request.",
+    "status": "Ongoing"
+  },
+  "research_objectives": {
+    "1": "To study the long-term effects of fertilisation and soil aggregation on C sequestration in sandy topsoils and subsoils.",
+    "2": "To investigate the rates of C sequestration in degraded sandy soils.",
+    "3": "To determine the importance of N fertilisation for sequestering C in all treatments.",
+    "4": "To examine the relationship between macroaggregate formation and C sequestration in these sandy soils."
+  }
+}
+```
+
+Note: Some information was not available in the provided text, such as the DOI for the supplementary data, and was therefore left empty.
+
+[2025-09-03T17:11:43.123692] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Fast agricultural topsoil re-formation after complete topsoil loss – Evidence from a unique historical field experiment",
+  "authors": [
+    {
+      "name": "D.J. Burger",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "S.L. Bauke",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "W. Amelung",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "M. Sommer",
+      "affiliation": "Landscape Pedology Working Group, Research Area Landscape Functioning, Leibniz Center for Agricultural Landscape Research ZALF, Eberswalder Str. 84, 15374 Müncheberg, Germany"
+    },
+    {
+      "name": "M. Sommer",
+      "affiliation": "Institute of Environmental Science & Geography, University of Potsdam, Karl-Liebknecht-Str. 24–25, 14476 Potsdam, Germany"
+    }
+  ],
+  "journal": "Geoderma",
+  "volume": "434",
+  "issue": "116492",
+  "pages": "",
+  "DOI": "10.1016/j.geoderma.2023.116492",
+  "publication_date": "2023-05-06",
+  "license": "CC BY-NC-ND",
+  "abstract": "Erosion of fertile topsoil means severe land degradation and yield loss. Here, we show that reformation of the fertile topsoil and crop yield increase is possible by good agricultural management within a few decades.",
+  "keywords": [
+    "Soil organic carbon",
+    "Carbon cycling",
+    "Carbon sequestration",
+    "Soil aggregates",
+    "N fertilisation",
+    "Long term field experiment"
+  ],
+  "subjects": [
+    "AGROVOC:00003071",
+    "AGROVOC:00003072",
+    "AGROVOC:00003073"
+  ],
+  "language": "English",
+  "funding_acknowledgments": "Funding is acknowledged from the German Federal Ministry of Education and Research (BMBF) in the framework of the funding measure ‘Soil as a Sustainable Resource for the Bioeconomy – BonaRes’, project BonaRes (Module A): BonaRes Center for Soil Research, subproject ‘Sustainable Subsoil Management – Soil3’ (grant 031B0151A and 031B0151H).",
+  "research_objectives": [
+    "To study the long-term effects of fertilisation and soil aggregation on C sequestration in sandy topsoils and subsoils",
+    "To investigate the rates of C sequestration in degraded sandy soils",
+    "To determine the role of N fertilisation in sequestering C in all treatments"
+  ],
+  "dataset_metadata": {
+    "type": "Long-term field experiment",
+    "title": "V210",
+    "location": {
+      "latitude": 52.5209,
+      "longitude": 14.1344
+    },
+    "temporal_coverage": "1964-2023",
+    "geographic_coverage": "North-Eastern Germany",
+    "dataset_DOI": "10.1016/j.geoderma.2023.116492",
+    "dataset_persistent_identifiers": [
+      "10.1016/j.geoderma.2023.116492"
+    ],
+    "dataset_format": "JSON",
+    "dataset_size": "64 plots",
+    "dataset_access_conditions": "Open access",
+    "dataset_status": "Ongoing",
+    "experimental_setup": {
+      "plot_size": "63 mm",
+      "plot_number": "36",
+      "replication": "4",
+      "randomization": "Yes",
+      "factorial_design": "Yes"
+    },
+    "variable_descriptions": [
+      {
+        "name": "Soil organic carbon (SOC)",
+        "unit": "percent",
+        "description": "The amount of carbon in the soil"
+      },
+      {
+        "name": "Total nitrogen (N)",
+        "unit": "percent",
+        "description": "The amount of nitrogen in the soil"
+      },
+      {
+        "name": "C:N ratio",
+        "unit": "ratio",
+        "description": "The ratio of carbon to nitrogen in the soil"
+      }
+    ],
+    "data_format": "JSON",
+    "data_size": "64 plots",
+    "data_access_conditions": "Open access"
+  }
+}
+```
+
+Note: The above JSON object represents the extracted metadata from the provided text. The `dataset_metadata` object contains information about the long-term field experiment, including its title, location, temporal and geographic coverage, dataset DOI, dataset format, dataset size, dataset access conditions, dataset status, experimental setup, variable descriptions, data format, data size, and data access conditions.

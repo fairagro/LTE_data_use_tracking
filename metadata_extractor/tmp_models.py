@@ -49,4 +49,56 @@ class CitationMetadata(StrictBaseModel):
 
 class MetadataExtractionResponse(StrictBaseModel):
     citation: CitationMetadata
+
+
+
+  # General LTE and LTE dataset metadata models
+class GeoCoverage(StrictBaseModel):
+    """Location of the long-term field experiment, Geographic coverage following Schema.org Place object"""
+    type: str = Field(default="Place", description="Schema.org type")
+    lat1: float
+    lon1: float
+    lat2: Optional[float]
+    lon2: Optional[float]
+
+#class GeoShape(StrictBaseModel):
+    #"""Geographic shape following GeoJSON-style bounding box"""
+    #type: str = Field(default="GeoShape", description="Schema.org type")
+    #box: str = Field(description="Bounding box coordinates as 'lat1 lon1 lat2 lon2'")
+
+class Variable(StrictBaseModel):
+    """Variables or research parameters measured in the LTE experiment, following Schema.org PropertyValue object"""
+    type: str = Field(default="PropertyValue", alias="@type")
+    name: str
+    description: str
+    unit: Optional[str]
+    vocabulary: Optional[str] = "AGROVOC"
     
+class DataDistribution(StrictBaseModel):
+    """Information on LTE data availability if any is reprorted in the scientific publication text, Schema.org DataDownload object"""
+    type: str = Field(default="DataDownload", alias="@type")
+    contentUrl: HttpUrl
+    encodingFormat: Optional[str] = "text/csv"
+
+
+class LTEDataMetadata(StrictBaseModel):
+    """Metadata about the agricultural long-term experiment (LTE) and dataset(s) collected in the LTE as described in the scientific publication, Schema.org Dataset object"""
+    name: str
+    description: Optional[str]
+    geographic_coverage: Optional[GeoCoverage]
+    #bounding_box: Optional[GeoShape]
+    temporal_coverage: Optional[str]
+    variables: List[Variable]
+    dataset_doi: Optional[str]
+    format: Optional[str]
+    size: Optional[str]
+    access_conditions: Optional[str]
+    trial_status: Optional[str]
+    experimental_setup: Optional[str]
+    research_objectives: Optional[str]
+    distribution: Optional[DataDistribution]
+    license: Optional[str]
+    supplementary_materials: Optional[str]
+
+
+  
