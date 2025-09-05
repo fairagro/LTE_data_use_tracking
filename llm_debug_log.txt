@@ -3437,3 +3437,928 @@ Here is the extracted metadata in JSON format:
 ```
 
 Note: The above JSON object represents the extracted metadata from the provided text. The `dataset_metadata` object contains information about the long-term field experiment, including its title, location, temporal and geographic coverage, dataset DOI, dataset format, dataset size, dataset access conditions, dataset status, experimental setup, variable descriptions, data format, data size, and data access conditions.
+
+[2025-09-03T17:15:29.396173] Raw LLM response:
+Here is the extracted metadata in JSON format:
+
+```json
+{
+  "title": "Fast agricultural topsoil re-formation after complete topsoil loss – Evidence from a unique historical field experiment",
+  "authors": [
+    {
+      "name": "D.J. Burger",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "S.L. Bauke",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "W. Amelung",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    {
+      "name": "M. Sommer",
+      "affiliation": "Landscape Pedology Working Group, Research Area Landscape Functioning, Leibniz Center for Agricultural Landscape Research ZALF, Eberswalder Str. 84, 15374 Müncheberg, Germany"
+    },
+    {
+      "name": "M. Sommer",
+      "affiliation": "Institute of Environmental Science & Geography, University of Potsdam, Karl-Liebknecht-Str. 24–25, 14476 Potsdam, Germany"
+    }
+  ],
+  "journal": "Geoderma",
+  "volume": "434",
+  "issue": "",
+  "pages": "116492",
+  "DOI": "https://doi.org/10.1016/j.geoderma.2023.116492",
+  "publisher": "Elsevier B.V.",
+  "license": "CC BY-NC-ND",
+  "abstract": "Erosion of fertile topsoil means severe land degradation and yield loss. Here, we show that reformation of the fertile topsoil and crop yield increase is possible by good agricultural management within a few decades.",
+  "keywords": [
+    "Soil organic carbon",
+    "Carbon cycling",
+    "Carbon sequestration",
+    "Soil aggregates",
+    "N fertilisation",
+    "Long term field experiment"
+  ],
+  "subject": [
+    "Agriculture",
+    "Soil Science"
+  ],
+  "language": "English",
+  "funding": [
+    "German Federal Ministry of Education and Research (BMBF)"
+  ],
+  "dataset": {
+    "type": "Long-term experiment",
+    "description": "A historical long-term field experiment in Müncheberg, North-Eastern Germany",
+    "location": {
+      "latitude": "52.5209",
+      "longitude": "14.1344"
+    },
+    "temporalCoverage": "1964-2020",
+    "variables": [
+      {
+        "name": "Soil organic carbon (SOC)",
+        "unit": "%"
+      },
+      {
+        "name": "Total nitrogen (N)",
+        "unit": "%"
+      },
+      {
+        "name": "Carbon sequestration",
+        "unit": "Mg ha-1"
+      }
+    ],
+    "dataFormat": "JSON",
+    "dataSize": "1.5 GB",
+    "accessConditions": "Open access",
+    "status": "Ongoing"
+  },
+  "geographicCoverage": {
+    "type": "Point",
+    "coordinates": [
+      "52.5209",
+      "14.1344"
+    ]
+  },
+  "temporalCoverage": "1964-2020",
+  "researchObjectives": [
+    "To investigate the effects of topsoil removal and duplication on soil organic carbon (SOC) and total nitrogen (N) stocks",
+    "To evaluate the impact of different fertiliser regimes on SOC and N stocks",
+    "To assess the role of macroaggregate formation in SOC sequestration"
+  ]
+}
+```
+
+Note that the extracted metadata is a combination of the article metadata and the dataset metadata. The dataset metadata is extracted from the article and includes information about the long-term experiment, such as the location, temporal coverage, variables, data format, data size, access conditions, and status. The research objectives are also extracted from the article and include the main goals of the study.
+
+[2025-09-03T17:22:44.261599] Raw LLM response:
+[EMPTY]
+
+[2025-09-05T11:13:54.261933] Raw LLM response:
+{
+  "@context": "https://schema.org",
+  "type": "ScholarlyArticle",
+  "identifier": {
+    "value": "https://doi.org/10.1016/j.geoderma.2023.116492",
+    "type": "DOI"
+  },
+  "citation": {
+    "title": "Fast agricultural topsoil re-formation after complete topsoil loss – Evidence from a unique historical field experiment",
+    "author": {
+      "name": "D.J. Burger",
+      "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+    },
+    "journal": "Geoderma",
+    "volume": "434",
+    "issue": "116492",
+    "pages": "",
+    "datePublished": "2023-05-06",
+    "publisher": {
+      "name": "Elsevier B.V.",
+      "location": "Amsterdam, Netherlands"
+    },
+    "license": {
+      "name": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License",
+      "url": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  },
+  "abstract": "Erosion of fertile topsoil means severe land degradation and yield loss. Here, we show that reformation of the fertile topsoil and crop yield increase is possible by good agricultural management within a few decades.",
+  "subject": "Soil organic carbon, Carbon cycling, Carbon sequestration, Soil aggregates, N fertilisation, Long term field experiment",
+  "keywords": ["Soil organic carbon", "Carbon cycling", "Carbon sequestration", "Soil aggregates", "N fertilisation", "Long term field experiment"],
+  "researchObject": {
+    "type": "Dataset",
+    "title": "Long-term field experiment V210",
+    "description": "A unique historical field experiment in Müncheberg, North-Eastern Germany, where the sandy soil (Luvisol) had been excavated to 52 cm and refilled with subsoil material of 52 cm thickness.",
+    "dataset": {
+      "identifier": {
+        "value": "V210",
+        "type": "Identifier"
+      },
+      "datePublished": "1964",
+      "location": {
+        "address": "Müncheberg, North-Eastern Germany"
+      },
+      "description": "The experiment was established in 1964 with four different soil manipulation treatments, each combined with four fertiliser regimes.",
+      "variable": {
+        "name": "Soil organic carbon (SOC)",
+        "description": "The SOC data of historical sampling campaigns were taken from Herzog and Kunze (1976) and Herzog (1984).",
+        "unit": "Mg SOC ha^-1"
+      },
+      "variable": {
+        "name": "Total nitrogen (N)",
+        "description": "The total N stocks were analysed by elemental analysis.",
+        "unit": "Mg N ha^-1"
+      },
+      "variable": {
+        "name": "C:N ratio",
+        "description": "The C:N ratios varied between 10.0 and 11.3 in the topsoil and between 5.1 and 9.0 in the subsoil.",
+        "unit": "dimensionless"
+      },
+      "variable": {
+        "name": "Aggregate fractionation",
+        "description": "The aggregate fractionation was conducted on the treatments without fertilisation or with combined mineral and organic fertiliser application.",
+        "unit": "percent"
+      },
+      "variable": {
+        "name": "Density fractionation",
+        "description": "The density fractionation was carried out by centrifugation at 3000 rpm for one hour to separate the light, intermediate and heavy fractions.",
+        "unit": "percent"
+      },
+      "variable": {
+        "name": "POM (light fraction)",
+        "description": "The POM was determined by elemental analysis.",
+        "unit": "Mg SOC ha^-1"
+      },
+      "variable": {
+        "name": "Aggregates (intermediate fraction)",
+        "description": "The aggregates were determined by elemental analysis.",
+        "unit": "Mg SOC ha^-1"
+      },
+      "variable": {
+        "name": "Mineral fraction (heavy fraction)",
+        "description": "The mineral fraction was determined by elemental analysis.",
+        "unit": "Mg SOC ha^-1"
+      }
+    }
+  },
+  "funding": {
+    "funder": {
+      "name": "German Federal Ministry of Education and Research (BMBF)",
+      "location": "Bonn, Germany"
+    },
+    "award": {
+      "identifier": {
+        "value": "031B0151A",
+        "type": "Identifier"
+      },
+      "dateAwarded": "2020-01-01"
+    }
+  },
+  "author": {
+    "name": "D.J. Burger",
+    "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+  },
+  "editor": {
+    "name": "Cornelia Rumpel"
+  },
+  "keywords": ["Soil organic carbon", "Carbon cycling", "Carbon sequestration", "Soil aggregates", "N fertilisation", "Long term field experiment"],
+  "license": {
+    "name": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License",
+    "url": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "subject": "Soil organic carbon, Carbon cycling, Carbon sequestration, Soil aggregates, N fertilisation, Long term field experiment"
+}
+
+[2025-09-05T11:30:52.256641] Raw LLM response:
+```json
+{
+  "citation": {
+    "title": "Test",
+    "authors": [],
+    "journal": { "name": "Test Journal" },
+    "keywords": [],
+    "subject_classifications": []
+  },
+  "datasets": [],
+  "reasoning": "Test reasoning"
+}
+```
+
+[2025-09-05T11:36:45.209239] Raw LLM response:
+```json
+{
+  "citation": {
+    "title": "Test",
+    "authors": [],
+    "journal": {
+      "name": "Test Journal",
+      "issn": "1234-5678"
+    },
+    "keywords": [],
+    "subject_classifications": [],
+    "year": 2025,
+    "abstract": "This is a test abstract.",
+    "language": "en"
+  },
+  "LTE_metadata_OverviewMap": {}
+}
+```
+
+[2025-09-05T11:40:42.638816] Raw LLM response:
+[EMPTY]
+
+[2025-09-05T11:54:52.499914] Raw LLM response:
+[EMPTY]
+
+[2025-09-05T12:02:47.631490] Raw LLM response:
+[EMPTY]
+
+[2025-09-05T12:07:10.931442] Raw LLM response:
+[EMPTY]
+
+[2025-09-05T12:46:41.059778] Raw LLM response:
+[EMPTY]
+
+[2025-09-05T12:51:01.431264] Raw LLM response:
+{
+  "article": {
+    "@type": "ScholarlyArticle",
+    "name": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Marie Raab",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), Germany"
+        },
+        "email": "marie.raab@hs-anhalt.de"
+      },
+      {
+        "@type": "Person",
+        "name": "Lars Schütz",
+        "affiliation": [
+          {
+            "@type": "Organization",
+            "name": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), Germany"
+          },
+          {
+            "@type": "Organization",
+            "name": "Otto von Guericke University Magdeburg, Faculty of Computer Science, Magdeburg, Germany"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "Loreen Sommermann",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Doreen Babin",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Ioannis Kampouris",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Davide Francioli",
+        "affiliation": [
+          {
+            "@type": "Organization",
+            "name": "University of Hohenheim, Institute of Crop Science, Stuttgart, Germany"
+          },
+          {
+            "@type": "Organization",
+            "name": "Leibniz Institute of Vegetable and Ornamental Crops, Großbeeren, Germany"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "Rita Grosch",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Leibniz Institute of Vegetable and Ornamental Crops, Großbeeren, Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Günter Neumann",
+        "affiliation": [
+          {
+            "@type": "Organization",
+            "name": "University of Hohenheim, Institute of Crop Science, Stuttgart, Germany"
+          },
+          {
+            "@type": "Organization",
+            "name": "Leibniz Institute of Vegetable and Ornamental Crops, Großbeeren, Germany"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "Annette Deubel",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Joerg Geistlinger",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Korinna Bade",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Wilfried Rozhon",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), Germany"
+        }
+      }
+    ],
+    "datePublished": "2025-06-02",
+    "year": "2025",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nature Publishing Group",
+      "location": {
+        "@type": "Place",
+        "name": "London, United Kingdom"
+      }
+    },
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1038/s41597-025-05314-z"
+      },
+      {
+        "@type": "PropertyValue",
+        "propertyID": "PMID",
+        "value": ""
+      }
+    ],
+    "url": "https://doi.org/10.1038/s41597-025-05314-z",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Scientific Data",
+      "issn": "2052-4463",
+      "volumeNumber": "12",
+      "issueNumber": "986",
+      "url": "https://www.nature.com/sci-data"
+    },
+    "pageStart": "",
+    "pageEnd": "",
+    "abstract": "Agricultural long-term field trials provide fundamental data on crop performance and soil characteristics under diverse management practices. Here we present two decades of data (1992‑2023) from the Westerfeld long‑term field trial in Central Germany, comprising a strip‑split‑plot design that investigates the interactive effects of tillage (cultivator vs. plough), nitrogen‑fertilization intensity (intensive vs. extensive) and a five‑crop rotation (winter rapeseed, winter barley, winter wheat 1, grain maize, winter wheat 2). The dataset includes standardized measurements of soil physical and chemical properties, detailed crop management records, harvest yields and quality, root traits, plant biochemistry, gene expression, and meta‑barcode derived bacterial/archaeal and fungal community composition. The data are intended for meta‑analysis, modelling and AI approaches to improve understanding of how long‑term management shapes soil microbiomes and crop productivity.",
+    "keywords": [
+      "long‑term experiment",
+      "tillage",
+      "nitrogen fertilization",
+      "crop rotation",
+      "soil microbiome",
+      "agricultural sustainability",
+      "meta‑barcoding",
+      "BonaRes"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Agriculture"
+      },
+      {
+        "@type": "Thing",
+        "name": "Soil science"
+      },
+      {
+        "@type": "Thing",
+        "name": "Plant physiology"
+      }
+    ],
+    "inLanguage": "en",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "isOpenAccess": true,
+    "funding": [
+      {
+        "@type": "Grant",
+        "name": "BioTrain (BMBF 16DKWN019)",
+        "funder": {
+          "@type": "Organization",
+          "name": "Federal Ministry of Education and Research (BMBF), Germany"
+        }
+      },
+      {
+        "@type": "Grant",
+        "name": "E Program BonaRes – Project DiControl (BMBF 031B0514A)",
+        "funder": {
+          "@type": "Organization",
+          "name": "Federal Ministry of Education and Research (BMBF), Germany"
+        }
+      }
+    ],
+    "citation": "Raab M, Schütz L, Sommermann L, Babin D, Kampouris I, Francioli D, Grosch R, Neumann G, Deubel A, Geistlinger J, Bade K, Rozhon W. Westerfeld: Long-term field trial on tillage and fertilization in crop rotation. Scientific Data. 2025;12:986. doi:10.1038/s41597-025-05314-z."
+  },
+  "datasets": [
+    {
+      "@type": "Dataset",
+      "name": "Westerfeld Long‑term Field Trial Dataset (BonaRes Repository)",
+      "description": "Comprehensive data from the Westerfeld long‑term field trial (1992‑2023) in Bernburg, Central Germany. Includes experimental design, plot layout, soil physical‑chemical measurements, crop management records, harvest yields and quality, root morphology, plant biochemistry, gene expression, bacterial/archaeal and fungal community meta‑barcode data, and associated metadata.",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.20387/bonares-w669-gdsd"
+      },
+      "url": "https://doi.org/10.20387/bonares-w669-gdsd",
+      "license": "https://www.govdata.de/dl-de/by-2-0",
+      "creators": [
+        {
+          "@type": "Person",
+          "name": "Marie Raab",
+          "email": "marie.raab@hs-anhalt.de"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "BonaRes Repository"
+      },
+      "datePublished": "2024-12-01",
+      "temporalCoverage": "1992/2023",
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 51.819,
+          "longitude": 11.702,
+          "elevation": 138.48
+        },
+        "description": "Westerfeld field site, Bernburg (Saale), Saxony‑Anhalt, Germany"
+      },
+      "keywords": [
+        "long‑term experiment",
+        "tillage",
+        "nitrogen fertilization",
+        "crop rotation",
+        "soil microbiome",
+        "meta‑barcoding",
+        "root traits",
+        "plant biochemistry",
+        "gene expression"
+      ],
+      "variableMeasured": [
+        {
+          "name": "Yield",
+          "description": "Grain yield expressed as decitonnes per hectare (dt ha⁻¹, 1 dt = 100 kg)",
+          "unitText": "dt/ha"
+        },
+        {
+          "name": "Thousand Kernel Mass",
+          "description": "Mass of 1000 grains",
+          "unitText": "g"
+        },
+        {
+          "name": "Protein Content",
+          "description": "Grain protein concentration",
+          "unitText": "%"
+        },
+        {
+          "name": "Oil Content",
+          "description": "Rapeseed oil concentration",
+          "unitText": "%"
+        },
+        {
+          "name": "Starch Content",
+          "description": "Maize starch concentration",
+          "unitText": "%"
+        },
+        {
+          "name": "Soil pH",
+          "description": "pH measured in 0.01 M CaCl₂ solution",
+          "unitText": ""
+        },
+        {
+          "name": "Soil Organic Carbon (SOC)",
+          "description": "Total organic carbon content",
+          "unitText": "g kg⁻¹"
+        },
+        {
+          "name": "Total Nitrogen",
+          "description": "Total nitrogen content in soil",
+          "unitText": "g kg⁻¹"
+        },
+        {
+          "name": "Available Phosphorus (P)",
+          "description": "Plant‑available phosphorus extracted with DTPA",
+          "unitText": "mg kg⁻¹"
+        },
+        {
+          "name": "Available Potassium (K)",
+          "description": "Plant‑available potassium extracted with DTPA",
+          "unitText": "mg kg⁻¹"
+        },
+        {
+          "name": "Micronutrients (Fe, Mn, Zn, Cu, B, Mg, Na)",
+          "description": "Concentrations of selected micronutrients",
+          "unitText": "mg kg⁻¹"
+        },
+        {
+          "name": "Water Holding Capacity (WHC)",
+          "description": "Plant‑available field capacity (FC%)",
+          "unitText": "%"
+        },
+        {
+          "name": "Soil Moisture Content",
+          "description": "Gravimetric water content of soil samples",
+          "unitText": "%"
+        },
+        {
+          "name": "Root Length",
+          "description": "Total root length per plant",
+          "unitText": "cm"
+        },
+        {
+          "name": "Root Dry Weight",
+          "description": "Dry mass of excavated roots",
+          "unitText": "g plant⁻¹"
+        },
+        {
+          "name": "Phytohormones (IAA, GA₃, CK, ABA, JA, SA)",
+          "description": "Concentrations of plant hormones in root tissue",
+          "unitText": "µg g⁻¹"
+        },
+        {
+          "name": "Enzyme Activities (APX, SOD)",
+          "description": "Activities of antioxidant enzymes in root tissue",
+          "unitText": "U g⁻¹"
+        },
+        {
+          "name": "Bacterial/Archaeal Community Relative Abundance",
+          "description": "Taxonomic relative abundances from 16S rRNA meta‑barcode sequencing",
+          "unitText": "%"
+        },
+        {
+          "name": "Fungal Community Relative Abundance",
+          "description": "Taxonomic relative abundances from ITS2 meta‑barcode sequencing",
+          "unitText": "%"
+        },
+        {
+          "name": "Gene Expression (ΔΔCt values)",
+          "description": "Relative transcript abundances of selected stress‑related and nutrient‑transport genes",
+          "unitText": ""
+        }
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://bonares.uni‑hannover.de/datasets/westerfeld/*",
+          "description": "All tables provided as CSV files (experimental setup, field management, soil analysis, microbial communities, plant biochemistry, gene expression)."
+        }
+      ],
+      "status": "ongoing",
+      "access": {
+        "type": "OpenAccess",
+        "description": "Dataset is openly available via the BonaRes Repository under the German Data License Attribution 2.0."
+      },
+      "researchObjective": "To quantify the long‑term effects of tillage practice (cultivator vs. plough), nitrogen‑fertilization intensity (intensive vs. extensive) and a five‑crop rotation on soil physicochemical properties, microbial community composition, root functional traits, plant biochemistry and crop yield, thereby providing a legacy dataset for meta‑analysis, ecosystem modelling and AI‑driven hypothesis generation aimed at sustainable agro‑ecosystem management."
+    }
+  ]
+}
+
+[2025-09-05T13:05:06.638439] Raw LLM response:
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "doi",
+      "value": "10.1016/j.geoderma.2023.116492"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "issn",
+      "value": "0016-7061"
+    }
+  ],
+  "url": "https://doi.org/10.1016/j.geoderma.2023.116492",
+  "name": "Fast agricultural topsoil re‑formation after complete topsoil loss – Evidence from a unique historical field experiment",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "D.J.",
+      "familyName": "Burger",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Nussallee 13",
+          "addressLocality": "Bonn",
+          "postalCode": "53115",
+          "addressCountry": "Germany"
+        }
+      },
+      "email": "dburger@uni-bonn.de"
+    },
+    {
+      "@type": "Person",
+      "givenName": "S.L.",
+      "familyName": "Bauke",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Nussallee 13",
+          "addressLocality": "Bonn",
+          "postalCode": "53115",
+          "addressCountry": "Germany"
+        }
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "W.",
+      "familyName": "Amelung",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Nussallee 13",
+          "addressLocality": "Bonn",
+          "postalCode": "53115",
+          "addressCountry": "Germany"
+        }
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "M.",
+      "familyName": "Sommer",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Landscape Pedology Working Group, Research Area Landscape Functioning, Leibniz Centre for Agricultural Landscape Research (ZALF)",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Eberswalder Str. 84",
+            "addressLocality": "Müncheberg",
+            "postalCode": "15374",
+            "addressCountry": "Germany"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Institute of Environmental Science & Geography, University of Potsdam",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Karl-Liebknecht-Str. 24–25",
+            "addressLocality": "Potsdam",
+            "postalCode": "14476",
+            "addressCountry": "Germany"
+          }
+        }
+      ]
+    }
+  ],
+  "datePublished": "2023-05-06",
+  "dateModified": "2023-05-06",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Elsevier B.V."
+  },
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "Geoderma",
+    "issn": "0016-7061",
+    "volumeNumber": "434",
+    "pageStart": "116492",
+    "pageEnd": "116492"
+  },
+  "abstract": "Erosion of fertile topsoil means severe land degradation and yield loss. Here, we show that reformation of the fertile topsoil and crop yield increase is possible by good agricultural management within a few decades. Evidence relies on a unique long‑term field experiment in NE Germany where the sandy Luvisol was excavated in 1964, topsoil removed or duplicated, and combined with different fertilisation regimes. After 26 years a new fertile topsoil had formed, attaining SOC and aggregate characteristics comparable to reference soils, corresponding to a sequestration of 28 Mg SOC ha⁻¹. The buried former topsoil lost 30–50 % of its SOC over five decades. The study demonstrates that contemporary agricultural tools can rapidly restore degraded arable land and contribute to climate‑change mitigation.",
+  "keywords": [
+    "Soil organic carbon",
+    "Carbon cycling",
+    "Carbon sequestration",
+    "Soil aggregates",
+    "N fertilisation",
+    "Long term field experiment"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "accessMode": "openAccess",
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "funder": {
+        "@type": "Organization",
+        "name": "German Federal Ministry of Education and Research (BMBF)"
+      },
+      "name": "BonaRes – Soil as a Sustainable Resource for the Bioeconomy – BonaRes Center for Soil Research, subproject ‘Sustainable Subsoil Management – Soil3’ (grant 031B0151A and 031B0151H)"
+    },
+    {
+      "@type": "MonetaryGrant",
+      "funder": {
+        "@type": "Organization",
+        "name": "Deutsche Forschungsgemeinschaft (DFG)"
+      },
+      "name": "EXC-2070-390732324-Phenorob (Excellence Strategy)"
+    }
+  ],
+  "citation": "Burger, D.J., Bauke, S.L., Amelung, W., & Sommer, M. (2023). Fast agricultural topsoil re‑formation after complete topsoil loss – Evidence from a unique historical field experiment. Geoderma, 434, 116492. https://doi.org/10.1016/j.geoderma.2023.116492",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Supplementary material of the article",
+    "url": "https://doi.org/10.1016/j.geoderma.2023.116492"
+  },
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "V210 long‑term field experiment – soil chemical, physical and agronomic measurements (1964‑1991, 2015‑2019)",
+      "description": "Data from the historical V210 field experiment at the Centre for Agricultural Landscape Research (ZALF), Müncheberg, Germany. The experiment comprises three soil‑manipulation treatments (control, topsoil removal, topsoil duplication) each combined with three fertilisation regimes (no fertilisation, mineral NPK fertilisation, mineral + organic fertilisation). Measurements include soil organic carbon and total nitrogen concentrations, bulk density, SOC and N stocks, aggregate size distribution (macro‑aggregates >250 µm, micro‑aggregates <250 µm), density fractionation results (light, intermediate, heavy fractions), POM (particulate organic matter) stocks, crop yield records, and fertiliser application histories.",
+      "keywords": [
+        "long‑term experiment",
+        "topsoil removal",
+        "topsoil duplication",
+        "soil organic carbon",
+        "soil nitrogen",
+        "aggregate size distribution",
+        "crop yield",
+        "fertilisation"
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "givenName": "D.J.",
+          "familyName": "Burger"
+        },
+        {
+          "@type": "Person",
+          "givenName": "S.L.",
+          "familyName": "Bauke"
+        },
+        {
+          "@type": "Person",
+          "givenName": "W.",
+          "familyName": "Amelung"
+        },
+        {
+          "@type": "Person",
+          "givenName": "M.",
+          "familyName": "Sommer"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Centre for Agricultural Landscape Research (ZALF), University of Bonn"
+      },
+      "datePublished": "2023-05-06",
+      "temporalCoverage": "1964/2019",
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "V210 field site, ZALF, Müncheberg, North‑Eastern Germany",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 52.5209,
+          "longitude": 14.1344
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Müncheberg",
+          "addressRegion": "Brandenburg",
+          "addressCountry": "Germany"
+        }
+      },
+      "variableMeasured": [
+        {
+          "@type": "PropertyValue",
+          "name": "Soil organic carbon concentration",
+          "unitText": "%"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Total nitrogen concentration",
+          "unitText": "%"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Soil organic carbon stock",
+          "unitText": "Mg ha⁻¹"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Total nitrogen stock",
+          "unitText": "Mg ha⁻¹"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Bulk density",
+          "unitText": "g cm⁻³"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Aggregate size distribution (macro‑aggregates >250 µm)",
+          "unitText": "%"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Aggregate size distribution (micro‑aggregates <250 µm)",
+          "unitText": "%"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "POM (particulate organic matter) carbon stock",
+          "unitText": "Mg ha⁻¹"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Yield (crop grain yield)",
+          "unitText": "Mg ha⁻¹"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Fertiliser application – nitrogen",
+          "unitText": "kg ha⁻¹ yr⁻¹"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Fertiliser application – phosphorus",
+          "unitText": "kg ha⁻¹ yr⁻¹"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Fertiliser application – potassium",
+          "unitText": "kg ha⁻¹ yr⁻¹"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Organic matter input (straw, manure, compost, peat)",
+          "unitText": "kg ha⁻¹ yr⁻¹"
+        }
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/pdf",
+          "contentUrl": "https://doi.org/10.1016/j.geoderma.2023.116492",
+          "description": "Supplementary material (tables, figures, detailed methodology) associated with the article."
+        }
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "accessMode": "openAccess",
+      "isAccessibleForFree": true,
+      "acquisitionMethod": "Soil coring, bulk density measurements, elemental analysis, wet sieving, density fractionation, aggregate size analysis, agronomic yield records, historical fertiliser application records",
+      "experimentalMethod": "Randomised complete block design with four field replicates per treatment; plots sized to match original V210 layout; sampling depth intervals 0–20 cm, 20–26 cm, 26–30 cm, 30–45 cm, 45–60 cm.",
+      "status": "ongoing",
+      "researchObjective": "To assess whether topsoil that has been completely removed can be re‑formed under conventional agricultural management, to quantify the rate and magnitude of soil organic carbon and nitrogen sequestration, to compare aggregate formation and SOC storage among topsoil removal, duplication and control treatments, and to evaluate the role of N fertilisation in restoring soil fertility and crop yields."
+    }
+  ]
+}

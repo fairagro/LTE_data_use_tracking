@@ -1,0 +1,16 @@
+{
+  "citation": {
+    "title": "Test",
+    "authors": [],
+    "journal": {
+      "name": "Test Journal",
+      "issn": "1234-5678"
+    },
+    "keywords": [],
+    "subject_classifications": [],
+    "year": 2025,
+    "abstract": "This is a test abstract.",
+    "language": "en"
+  },
+  "LTE_metadata_OverviewMap": {}
+}

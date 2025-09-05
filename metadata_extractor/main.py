@@ -15,6 +15,27 @@ from .prompts import SYSTEM_PROMPT
 # Initialize FastAPI app
 app = FastAPI()
 
+# Dummy JSON response for testing (does not work because it lacks required fields)
+DUMMY_JSON_RESPONSE = '''```json
+{
+  "citation": {
+    "title": "Test",
+    "authors": [],
+    "journal": {
+      "name": "Test Journal",
+      "issn": "1234-5678"
+    },
+    "keywords": [],
+    "subject_classifications": [],
+    "year": 2025,
+    "abstract": "This is a test abstract.",
+    "language": "en"
+  },
+  "LTE_metadata_OverviewMap": {}
+}
+```'''
+
+
 def clean_llm_response(raw_response: str) -> str:
     """Remove Markdown-style code fencing from LLM response."""
     if raw_response.startswith("```json"):
@@ -33,22 +54,10 @@ async def extract_metadata(request: Request):
         return JSONResponse(status_code=400, content={"error": "Missing 'text' in request body."})
 
     # Uncomment this to use the real LLM call
-    # extracted_json = call_llm_with_prompt(SYSTEM_PROMPT, article_text)
+    extracted_json = call_llm_with_prompt(SYSTEM_PROMPT, article_text)
 
-    print("🧪 Skipping LLM call — using dummy response")
-    extracted_json = '''```json
-{
-  "citation": {
-    "title": "Test",
-    "authors": [],
-    "journal": { "name": "Test Journal" },
-    "keywords": [],
-    "subject_classifications": []
-  },
-  "datasets": [],
-  "reasoning": "Test reasoning"
-}
-```'''
+    #print("🧪 Skipping LLM call — using dummy response")
+    #extracted_json = DUMMY_JSON_RESPONSE
 
     if not extracted_json:
         print("⚠️ LLM returned no content.")

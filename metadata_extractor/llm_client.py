@@ -16,7 +16,7 @@ def call_llm_with_prompt(prompt: str, text: str) -> str:
         client = OpenAI(
             api_key=API_KEY,
             base_url=API_ENDPOINT,
-            timeout=httpx.Timeout(30.0, connect=10.0, read=20.0, write=10.0, pool=5.0),
+            timeout=httpx.Timeout(500.0, connect=60.0, read=500.0, write=500.0, pool=500.0),
             max_retries=2
         )
         print("📤 Sending request to LLM...")

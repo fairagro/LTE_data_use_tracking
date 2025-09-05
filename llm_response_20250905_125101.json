@@ -1,0 +1,367 @@
+{
+  "article": {
+    "@type": "ScholarlyArticle",
+    "name": "Westerfeld: Long-term field trial on tillage and fertilization in crop rotation",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Marie Raab",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), Germany"
+        },
+        "email": "marie.raab@hs-anhalt.de"
+      },
+      {
+        "@type": "Person",
+        "name": "Lars Schütz",
+        "affiliation": [
+          {
+            "@type": "Organization",
+            "name": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), Germany"
+          },
+          {
+            "@type": "Organization",
+            "name": "Otto von Guericke University Magdeburg, Faculty of Computer Science, Magdeburg, Germany"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "Loreen Sommermann",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Doreen Babin",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Ioannis Kampouris",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Julius Kühn Institute (JKI), Federal Research Centre for Cultivated Plants, Institute for Epidemiology and Pathogen Diagnostics, Braunschweig, Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Davide Francioli",
+        "affiliation": [
+          {
+            "@type": "Organization",
+            "name": "University of Hohenheim, Institute of Crop Science, Stuttgart, Germany"
+          },
+          {
+            "@type": "Organization",
+            "name": "Leibniz Institute of Vegetable and Ornamental Crops, Großbeeren, Germany"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "Rita Grosch",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Leibniz Institute of Vegetable and Ornamental Crops, Großbeeren, Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Günter Neumann",
+        "affiliation": [
+          {
+            "@type": "Organization",
+            "name": "University of Hohenheim, Institute of Crop Science, Stuttgart, Germany"
+          },
+          {
+            "@type": "Organization",
+            "name": "Leibniz Institute of Vegetable and Ornamental Crops, Großbeeren, Germany"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "Annette Deubel",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Joerg Geistlinger",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Korinna Bade",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Computer Science and Languages, Köthen (Anhalt), Germany"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Wilfried Rozhon",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Anhalt University of Applied Sciences, Department of Agriculture, Ecotrophology and Landscape Development, Bernburg (Saale), Germany"
+        }
+      }
+    ],
+    "datePublished": "2025-06-02",
+    "year": "2025",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nature Publishing Group",
+      "location": {
+        "@type": "Place",
+        "name": "London, United Kingdom"
+      }
+    },
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1038/s41597-025-05314-z"
+      },
+      {
+        "@type": "PropertyValue",
+        "propertyID": "PMID",
+        "value": ""
+      }
+    ],
+    "url": "https://doi.org/10.1038/s41597-025-05314-z",
+    "isPartOf": {
+      "@type": "Periodical",
+      "name": "Scientific Data",
+      "issn": "2052-4463",
+      "volumeNumber": "12",
+      "issueNumber": "986",
+      "url": "https://www.nature.com/sci-data"
+    },
+    "pageStart": "",
+    "pageEnd": "",
+    "abstract": "Agricultural long-term field trials provide fundamental data on crop performance and soil characteristics under diverse management practices. Here we present two decades of data (1992‑2023) from the Westerfeld long‑term field trial in Central Germany, comprising a strip‑split‑plot design that investigates the interactive effects of tillage (cultivator vs. plough), nitrogen‑fertilization intensity (intensive vs. extensive) and a five‑crop rotation (winter rapeseed, winter barley, winter wheat 1, grain maize, winter wheat 2). The dataset includes standardized measurements of soil physical and chemical properties, detailed crop management records, harvest yields and quality, root traits, plant biochemistry, gene expression, and meta‑barcode derived bacterial/archaeal and fungal community composition. The data are intended for meta‑analysis, modelling and AI approaches to improve understanding of how long‑term management shapes soil microbiomes and crop productivity.",
+    "keywords": [
+      "long‑term experiment",
+      "tillage",
+      "nitrogen fertilization",
+      "crop rotation",
+      "soil microbiome",
+      "agricultural sustainability",
+      "meta‑barcoding",
+      "BonaRes"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Agriculture"
+      },
+      {
+        "@type": "Thing",
+        "name": "Soil science"
+      },
+      {
+        "@type": "Thing",
+        "name": "Plant physiology"
+      }
+    ],
+    "inLanguage": "en",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "isOpenAccess": true,
+    "funding": [
+      {
+        "@type": "Grant",
+        "name": "BioTrain (BMBF 16DKWN019)",
+        "funder": {
+          "@type": "Organization",
+          "name": "Federal Ministry of Education and Research (BMBF), Germany"
+        }
+      },
+      {
+        "@type": "Grant",
+        "name": "E Program BonaRes – Project DiControl (BMBF 031B0514A)",
+        "funder": {
+          "@type": "Organization",
+          "name": "Federal Ministry of Education and Research (BMBF), Germany"
+        }
+      }
+    ],
+    "citation": "Raab M, Schütz L, Sommermann L, Babin D, Kampouris I, Francioli D, Grosch R, Neumann G, Deubel A, Geistlinger J, Bade K, Rozhon W. Westerfeld: Long-term field trial on tillage and fertilization in crop rotation. Scientific Data. 2025;12:986. doi:10.1038/s41597-025-05314-z."
+  },
+  "datasets": [
+    {
+      "@type": "Dataset",
+      "name": "Westerfeld Long‑term Field Trial Dataset (BonaRes Repository)",
+      "description": "Comprehensive data from the Westerfeld long‑term field trial (1992‑2023) in Bernburg, Central Germany. Includes experimental design, plot layout, soil physical‑chemical measurements, crop management records, harvest yields and quality, root morphology, plant biochemistry, gene expression, bacterial/archaeal and fungal community meta‑barcode data, and associated metadata.",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.20387/bonares-w669-gdsd"
+      },
+      "url": "https://doi.org/10.20387/bonares-w669-gdsd",
+      "license": "https://www.govdata.de/dl-de/by-2-0",
+      "creators": [
+        {
+          "@type": "Person",
+          "name": "Marie Raab",
+          "email": "marie.raab@hs-anhalt.de"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "BonaRes Repository"
+      },
+      "datePublished": "2024-12-01",
+      "temporalCoverage": "1992/2023",
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 51.819,
+          "longitude": 11.702,
+          "elevation": 138.48
+        },
+        "description": "Westerfeld field site, Bernburg (Saale), Saxony‑Anhalt, Germany"
+      },
+      "keywords": [
+        "long‑term experiment",
+        "tillage",
+        "nitrogen fertilization",
+        "crop rotation",
+        "soil microbiome",
+        "meta‑barcoding",
+        "root traits",
+        "plant biochemistry",
+        "gene expression"
+      ],
+      "variableMeasured": [
+        {
+          "name": "Yield",
+          "description": "Grain yield expressed as decitonnes per hectare (dt ha⁻¹, 1 dt = 100 kg)",
+          "unitText": "dt/ha"
+        },
+        {
+          "name": "Thousand Kernel Mass",
+          "description": "Mass of 1000 grains",
+          "unitText": "g"
+        },
+        {
+          "name": "Protein Content",
+          "description": "Grain protein concentration",
+          "unitText": "%"
+        },
+        {
+          "name": "Oil Content",
+          "description": "Rapeseed oil concentration",
+          "unitText": "%"
+        },
+        {
+          "name": "Starch Content",
+          "description": "Maize starch concentration",
+          "unitText": "%"
+        },
+        {
+          "name": "Soil pH",
+          "description": "pH measured in 0.01 M CaCl₂ solution",
+          "unitText": ""
+        },
+        {
+          "name": "Soil Organic Carbon (SOC)",
+          "description": "Total organic carbon content",
+          "unitText": "g kg⁻¹"
+        },
+        {
+          "name": "Total Nitrogen",
+          "description": "Total nitrogen content in soil",
+          "unitText": "g kg⁻¹"
+        },
+        {
+          "name": "Available Phosphorus (P)",
+          "description": "Plant‑available phosphorus extracted with DTPA",
+          "unitText": "mg kg⁻¹"
+        },
+        {
+          "name": "Available Potassium (K)",
+          "description": "Plant‑available potassium extracted with DTPA",
+          "unitText": "mg kg⁻¹"
+        },
+        {
+          "name": "Micronutrients (Fe, Mn, Zn, Cu, B, Mg, Na)",
+          "description": "Concentrations of selected micronutrients",
+          "unitText": "mg kg⁻¹"
+        },
+        {
+          "name": "Water Holding Capacity (WHC)",
+          "description": "Plant‑available field capacity (FC%)",
+          "unitText": "%"
+        },
+        {
+          "name": "Soil Moisture Content",
+          "description": "Gravimetric water content of soil samples",
+          "unitText": "%"
+        },
+        {
+          "name": "Root Length",
+          "description": "Total root length per plant",
+          "unitText": "cm"
+        },
+        {
+          "name": "Root Dry Weight",
+          "description": "Dry mass of excavated roots",
+          "unitText": "g plant⁻¹"
+        },
+        {
+          "name": "Phytohormones (IAA, GA₃, CK, ABA, JA, SA)",
+          "description": "Concentrations of plant hormones in root tissue",
+          "unitText": "µg g⁻¹"
+        },
+        {
+          "name": "Enzyme Activities (APX, SOD)",
+          "description": "Activities of antioxidant enzymes in root tissue",
+          "unitText": "U g⁻¹"
+        },
+        {
+          "name": "Bacterial/Archaeal Community Relative Abundance",
+          "description": "Taxonomic relative abundances from 16S rRNA meta‑barcode sequencing",
+          "unitText": "%"
+        },
+        {
+          "name": "Fungal Community Relative Abundance",
+          "description": "Taxonomic relative abundances from ITS2 meta‑barcode sequencing",
+          "unitText": "%"
+        },
+        {
+          "name": "Gene Expression (ΔΔCt values)",
+          "description": "Relative transcript abundances of selected stress‑related and nutrient‑transport genes",
+          "unitText": ""
+        }
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://bonares.uni‑hannover.de/datasets/westerfeld/*",
+          "description": "All tables provided as CSV files (experimental setup, field management, soil analysis, microbial communities, plant biochemistry, gene expression)."
+        }
+      ],
+      "status": "ongoing",
+      "access": {
+        "type": "OpenAccess",
+        "description": "Dataset is openly available via the BonaRes Repository under the German Data License Attribution 2.0."
+      },
+      "researchObjective": "To quantify the long‑term effects of tillage practice (cultivator vs. plough), nitrogen‑fertilization intensity (intensive vs. extensive) and a five‑crop rotation on soil physicochemical properties, microbial community composition, root functional traits, plant biochemistry and crop yield, thereby providing a legacy dataset for meta‑analysis, ecosystem modelling and AI‑driven hypothesis generation aimed at sustainable agro‑ecosystem management."
+    }
+  ]
+}

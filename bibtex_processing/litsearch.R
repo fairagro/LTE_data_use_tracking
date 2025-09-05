@@ -19,7 +19,7 @@ library(ggraph)
 # Settings ----------------------------------------------------------------
 ### Set working directory
 
-wd <-"C:/Users/Lachmuth/OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V/Dokumente/FAIRagro/Use Case 4/LTE_text_processing/output/V140_documented/"
+wd <-"C:/Users/Lachmuth/OneDrive - Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V/Dokumente/FAIRagro/Use Case 4/LTE_text_processing/input/V140_documented/"
 #wd <- "C:/"
 setwd(wd)
 
@@ -28,7 +28,7 @@ setwd(wd)
 ## Import WoS records ------------------------------------------------------------
 lit_records<-
   litsearchr::import_results(
-    file = "V140_documented_rich.bib",
+    file = "V140_documented_raw.bib",
     verbose = TRUE
   )
 
@@ -39,7 +39,7 @@ nrow(lit_records)
 
 
 ## Define stopwords --------------------------------------------------------
-stopwords_SL <-c("assess", "assessed", "assesses", "assessing",  "based", #,"assessment", "assessments"
+stopwords_SL <-c("Abstract","assess", "assessed", "assesses", "assessing",  "based", #,"assessment", "assessments"
                  "follow", "followed", "following", "follows", "primary", "versus", "that is", "e.g.", 
                  "however", "in particular", "versus", "follow", "followed", "following", "follows", "potential", "study")
 
@@ -47,7 +47,7 @@ all_stopwords <- c(get_stopwords("English"), stopwords_SL)
 
 
 ## Extract author keywords -------------------------------------------------
-author_keywords<-extract_terms(keywords=lit_records[, "author_keywords"], method="tagged", min_n=1,max_n=3, min_freq=2)
+author_keywords<-extract_terms(keywords=lit_records[, "Extra"], method="tagged", min_n=1,max_n=3, min_freq=2)
 
 
 ## Get abstracts and titles -----------------------------------------------------
@@ -72,7 +72,7 @@ raked_keywords
 all_keywords <- unique(append(author_keywords, raked_keywords))
 length(all_keywords)
 
-
+all_keywords <- raked_keywords
 # Network analysis --------------------------------------------------------
 dfm<-
   create_dfm(elements = paste(lit_records[, "title"], lit_records[, "abstract"]), #
@@ -158,7 +158,7 @@ ggsave(plot = network_graph,paste0(wd,"Figure 6.png"), width = 20, height = 12,u
 # Package bibliometrix ------------------------------------------------------------
 ## Import WoS records ------------------------------------------------------------
 M <- convert2df(
-  file = "V140_documented_rich.bib", 
+  file = "V140_documented_raw.bib", 
   #dbsource = "isi",
   format = "bibtex",
   remove.duplicates = TRUE
