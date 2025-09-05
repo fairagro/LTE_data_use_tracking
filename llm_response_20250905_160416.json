@@ -1,0 +1,193 @@
+{
+  "article": {
+    "title": "Fast agricultural topsoil re‑formation after complete topsoil loss – Evidence from a unique historical field experiment",
+    "author": [
+      {
+        "name": "D.J. Burger",
+        "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+      },
+      {
+        "name": "S.L. Bauke",
+        "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+      },
+      {
+        "name": "W. Amelung",
+        "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – Soil Science and Soil Ecology, University of Bonn, Nussallee 13, 53115 Bonn, Germany"
+      },
+      {
+        "name": "M. Sommer",
+        "affiliation": "Landscape Pedology Working Group, Research Area Landscape Functioning, Leibniz Center for Agricultural Landscape Research ZALF, Eberswalder Str. 84, 15374 Müncheberg, Germany; Institute of Environmental Science & Geography, University of Potsdam, Karl‑Liebknecht‑Str. 24‑25, 14476 Potsdam, Germany"
+      }
+    ],
+    "correspondingAuthor": {
+      "name": "D.J. Burger",
+      "email": "dburger@uni-bonn.de"
+    },
+    "journalName": "Geoderma",
+    "issn": "0016-7061",
+    "publisher": "Elsevier B.V.",
+    "doi": "10.1016/j.geoderma.2023.116492",
+    "publicationDate": "2023-05-06",
+    "volume": "434",
+    "issue": "",
+    "articleNumber": "116492",
+    "pages": "",
+    "abstract": "Erosion of fertile topsoil means severe land degradation and yield loss. Here, we show that reformation of the fertile topsoil and crop yield increase is possible by good agricultural management within a few decades. Evidence relies on a unique long‑term field experiment in NE Germany where the sandy Luvisol topsoil was excavated in 1964 and refilled with subsoil material. Undisturbed trials served as controls, combined with no fertilisation, mineral fertilisation or mineral + organic fertilisation. After 26 years a new topsoil with SOC, N stocks and aggregate size distribution comparable to the controls had formed, corresponding to 28 Mg SOC ha⁻¹ sequestration. The former topsoil buried below the plough layer lost 30–50 % of its SOC over five decades. The study demonstrates that current agricultural tools can rapidly restore degraded arable land and contribute to climate‑change mitigation.",
+    "keywords": [
+      "soil organic carbon",
+      "carbon cycling",
+      "carbon sequestration",
+      "soil aggregates",
+      "N fertilisation",
+      "long term field experiment"
+    ],
+    "language": "English",
+    "license": "CC BY-NC-ND 4.0",
+    "openAccess": true,
+    "funding": [
+      {
+        "funder": "German Federal Ministry of Education and Research (BMBF)",
+        "grantNumber": "031B0151A, 031B0151H",
+        "project": "BonaRes – Soil as a Sustainable Resource for the Bioeconomy"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft (DFG)",
+        "grantNumber": "",
+        "project": "Excellence strategy EXC‑2070‑390732324‑Phenorob"
+      }
+    ],
+    "citation": "Burger, D.J., Bauke, S.L., Amelung, W., & Sommer, M. (2023). Fast agricultural topsoil re‑formation after complete topsoil loss – Evidence from a unique historical field experiment. Geoderma, 434, 116492. https://doi.org/10.1016/j.geoderma.2023.116492"
+  },
+  "datasets": [
+    {
+      "@type": "Dataset",
+      "name": "V210 historical long‑term field experiment (1964‑2019)",
+      "description": "Long‑term field experiment at the Centre for Agricultural Landscape Research (ZALF) in Müncheberg, NE Germany investigating the effects of complete topsoil removal or duplication combined with different fertilisation regimes on soil organic carbon, nitrogen, aggregate formation and crop yield over five decades. The experiment was established in 1964, abandoned in 1991 and re‑established in 2015; latest measurements were taken in 2019.",
+      "url": "https://doi.org/10.1016/j.geoderma.2023.116492",
+      "identifier": "10.1016/j.geoderma.2023.116492",
+      "license": "CC BY-NC-ND 4.0",
+      "creator": [
+        {
+          "name": "D.J. Burger",
+          "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – University of Bonn, Germany"
+        },
+        {
+          "name": "W. Amelung",
+          "affiliation": "Institute of Crop Science and Resource Conservation (INRES) – University of Bonn, Germany"
+        },
+        {
+          "name": "M. Sommer",
+          "affiliation": "Leibniz Center for Agricultural Landscape Research ZALF, Müncheberg, Germany"
+        }
+      ],
+      "datePublished": "2023-05-06",
+      "temporalCoverage": "1964/2019",
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "52.5209",
+          "longitude": "14.1344"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Centre for Agricultural Landscape Research (ZALF)",
+          "addressLocality": "Müncheberg",
+          "addressRegion": "Brandenburg",
+          "addressCountry": "Germany"
+        }
+      },
+      "variableMeasured": [
+        {
+          "name": "Soil organic carbon (SOC) concentration",
+          "description": "SOC expressed as percent of dry mass in each depth interval",
+          "unitText": "%"
+        },
+        {
+          "name": "Total nitrogen (N) concentration",
+          "description": "Total N expressed as percent of dry mass",
+          "unitText": "%"
+        },
+        {
+          "name": "Bulk density",
+          "description": "Dry bulk density of soil samples",
+          "unitText": "kg dm⁻³"
+        },
+        {
+          "name": "Soil organic carbon stock",
+          "description": "Mass of SOC per unit area for defined depth intervals",
+          "unitText": "Mg ha⁻¹"
+        },
+        {
+          "name": "Total nitrogen stock",
+          "description": "Mass of N per unit area for defined depth intervals",
+          "unitText": "Mg ha⁻¹"
+        },
+        {
+          "name": "C:N ratio",
+          "description": "Ratio of carbon to nitrogen in soil",
+          "unitText": ""
+        },
+        {
+          "name": "Aggregate size distribution",
+          "description": "Percentage of soil mass in macroaggregates (>250 µm) and microaggregates (<250 µm)",
+          "unitText": "%"
+        },
+        {
+          "name": "Particulate organic matter (POM) fraction",
+          "description": "Mass percentage of the light density fraction (ρ < 1.6 g mL⁻¹)",
+          "unitText": "%"
+        },
+        {
+          "name": "Carbon in aggregate fractions",
+          "description": "C stored in each aggregate density fraction (light, intermediate, heavy)",
+          "unitText": "Mg ha⁻¹"
+        },
+        {
+          "name": "POM carbon stock",
+          "description": "C stored in the light (POM) fraction",
+          "unitText": "Mg ha⁻¹"
+        }
+      ],
+      "distribution": [
+        {
+          "contentUrl": "https://doi.org/10.1016/j.geoderma.2023.116492",
+          "encodingFormat": "application/pdf",
+          "description": "Supplementary material (tables, figures, raw data excerpts) associated with the publication",
+          "size": ""
+        }
+      ],
+      "status": "ongoing",
+      "researchObjective": "To quantify the rate and magnitude of soil organic carbon and nitrogen recovery in a newly formed topsoil after complete topsoil loss, and to evaluate how different fertilisation regimes (none, mineral, mineral + organic) influence SOC sequestration, aggregate formation and C‑N dynamics over a 55‑year period.",
+      "overviewMap": {
+        "trialDesign": "Randomised complete block design with 4 replicates per treatment combination (soil manipulation × fertilisation).",
+        "soilInformation": {
+          "soilType": "Albic Luvisol (sandy, glacial till overlying glacio‑fluvial sands)",
+          "initialDepthTopsoil": "0–26 cm",
+          "initialDepthSubsoil": "26–52 cm",
+          "texture": "sandy (dominant sand fraction)",
+          "pH": "",
+          "initialBulkDensity": ""
+        },
+        "contact": {
+          "name": "D.J. Burger",
+          "email": "dburger@uni-bonn.de",
+          "institution": "Institute of Crop Science and Resource Conservation (INRES), University of Bonn, Germany"
+        },
+        "trialTypes": [
+          "Topsoil removal (complete removal of Ap horizon)",
+          "Topsoil duplication (refill with original topsoil material)",
+          "Control (undisturbed soil profile)"
+        ],
+        "fertilisationRegimes": [
+          "No fertilisation (b1)",
+          "Mineral fertilisation (b2) – annual 110 kg N ha⁻¹, 39 kg P ha⁻¹, 110 kg K ha⁻¹",
+          "Combined mineral + organic fertilisation (b4) – mineral 98 kg N ha⁻¹, 32 kg P ha⁻¹, 93 kg K ha⁻¹ plus organic amendments (straw, farmyard manure, slurry, solid manure, peat compost)"
+        ],
+        "plotSize": "Core diameter 63 mm; depth up to 60 cm (area ≈ 0.0031 m² per core)",
+        "replication": "4 field replicates per treatment combination",
+        "randomisation": "Plots allocated randomly within each block"
+      }
+    }
+  ]
+}
